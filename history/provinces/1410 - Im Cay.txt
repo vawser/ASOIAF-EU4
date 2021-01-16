@@ -1,0 +1,16 @@
+is_city = yes
+
+owner = BSC
+controller = BSC
+add_core = BSC
+
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
+culture = fishfolk
+religion = idol_worship
+
+trade_goods = fish
+hre = no
+

@@ -1,0 +1,145 @@
+
+government_rank = 1
+
+government = monarchy
+add_government_reform = noble_house_reform
+
+
+technology_group = westerosi
+primary_culture = men_of_the_crownlands
+religion = faith_of_the_seven
+
+capital = 225
+
+# Shattered World
+100.1.1 = {
+    monarch = {
+        name = "Euron"
+        dynasty = "Edgerton"
+        adm = 1
+        dip = 1
+        mil = 2
+        birth_date = 59.1.1
+    }
+}
+
+# War for the Stepstones
+106.1.1 = {
+    monarch = {
+        name = "Jorquen"
+        dynasty = "Edgerton"
+        adm = 5
+        dip = 1
+        mil = 4
+        birth_date = 56.1.1
+    }
+}
+
+# The Dance of Dragons
+129.1.1 = {
+    monarch = {
+        name = "Oro"
+        dynasty = "Edgerton"
+        adm = 0
+        dip = 5
+        mil = 0
+        birth_date = 85.1.1
+    }
+}
+
+# Conquest of Dorne
+157.1.1 = {
+    monarch = {
+        name = "Herbert"
+        dynasty = "Edgerton"
+        adm = 2
+        dip = 1
+        mil = 2
+        birth_date = 98.1.1
+    }
+}
+
+# Blackfyre Rebellion
+196.1.1 = {
+    monarch = {
+        name = "Creighton"
+        dynasty = "Edgerton"
+        adm = 3
+        dip = 2
+        mil = 3
+        birth_date = 157.1.1
+    }
+}
+
+# After Spring
+211.1.1 = {
+    monarch = {
+        name = "Cedrik"
+        dynasty = "Edgerton"
+        adm = 4
+        dip = 3
+        mil = 3
+        birth_date = 164.1.1
+    }
+}
+
+# War of the Ninepenny Kings
+260.1.1 = {
+    monarch = {
+        name = "Othell"
+        dynasty = "Edgerton"
+        adm = 1
+        dip = 2
+        mil = 3
+        birth_date = 240.1.1
+    }
+}
+
+# Robert's Rebellion
+282.1.1 = {
+    monarch = {
+        name = "Wex"
+        dynasty = "Edgerton"
+        adm = 5
+        dip = 1
+        mil = 5
+        birth_date = 227.1.1
+    }
+}
+
+# The Greyjoy Rebellion
+289.1.1 = {
+    monarch = {
+        name = "Eglantine"
+        dynasty = "Edgerton"
+        adm = 1
+        dip = 4
+        mil = 2
+        birth_date = 264.1.1
+    }
+}
+
+# War of the Five Kings
+298.1.1 = {
+    monarch = {
+        name = "Selwyn"
+        dynasty = "Edgerton"
+        adm = 3
+        dip = 0
+        mil = 4
+        birth_date = 262.1.1
+    }
+}
+
+# The Night King
+304.1.1 = {
+    monarch = {
+        name = "Rolland"
+        dynasty = "Edgerton"
+        adm = 3
+        dip = 2
+        mil = 3
+        birth_date = 269.1.1
+    }
+}
+

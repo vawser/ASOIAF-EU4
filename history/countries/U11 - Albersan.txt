@@ -1,0 +1,145 @@
+
+government_rank = 1
+
+government = republic
+add_government_reform = myr_city_reform
+
+
+technology_group = essosian
+primary_culture = myrish
+religion = rhllor
+
+capital = 392
+
+# Shattered World
+100.1.1 = {
+    monarch = {
+        name = "Luqman"
+        dynasty = "Albersan"
+        adm = 4
+        dip = 1
+        mil = 0
+        birth_date = 79.1.1
+    }
+}
+
+# War for the Stepstones
+106.1.1 = {
+    monarch = {
+        name = "Jawan"
+        dynasty = "Albersan"
+        adm = 4
+        dip = 3
+        mil = 4
+        birth_date = 52.1.1
+    }
+}
+
+# The Dance of Dragons
+129.1.1 = {
+    monarch = {
+        name = "Daron"
+        dynasty = "Albersan"
+        adm = 4
+        dip = 5
+        mil = 1
+        birth_date = 109.1.1
+    }
+}
+
+# Conquest of Dorne
+157.1.1 = {
+    monarch = {
+        name = "Mahimdin"
+        dynasty = "Albersan"
+        adm = 3
+        dip = 0
+        mil = 4
+        birth_date = 109.1.1
+    }
+}
+
+# Blackfyre Rebellion
+196.1.1 = {
+    monarch = {
+        name = "Burhan"
+        dynasty = "Albersan"
+        adm = 0
+        dip = 4
+        mil = 1
+        birth_date = 164.1.1
+    }
+}
+
+# After Spring
+211.1.1 = {
+    monarch = {
+        name = "Mivam"
+        dynasty = "Albersan"
+        adm = 0
+        dip = 1
+        mil = 2
+        birth_date = 191.1.1
+    }
+}
+
+# War of the Ninepenny Kings
+260.1.1 = {
+    monarch = {
+        name = "Lewand"
+        dynasty = "Albersan"
+        adm = 3
+        dip = 1
+        mil = 3
+        birth_date = 239.1.1
+    }
+}
+
+# Robert's Rebellion
+282.1.1 = {
+    monarch = {
+        name = "Ataf"
+        dynasty = "Albersan"
+        adm = 0
+        dip = 5
+        mil = 4
+        birth_date = 235.1.1
+    }
+}
+
+# The Greyjoy Rebellion
+289.1.1 = {
+    monarch = {
+        name = "Masbayat"
+        dynasty = "Albersan"
+        adm = 5
+        dip = 5
+        mil = 3
+        birth_date = 269.1.1
+    }
+}
+
+# War of the Five Kings
+298.1.1 = {
+    monarch = {
+        name = "Ahuziq"
+        dynasty = "Albersan"
+        adm = 5
+        dip = 4
+        mil = 2
+        birth_date = 239.1.1
+    }
+}
+
+# The Night King
+304.1.1 = {
+    monarch = {
+        name = "Zalan"
+        dynasty = "Albersan"
+        adm = 5
+        dip = 2
+        mil = 5
+        birth_date = 255.1.1
+    }
+}
+

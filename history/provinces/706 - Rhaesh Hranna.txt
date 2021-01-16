@@ -1,0 +1,16 @@
+# 706 - Rhaesh Hranna.txt
+is_city = yes
+owner = AHE
+controller = AHE
+add_core = AHE
+
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
+culture = dothraki_culture
+religion = great_stallion
+
+trade_goods = grain
+hre = no
+

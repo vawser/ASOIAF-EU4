@@ -1,0 +1,36 @@
+# 644 - Wurzkai (Vaes Mezhah).txt
+is_city = yes
+owner = R06
+controller = R06
+add_core = R06
+
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
+culture = dothraki_culture
+religion = great_stallion
+
+trade_goods = wool
+hre = no
+
+# A Clash of Kings
+299.1.1 = {
+    is_city = yes
+    owner = S23
+    controller = S23
+    add_core = S23
+    
+    culture = dothraki_culture
+    religion = great_stallion
+}
+
+304.1.1 = {
+    is_city = yes
+    owner = R06
+    controller = R06
+    add_core = R06
+    
+    culture = dothraki_culture
+    religion = great_stallion
+}

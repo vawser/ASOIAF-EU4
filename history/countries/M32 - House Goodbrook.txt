@@ -1,0 +1,149 @@
+
+government_rank = 1
+
+government = monarchy
+add_government_reform = noble_house_reform
+
+
+technology_group = westerosi
+primary_culture = men_of_the_riverlands
+religion = faith_of_the_seven
+
+capital = 106
+
+historical_friend = E26
+historical_friend = E30
+historical_friend = E27
+
+# Shattered World
+100.1.1 = {
+    monarch = {
+        name = "Haegon"
+        dynasty = "Goodbrook"
+        adm = 4
+        dip = 2
+        mil = 4
+        birth_date = 61.1.1
+    }
+}
+
+# War for the Stepstones
+106.1.1 = {
+    monarch = {
+        name = "Bennet"
+        dynasty = "Goodbrook"
+        adm = 5
+        dip = 0
+        mil = 0
+        birth_date = 65.1.1
+    }
+}
+
+# The Dance of Dragons
+129.1.1 = {
+    monarch = {
+        name = "Orys"
+        dynasty = "Goodbrook"
+        adm = 4
+        dip = 5
+        mil = 4
+        birth_date = 71.1.1
+    }
+}
+
+# Conquest of Dorne
+157.1.1 = {
+    monarch = {
+        name = "Harmune"
+        dynasty = "Goodbrook"
+        adm = 3
+        dip = 5
+        mil = 5
+        birth_date = 134.1.1
+    }
+}
+
+# Blackfyre Rebellion
+196.1.1 = {
+    monarch = {
+        name = "Igon"
+        dynasty = "Goodbrook"
+        adm = 2
+        dip = 2
+        mil = 1
+        birth_date = 147.1.1
+    }
+}
+
+# After Spring
+211.1.1 = {
+    monarch = {
+        name = "Iggo"
+        dynasty = "Goodbrook"
+        adm = 5
+        dip = 2
+        mil = 5
+        birth_date = 169.1.1
+    }
+}
+
+# War of the Ninepenny Kings
+260.1.1 = {
+    monarch = {
+        name = "Gallard"
+        dynasty = "Goodbrook"
+        adm = 0
+        dip = 3
+        mil = 3
+        birth_date = 206.1.1
+    }
+}
+
+# Robert's Rebellion
+282.1.1 = {
+    monarch = {
+        name = "Parmen"
+        dynasty = "Goodbrook"
+        adm = 0
+        dip = 1
+        mil = 5
+        birth_date = 264.1.1
+    }
+}
+
+# The Greyjoy Rebellion
+289.1.1 = {
+    monarch = {
+        name = "Murch"
+        dynasty = "Goodbrook"
+        adm = 2
+        dip = 4
+        mil = 3
+        birth_date = 265.1.1
+    }
+}
+
+# War of the Five Kings
+298.1.1 = {
+    monarch = {
+        name = "Alannys"
+        dynasty = "Goodbrook"
+        adm = 0
+        dip = 0
+        mil = 1
+        birth_date = 256.1.1
+    }
+}
+
+# The Night King
+304.1.1 = {
+    monarch = {
+        name = "Lucos"
+        dynasty = "Goodbrook"
+        adm = 2
+        dip = 0
+        mil = 2
+        birth_date = 260.1.1
+    }
+}
+

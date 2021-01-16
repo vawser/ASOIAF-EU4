@@ -1,0 +1,145 @@
+
+government_rank = 1
+
+government = monarchy
+add_government_reform = noble_house_reform
+
+
+technology_group = westerosi
+primary_culture = men_of_the_westerlands
+religion = faith_of_the_seven
+
+capital = 176
+
+# Shattered World
+100.1.1 = {
+    monarch = {
+        name = "Cafferen"
+        dynasty = "Yarwyck"
+        adm = 0
+        dip = 5
+        mil = 3
+        birth_date = 64.1.1
+    }
+}
+
+# War for the Stepstones
+106.1.1 = {
+    monarch = {
+        name = "Praed"
+        dynasty = "Yarwyck"
+        adm = 1
+        dip = 4
+        mil = 5
+        birth_date = 47.1.1
+    }
+}
+
+# The Dance of Dragons
+129.1.1 = {
+    monarch = {
+        name = "Lark"
+        dynasty = "Yarwyck"
+        adm = 3
+        dip = 1
+        mil = 2
+        birth_date = 71.1.1
+    }
+}
+
+# Conquest of Dorne
+157.1.1 = {
+    monarch = {
+        name = "Gevin"
+        dynasty = "Yarwyck"
+        adm = 4
+        dip = 2
+        mil = 2
+        birth_date = 109.1.1
+    }
+}
+
+# Blackfyre Rebellion
+196.1.1 = {
+    monarch = {
+        name = "Royce"
+        dynasty = "Yarwyck"
+        adm = 5
+        dip = 1
+        mil = 0
+        birth_date = 163.1.1
+    }
+}
+
+# After Spring
+211.1.1 = {
+    monarch = {
+        name = "Alvyn"
+        dynasty = "Yarwyck"
+        adm = 2
+        dip = 3
+        mil = 3
+        birth_date = 180.1.1
+    }
+}
+
+# War of the Ninepenny Kings
+260.1.1 = {
+    monarch = {
+        name = "Edwynd"
+        dynasty = "Yarwyck"
+        adm = 5
+        dip = 2
+        mil = 0
+        birth_date = 208.1.1
+    }
+}
+
+# Robert's Rebellion
+282.1.1 = {
+    monarch = {
+        name = "Godwyn"
+        dynasty = "Yarwyck"
+        adm = 1
+        dip = 4
+        mil = 4
+        birth_date = 227.1.1
+    }
+}
+
+# The Greyjoy Rebellion
+289.1.1 = {
+    monarch = {
+        name = "Gendel"
+        dynasty = "Yarwyck"
+        adm = 0
+        dip = 2
+        mil = 1
+        birth_date = 235.1.1
+    }
+}
+
+# War of the Five Kings
+298.1.1 = {
+    monarch = {
+        name = "Gareth"
+        dynasty = "Yarwyck"
+        adm = 0
+        dip = 0
+        mil = 4
+        birth_date = 277.1.1
+    }
+}
+
+# The Night King
+304.1.1 = {
+    monarch = {
+        name = "Symeon"
+        dynasty = "Yarwyck"
+        adm = 5
+        dip = 4
+        mil = 1
+        birth_date = 269.1.1
+    }
+}
+

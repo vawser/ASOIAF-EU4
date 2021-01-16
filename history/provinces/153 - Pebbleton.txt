@@ -1,0 +1,22 @@
+# 153 - Pebbleton.txt
+is_city = yes
+
+owner = M05
+controller = M05
+add_core = M05
+
+base_tax = 5
+base_production = 3
+base_manpower = 5
+
+culture = ironborn
+religion = drowned_god
+
+trade_goods = fish
+hre = no
+
+106.1.1 = {
+    owner = IRI
+    controller = IRI
+    add_core = IRI
+}

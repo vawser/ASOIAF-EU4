@@ -1,0 +1,23 @@
+# 217 - The Whispers.txt
+is_city = yes
+
+owner = A47
+controller = A47
+add_core = A47
+
+base_tax = 2
+base_production = 2
+base_manpower = 1
+
+culture = men_of_the_crownlands
+religion = faith_of_the_seven
+
+trade_goods = fish
+hre = no
+
+106.1.1 = {
+    owner = CRW
+    controller = CRW
+    add_core = CRW
+}
+

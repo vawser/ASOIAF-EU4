@@ -1,0 +1,17 @@
+# 695 - Vaes Jimma.txt
+is_city = yes
+owner = AZA
+controller = AZA
+add_core = AZA
+
+base_tax = 3
+base_production = 3
+base_manpower = 3
+
+culture = dothraki_culture
+religion = great_stallion
+
+trade_goods = gold
+hre = no
+
+center_of_trade = 1

@@ -1,0 +1,16 @@
+# 856 - Chomokh.txt
+is_city = yes
+owner = VIC
+controller = VIC
+add_core = VIC
+
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
+culture = jogos_nhai
+religion = moonsingers
+
+trade_goods = grain
+hre = no
+

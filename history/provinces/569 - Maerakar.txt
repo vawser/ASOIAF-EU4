@@ -1,0 +1,16 @@
+# 569 - Maerakar.txt
+is_city = yes
+owner = JOK
+controller = JOK
+add_core = JOK
+
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
+culture = dothraki_culture
+religion = great_stallion
+
+trade_goods = wool
+hre = no
+

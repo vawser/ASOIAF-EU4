@@ -1,0 +1,15 @@
+is_city = yes
+
+owner = J21
+controller = J21
+add_core = J21
+
+base_tax = 3
+base_production = 3
+base_manpower = 3
+
+culture = carcosan
+religion = cult_of_ascension
+
+trade_goods = wine
+hre = no

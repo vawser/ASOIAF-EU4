@@ -1,0 +1,16 @@
+# 578 - Vaerakar.txt
+is_city = yes
+owner = VOH
+controller = VOH
+add_core = VOH
+
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
+culture = dothraki_culture
+religion = great_stallion
+
+trade_goods = grain
+hre = no
+

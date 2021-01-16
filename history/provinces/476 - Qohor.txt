@@ -1,0 +1,23 @@
+# 476 - Qohor.txt
+is_city = yes
+
+owner = U72
+controller = U72
+add_core = U72
+
+base_tax = 10
+base_production = 10
+base_manpower = 9
+
+culture = qohorik
+religion = black_goat
+
+trade_goods = dyes
+hre = no
+
+add_building = castle
+
+center_of_trade = 1
+
+add_province_triggered_modifier = religious_center
+add_province_triggered_modifier = temple_of_the_black_goat

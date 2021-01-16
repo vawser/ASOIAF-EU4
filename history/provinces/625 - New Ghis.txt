@@ -1,0 +1,23 @@
+# 625 - New Ghis.txt
+is_city = yes
+
+owner = R31
+controller = R31
+add_core = R31
+
+base_tax = 9
+base_production = 9
+base_manpower = 7
+
+culture = ghis
+religion = ghiscari_pantheon
+
+trade_goods = slaves
+hre = no
+
+add_building = castle
+
+center_of_trade = 1
+
+add_province_triggered_modifier = religious_center
+add_province_triggered_modifier = temple_of_the_graces

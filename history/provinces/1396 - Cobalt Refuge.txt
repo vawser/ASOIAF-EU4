@@ -1,0 +1,16 @@
+is_city = yes
+
+owner = TRG
+controller = TRG
+add_core = TRG
+
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
+culture = fishfolk
+religion = idol_worship
+
+trade_goods = fish
+hre = no
+

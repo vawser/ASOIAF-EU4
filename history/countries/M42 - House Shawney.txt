@@ -1,0 +1,145 @@
+
+government_rank = 1
+
+government = monarchy
+add_government_reform = noble_house_reform
+
+
+technology_group = westerosi
+primary_culture = men_of_the_riverlands
+religion = faith_of_the_seven
+
+capital = 88
+
+# Shattered World
+100.1.1 = {
+    monarch = {
+        name = "Maegelle"
+        dynasty = "Shawney"
+        adm = 4
+        dip = 4
+        mil = 5
+        birth_date = 64.1.1
+    }
+}
+
+# War for the Stepstones
+106.1.1 = {
+    monarch = {
+        name = "Bowen"
+        dynasty = "Shawney"
+        adm = 2
+        dip = 1
+        mil = 5
+        birth_date = 59.1.1
+    }
+}
+
+# The Dance of Dragons
+129.1.1 = {
+    monarch = {
+        name = "Abelar"
+        dynasty = "Shawney"
+        adm = 3
+        dip = 5
+        mil = 1
+        birth_date = 110.1.1
+    }
+}
+
+# Conquest of Dorne
+157.1.1 = {
+    monarch = {
+        name = "Kevan"
+        dynasty = "Shawney"
+        adm = 1
+        dip = 5
+        mil = 3
+        birth_date = 139.1.1
+    }
+}
+
+# Blackfyre Rebellion
+196.1.1 = {
+    monarch = {
+        name = "Stafford"
+        dynasty = "Shawney"
+        adm = 3
+        dip = 1
+        mil = 3
+        birth_date = 167.1.1
+    }
+}
+
+# After Spring
+211.1.1 = {
+    monarch = {
+        name = "Beron"
+        dynasty = "Shawney"
+        adm = 0
+        dip = 5
+        mil = 0
+        birth_date = 169.1.1
+    }
+}
+
+# War of the Ninepenny Kings
+260.1.1 = {
+    monarch = {
+        name = "Lucamore"
+        dynasty = "Shawney"
+        adm = 5
+        dip = 1
+        mil = 0
+        birth_date = 236.1.1
+    }
+}
+
+# Robert's Rebellion
+282.1.1 = {
+    monarch = {
+        name = "Warren"
+        dynasty = "Shawney"
+        adm = 2
+        dip = 2
+        mil = 4
+        birth_date = 239.1.1
+    }
+}
+
+# The Greyjoy Rebellion
+289.1.1 = {
+    monarch = {
+        name = "Bloodbeard"
+        dynasty = "Shawney"
+        adm = 0
+        dip = 1
+        mil = 1
+        birth_date = 232.1.1
+    }
+}
+
+# War of the Five Kings
+298.1.1 = {
+    monarch = {
+        name = "Gilwood"
+        dynasty = "Shawney"
+        adm = 2
+        dip = 5
+        mil = 2
+        birth_date = 244.1.1
+    }
+}
+
+# The Night King
+304.1.1 = {
+    monarch = {
+        name = "Bradamar"
+        dynasty = "Shawney"
+        adm = 4
+        dip = 4
+        mil = 1
+        birth_date = 267.1.1
+    }
+}
+

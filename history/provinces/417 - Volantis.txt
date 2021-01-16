@@ -1,0 +1,20 @@
+# 417 - Volantis.txt
+is_city = yes
+
+owner = U87
+controller = U87
+add_core = U87
+
+base_tax = 10
+base_production = 10
+base_manpower = 8
+
+culture = volantene
+religion = rhllor
+
+trade_goods = slaves
+hre = no
+
+add_building = castle
+
+center_of_trade = 2

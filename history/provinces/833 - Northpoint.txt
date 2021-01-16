@@ -1,0 +1,16 @@
+is_city = yes
+
+owner = JOV
+controller = JOV
+add_core = JOV
+
+base_tax = 3
+base_production = 3
+base_manpower = 3
+
+culture = mossovi
+religion = drekavac
+
+trade_goods = cloth
+hre = no
+

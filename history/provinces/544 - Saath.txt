@@ -1,0 +1,19 @@
+# 544 - Saath.txt
+is_city = yes
+
+owner = U82
+controller = U82
+add_core = U82
+
+base_tax = 16
+base_manpower = 12
+
+culture = saathi
+religion = hooded_wayfarer
+
+trade_goods = gold
+hre = no
+
+add_building = castle
+
+center_of_trade = 1

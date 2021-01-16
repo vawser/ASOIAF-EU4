@@ -1,0 +1,16 @@
+# 853 - Ithkoil.txt
+is_city = yes
+owner = GHA
+controller = GHA
+add_core = GHA
+
+base_tax = 4
+base_production = 4
+base_manpower = 3
+
+culture = jogos_nhai
+religion = moonsingers
+
+trade_goods = grain
+hre = no
+

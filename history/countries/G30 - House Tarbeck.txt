@@ -1,0 +1,145 @@
+
+government_rank = 1
+
+government = monarchy
+add_government_reform = noble_house_reform
+
+
+technology_group = westerosi
+primary_culture = men_of_the_westerlands
+religion = faith_of_the_seven
+
+capital = 171
+
+# Shattered World
+100.1.1 = {
+    monarch = {
+        name = "Ordello"
+        dynasty = "Tarbeck"
+        adm = 5
+        dip = 5
+        mil = 1
+        birth_date = 59.1.1
+    }
+}
+
+# War for the Stepstones
+106.1.1 = {
+    monarch = {
+        name = "Oreo"
+        dynasty = "Tarbeck"
+        adm = 0
+        dip = 2
+        mil = 0
+        birth_date = 58.1.1
+    }
+}
+
+# The Dance of Dragons
+129.1.1 = {
+    monarch = {
+        name = "Medgar"
+        dynasty = "Tarbeck"
+        adm = 0
+        dip = 2
+        mil = 4
+        birth_date = 100.1.1
+    }
+}
+
+# Conquest of Dorne
+157.1.1 = {
+    monarch = {
+        name = "Poxy"
+        dynasty = "Tarbeck"
+        adm = 5
+        dip = 3
+        mil = 4
+        birth_date = 105.1.1
+    }
+}
+
+# Blackfyre Rebellion
+196.1.1 = {
+    monarch = {
+        name = "Colmar"
+        dynasty = "Tarbeck"
+        adm = 1
+        dip = 4
+        mil = 3
+        birth_date = 148.1.1
+    }
+}
+
+# After Spring
+211.1.1 = {
+    monarch = {
+        name = "Kella"
+        dynasty = "Tarbeck"
+        adm = 3
+        dip = 3
+        mil = 1
+        birth_date = 164.1.1
+    }
+}
+
+# War of the Ninepenny Kings
+260.1.1 = {
+    monarch = {
+        name = "Brusco"
+        dynasty = "Tarbeck"
+        adm = 5
+        dip = 2
+        mil = 0
+        birth_date = 241.1.1
+    }
+}
+
+# Robert's Rebellion
+282.1.1 = {
+    monarch = {
+        name = "Shagwell"
+        dynasty = "Tarbeck"
+        adm = 3
+        dip = 1
+        mil = 5
+        birth_date = 237.1.1
+    }
+}
+
+# The Greyjoy Rebellion
+289.1.1 = {
+    monarch = {
+        name = "Meryn"
+        dynasty = "Tarbeck"
+        adm = 0
+        dip = 0
+        mil = 2
+        birth_date = 256.1.1
+    }
+}
+
+# War of the Five Kings
+298.1.1 = {
+    monarch = {
+        name = "Prendahl"
+        dynasty = "Tarbeck"
+        adm = 3
+        dip = 4
+        mil = 3
+        birth_date = 275.1.1
+    }
+}
+
+# The Night King
+304.1.1 = {
+    monarch = {
+        name = "Jory"
+        dynasty = "Tarbeck"
+        adm = 0
+        dip = 4
+        mil = 0
+        birth_date = 285.1.1
+    }
+}
+

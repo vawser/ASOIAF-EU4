@@ -1,0 +1,16 @@
+is_city = yes
+
+owner = BOW
+controller = BOW
+add_core = BOW
+
+base_tax = 3
+base_production = 3
+base_manpower = 3
+
+culture = cannibal
+religion = mavka
+
+trade_goods = salt
+hre = no
+

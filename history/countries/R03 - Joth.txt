@@ -1,0 +1,144 @@
+
+government_rank = 1
+government = tribal
+add_government_reform = ibben_clan_reform
+
+
+technology_group = ibbenese
+primary_culture = ibbenese
+religion = ib
+
+capital = 594
+
+# Shattered World
+100.1.1 = {
+    monarch = {
+        name = "Ajac"
+        dynasty = "Joth"
+        adm = 2
+        dip = 2
+        mil = 3
+        birth_date = 68.1.1
+    }
+}
+
+# War for the Stepstones
+106.1.1 = {
+    monarch = {
+        name = "Leonaud"
+        dynasty = "Joth"
+        adm = 0
+        dip = 0
+        mil = 3
+        birth_date = 85.1.1
+    }
+}
+
+# The Dance of Dragons
+129.1.1 = {
+    monarch = {
+        name = "Merthierry"
+        dynasty = "Joth"
+        adm = 6
+        dip = 3
+        mil = 3
+        birth_date = 94.1.1
+    }
+}
+
+# Conquest of Dorne
+157.1.1 = {
+    monarch = {
+        name = "Vilhim"
+        dynasty = "Joth"
+        adm = 5
+        dip = 4
+        mil = 3
+        birth_date = 124.1.1
+    }
+}
+
+# Blackfyre Rebellion
+196.1.1 = {
+    monarch = {
+        name = "Donnogal"
+        dynasty = "Joth"
+        adm = 6
+        dip = 1
+        mil = 4
+        birth_date = 177.1.1
+    }
+}
+
+# After Spring
+211.1.1 = {
+    monarch = {
+        name = "Gauldur"
+        dynasty = "Joth"
+        adm = 1
+        dip = 6
+        mil = 3
+        birth_date = 184.1.1
+    }
+}
+
+# War of the Ninepenny Kings
+260.1.1 = {
+    monarch = {
+        name = "Patraud"
+        dynasty = "Joth"
+        adm = 0
+        dip = 6
+        mil = 6
+        birth_date = 220.1.1
+    }
+}
+
+# Robert's Rebellion
+282.1.1 = {
+    monarch = {
+        name = "Lucian"
+        dynasty = "Joth"
+        adm = 5
+        dip = 0
+        mil = 1
+        birth_date = 239.1.1
+    }
+}
+
+# The Greyjoy Rebellion
+289.1.1 = {
+    monarch = {
+        name = "Pierrie"
+        dynasty = "Joth"
+        adm = 1
+        dip = 0
+        mil = 1
+        birth_date = 243.1.1
+    }
+}
+
+# War of the Five Kings
+298.1.1 = {
+    monarch = {
+        name = "Leofwynn"
+        dynasty = "Joth"
+        adm = 2
+        dip = 2
+        mil = 0
+        birth_date = 270.1.1
+    }
+}
+
+# The Night King
+304.1.1 = {
+    monarch = {
+        name = "Cedric"
+        dynasty = "Joth"
+        adm = 2
+        dip = 3
+        mil = 3
+        birth_date = 252.1.1
+    }
+}
+

@@ -1,0 +1,16 @@
+is_city = yes
+
+owner = ISS
+controller = ISS
+add_core = ISS
+
+base_tax = 3
+base_production = 3
+base_manpower = 3
+
+culture = kdathi
+religion = mavka
+
+trade_goods = gold
+hre = no
+

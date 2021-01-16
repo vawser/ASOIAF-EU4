@@ -1,0 +1,15 @@
+is_city = yes
+
+owner = GRL
+controller = GRL
+add_core = GRL
+
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
+culture = bloodless
+religion = cult_of_pallor
+
+trade_goods = cloth
+hre = no

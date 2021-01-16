@@ -1,0 +1,16 @@
+# 854 - Drekat.txt
+is_city = yes
+owner = AKN
+controller = AKN
+add_core = AKN
+
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
+culture = jogos_nhai
+religion = moonsingers
+
+trade_goods = grain
+hre = no
+

@@ -1,0 +1,42 @@
+﻿A Song of Ice and Fire is a total overhaul mod for Europa Universalis 4 that aims to mesh the world of Game of Thrones with the gameplay of Europa Universalis.
+
+[h1]Extras[/h1]
+[list]
+[*] [url=http://steamcommunity.com/sharedfiles/filedetails/?id=907810098]A Song of Ice and Fire - Art[/url] - Adds custom loadscreens.
+[*] [url=http://steamcommunity.com/sharedfiles/filedetails/?id=950191900]A Song of Ice and Fire - Music[/url] - Adds music from Game of Thrones OST.
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2065915523]A Song of Ice and Fire - Better Music[/url] - Adds music from Game of Thrones OST with proper trigger conditions. Made by Theo.
+
+[/list]
+
+[h1]Credits[/h1]
+[LIST]
+[*]CK2:AGOT Development Team
+[*]Knuckey
+[*]zitres
+[*]Riveregg
+[*]Theo
+[/LIST]
+
+[h1]Links[/h1]
+[LIST]
+[*][url=https://forum.paradoxplaza.com/forum/index.php?threads/mod-a-song-of-ice-and-fire.788197/]Paradoxplaza Link[/url]
+[*][url=https://discord.gg/TTte6sV]Discord[/url]
+[/LIST]
+
+[h1]FAQ[/h1]
+
+[h1]Does the mod support X version?[/h1]
+The mod currently supports version 1.30.
+
+[h1]Does this mod require DLC?[/h1]
+No. But the mod will use game features that are DLC-exclusive, so if you lack a DLC you may be missing content from the mod.
+
+[h1]Why hasn't the mod been updated?[/h1]
+The mod may lag behind game updates if I lack the time to update properly. Simply get your betas password from [url=https://accounts.paradoxplaza.com] Paradox Plaza [/url] and then go to Properties -> Betas in steam. From there, enter the password and select the currently supported version of EU4 from the dropdown list.
+
+[h1]Why is the localization broken?[/h1]
+The mod currently only supports English localization. Switch your game language to English when playing the mod.
+
+[h1]Why hasn't X been added?[/h1]
+Features added to the mod are at the discretion of the developer. If you want to increase the chances of your suggestion being added, add a clear and concise post in the suggestion thread or in our discord.
+

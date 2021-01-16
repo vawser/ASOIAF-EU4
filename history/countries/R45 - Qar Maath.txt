@@ -1,0 +1,144 @@
+
+government_rank = 1
+government = monarchy
+add_government_reform = qarth_city_reform
+
+
+technology_group = quartheen
+primary_culture = qartheen
+religion = cult_of_shadows
+
+capital = 1
+
+# Shattered World
+100.1.1 = {
+    monarch = {
+        name = "Basir"
+        dynasty = "Qar Maath"
+        adm = 2
+        dip = 0
+        mil = 4
+        birth_date = 45.1.1
+    }
+}
+
+# War for the Stepstones
+106.1.1 = {
+    monarch = {
+        name = "Fawazz"
+        dynasty = "Qar Maath"
+        adm = 2
+        dip = 0
+        mil = 1
+        birth_date = 50.1.1
+    }
+}
+
+# The Dance of Dragons
+129.1.1 = {
+    monarch = {
+        name = "Therdon"
+        dynasty = "Qar Maath"
+        adm = 3
+        dip = 5
+        mil = 0
+        birth_date = 100.1.1
+    }
+}
+
+# Conquest of Dorne
+157.1.1 = {
+    monarch = {
+        name = "Ilden"
+        dynasty = "Qar Maath"
+        adm = 0
+        dip = 2
+        mil = 0
+        birth_date = 115.1.1
+    }
+}
+
+# Blackfyre Rebellion
+196.1.1 = {
+    monarch = {
+        name = "Ghininath"
+        dynasty = "Qar Maath"
+        adm = 2
+        dip = 1
+        mil = 5
+        birth_date = 161.1.1
+    }
+}
+
+# After Spring
+211.1.1 = {
+    monarch = {
+        name = "Fabien"
+        dynasty = "Qar Maath"
+        adm = 5
+        dip = 1
+        mil = 2
+        birth_date = 181.1.1
+    }
+}
+
+# War of the Ninepenny Kings
+260.1.1 = {
+    monarch = {
+        name = "Wayn"
+        dynasty = "Qar Maath"
+        adm = 0
+        dip = 4
+        mil = 3
+        birth_date = 213.1.1
+    }
+}
+
+# Robert's Rebellion
+282.1.1 = {
+    monarch = {
+        name = "Endehm"
+        dynasty = "Qar Maath"
+        adm = 5
+        dip = 5
+        mil = 0
+        birth_date = 235.1.1
+    }
+}
+
+# The Greyjoy Rebellion
+289.1.1 = {
+    monarch = {
+        name = "Orinthal"
+        dynasty = "Qar Maath"
+        adm = 1
+        dip = 2
+        mil = 2
+        birth_date = 269.1.1
+    }
+}
+
+# War of the Five Kings
+298.1.1 = {
+    monarch = {
+        name = "Myame"
+        dynasty = "Qar Maath"
+        adm = 2
+        dip = 4
+        mil = 0
+        birth_date = 260.1.1
+    }
+}
+
+# The Night King
+304.1.1 = {
+    monarch = {
+        name = "Lithok"
+        dynasty = "Qar Maath"
+        adm = 2
+        dip = 1
+        mil = 1
+        birth_date = 245.1.1
+    }
+}
+

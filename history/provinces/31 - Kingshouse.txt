@@ -1,0 +1,18 @@
+# 31 - Kingshouse.txt
+is_city = yes
+
+owner = Q01
+controller = Q01
+add_core = Q01
+
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
+culture = skagosi
+religion = old_gods
+
+trade_goods = iron
+hre = no
+
+center_of_trade = 1

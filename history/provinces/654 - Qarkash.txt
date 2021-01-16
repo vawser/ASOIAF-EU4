@@ -1,0 +1,16 @@
+# 654 - Qarkash.txt
+is_city = yes
+owner = ARR
+controller = ARR
+add_core = ARR
+
+base_tax = 3
+base_production = 3
+base_manpower = 4
+
+culture = qartheen
+religion = cult_of_shadows
+
+trade_goods = spices
+hre = no
+

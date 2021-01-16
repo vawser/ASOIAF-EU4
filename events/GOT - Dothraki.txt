@@ -1,0 +1,352 @@
+namespace = GOT_DOTHRAKI
+
+# Dothraki Succession Crisis
+country_event = {
+	id = GOT_DOTHRAKI.1
+	title = GOT_DOTHRAKI.1.title
+	desc = GOT_DOTHRAKI.1.desc
+	picture = KING_SICK_IN_BED_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		has_reform = khalasar_reform
+        NOT = { has_country_flag = dothraki_daenerys }
+		NOT = { has_country_flag = no_new_succession_crisis_if_pretender_rebels }
+		num_of_cities = 4
+		OR = {
+			NOT = { legitimacy_or_horde_unity = 50 }
+			has_regency = yes
+		}
+	}
+	
+	immediate = {
+		hidden_effect = {
+			if = {
+				limit = {
+					NOT = { legitimacy_or_horde_unity = 50 }
+				}
+				random_owned_province = {
+					limit = {
+						is_capital = no
+					}
+					spawn_rebels = {
+						type = pretender_rebels
+						size = 2
+						win = yes
+					}
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = GOT_DOTHRAKI.1.option.a
+		trigger = {
+			NOT = { legitimacy_or_horde_unity = 50 }
+		}
+		if = {
+			limit = {
+				any_owned_province = {
+					NOT = { is_core = ROOT }
+					can_spawn_rebels = nationalist_rebels
+				}
+			}
+			hidden_effect = {
+				every_owned_province = {
+					limit = {
+						NOT = { is_core = ROOT }
+						can_spawn_rebels = nationalist_rebels
+					}
+					nationalist_rebels = 1
+				}
+			}
+			custom_tooltip = tribal_succession_crisis_non_cores_will_revolt
+		}
+		add_ruler_modifier = {
+			name = "dothraki_succession_crisis"
+		}
+		custom_tooltip = tribal_crisis_can_end_when
+	}
+	
+	option = {
+		name = GOT_DOTHRAKI.1.option.b
+		trigger = {
+			has_regency = yes
+		}
+		define_ruler = {
+			dynasty = ROOT #Uncles, or other relatives were by far the most likely coup-makers
+		}
+		kill_heir = yes
+        add_legitimacy = -25
+		add_horde_unity = -25
+	}
+}
+
+# Succession Secured!
+country_event = {
+	id = GOT_DOTHRAKI.2
+	title = GOT_DOTHRAKI.2.title
+	desc = GOT_DOTHRAKI.2.desc
+	picture = NEW_HEIR_eventPicture
+	
+	trigger = {
+		has_reform = khalasar_reform
+		has_ruler_modifier = dothraki_succession_crisis
+		NOT = {
+			has_spawned_rebels = pretender_rebels
+		}
+		has_regency = no
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = GOT_DOTHRAKI.2.option.a
+		remove_country_modifier = dothraki_succession_crisis
+		add_stability_or_adm_power = yes
+		add_horde_unity = 25
+        add_legitimacy = 25
+	}
+}
+
+# Pilgrimage to Vaes Dothrak
+country_event = {
+	id = GOT_DOTHRAKI.3
+	title = GOT_DOTHRAKI.3.title
+	desc = GOT_DOTHRAKI.3.desc
+	picture = PRAYING_eventPicture
+
+	trigger = {
+		has_reform = khalasar_reform
+        stability = 0
+	}
+	
+    mean_time_to_happen = {
+		months = 320
+        
+        modifier = {
+            factor = 0.9
+            stability = 1
+        }
+        
+        modifier = {
+            factor = 0.9
+            stability = 2
+        }
+	}
+    
+	option = {
+		name = GOT_DOTHRAKI.3.option.a
+		
+		add_adm_power = 50
+	}
+	
+	option = {
+		name = GOT_DOTHRAKI.3.option.b
+		
+		add_dip_power = 50
+	}
+	
+	option = {
+		name = GOT_DOTHRAKI.3.option.c
+		
+		add_mil_power = 50
+	}
+	
+	option = {
+		name = GOT_DOTHRAKI.3.option.d
+		
+		add_mil_power = 200
+		add_horde_unity = -25
+		add_legitimacy = -25
+        
+		if = {
+			limit = { has_estate = estate_khalasar }
+			
+			add_estate_loyalty = {
+				estate = estate_khalasar
+				loyalty = -20
+			}
+		}
+	}
+}
+
+# Visit to the Womb of the World
+country_event = {
+	id = GOT_DOTHRAKI.4
+	title = GOT_DOTHRAKI.4.title
+	desc = GOT_DOTHRAKI.4.desc
+	picture = PRAYING_eventPicture
+	
+	trigger = {
+		has_reform = khalasar_reform
+        stability = 0
+	}
+	
+    mean_time_to_happen = {
+		months = 1200
+        
+        modifier = {
+            factor = 0.9
+            stability = 1
+        }
+        
+        modifier = {
+            factor = 0.9
+            stability = 2
+        }
+	}
+    
+	option = {
+		name = GOT_DOTHRAKI.4.option.a
+		
+		add_prestige = 25
+	}
+	
+	option = {
+		name = GOT_DOTHRAKI.4.option.b
+		
+		define_heir = {
+			claim = 50
+			dynasty = ROOT
+			mil = 3 
+		}
+	}
+}
+
+# A New Khal!
+# The ascension of [Root.Monarch.GetName] as khal has upset several of the kos within the khalasar. They threaten to split the khalasar unless [Root.Monarch.GetTitle] [Root.Monarch.GetName] proves his strength.
+country_event = {
+	id = GOT_DOTHRAKI.5
+	title = GOT_DOTHRAKI.5.title
+	desc = GOT_DOTHRAKI.5.desc
+	picture = HORDE_ON_HORSEBACK_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		has_reform = khalasar_reform
+        NOT = { has_country_flag = dothraki_daenerys }
+	}
+	
+	# To war!
+	option = {
+		name = GOT_DOTHRAKI.5.option.a
+		
+		trigger = {
+			any_neighbor_country = {
+				NOT = { war_with = ROOT }
+			}
+		}
+		
+		random_neighbor_country = {
+			ROOT = {
+				declare_war_with_cb = {
+					who = PREV
+					casus_belli = cb_horde_vs_civ
+				}
+			}
+		}
+		
+        add_ruler_modifier = {
+            name = strong_khal
+        }
+        
+		ai_chance = {
+			factor = 50
+		}
+	}
+	
+	# [Root.Monarch.GetName] fights [Root.Monarch.GetHerHis] kos!
+	option = {
+		name = GOT_DOTHRAKI.5.option.b
+		
+		add_prestige = 5
+		
+		random_list = {
+            50 = {
+                add_ruler_modifier = {
+                    name = strong_khal
+                }
+            }
+            50 = {
+                add_ruler_modifier = {
+                    name = weak_khal
+                }
+            }
+        }
+		
+		ai_chance = {
+			factor = 40
+		}
+	}
+	
+	# Ignore their threat
+	option = {
+		name = GOT_DOTHRAKI.5.option.c
+		
+		add_ruler_modifier = {
+            name = weak_khal
+        }
+		
+		ai_chance = {
+			factor = 10
+		}
+	}
+}
+
+#-----------------------------------------------------------
+# Maintenance 
+#-----------------------------------------------------------
+# Liberty Desire -> Vaes Dothrak checks
+country_event = {
+	id = GOT_DOTHRAKI.100
+	title = GOT_DOTHRAKI.100.title
+	desc = GOT_DOTHRAKI.100.desc
+	picture = HORDE_ON_HORSEBACK_eventPicture
+	
+    hidden = yes
+    
+	trigger = {
+        has_reform = khalasar_reform
+        is_subject_of = R05
+		NOT = { has_country_modifier = vaes_dothrak_ld }
+	}
+	
+    option = {
+		name = GOT_DOTHRAKI.100.option.a
+        
+        add_country_modifier = {
+            name = vaes_dothrak_ld
+            duration = -1
+        }
+    }
+}
+
+country_event = {
+	id = GOT_DOTHRAKI.101
+	title = GOT_DOTHRAKI.101.title
+	desc = GOT_DOTHRAKI.101.desc
+	picture = HORDE_ON_HORSEBACK_eventPicture
+	
+    hidden = yes
+    
+	trigger = {
+        has_reform = khalasar_reform
+        OR = {
+            NOT = { is_subject_of = R05 }
+            NOT = { is_subject_of_type = tributary_state }
+        }
+        has_country_modifier = vaes_dothrak_ld
+	}
+	
+    option = {
+		name = GOT_DOTHRAKI.101.option.a
+        
+        remove_country_modifier = vaes_dothrak_ld
+    }
+}
+

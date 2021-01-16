@@ -1,0 +1,23 @@
+# 213 - Hollard Hall.txt
+is_city = yes
+
+owner = AB5
+controller = AB5
+add_core = AB5
+
+base_tax = 5
+base_production = 5
+base_manpower = 3
+
+culture = men_of_the_crownlands
+religion = faith_of_the_seven
+
+trade_goods = grain
+hre = no
+
+106.1.1 = {
+    owner = CRW
+    controller = CRW
+    add_core = CRW
+}
+

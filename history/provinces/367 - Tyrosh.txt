@@ -1,0 +1,36 @@
+# 367 - Tyrosh.txt
+is_city = yes
+
+owner = X01
+controller = X01
+add_core = X01
+
+base_tax = 10
+base_production = 10
+base_manpower = 7
+
+culture = tyroshi
+religion = trios
+
+trade_goods = slaves
+hre = no
+
+add_building = castle
+
+center_of_trade = 2
+
+add_province_triggered_modifier = religious_center
+add_province_triggered_modifier = temple_of_trios
+
+260.1.1 = {
+	controller = AB2
+	add_core = AB2
+	owner = AB2
+}
+
+281.1.1 = {
+	remove_core = AB2
+	controller = X01
+	add_core = X01
+	owner = X01
+}

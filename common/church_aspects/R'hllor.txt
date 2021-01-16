@@ -1,0 +1,127 @@
+vision_of_grandeur = {
+    cost = 100
+	modifier = {
+		build_cost = -0.1
+	}
+	ai_will_do = {
+		factor = 1
+        
+        modifier = {
+            factor = 0
+            
+            NOT = { years_of_income = 1 }
+        }
+	}
+}
+
+vision_of_horror = {
+    cost = 100
+	modifier = {
+		unjustified_demands = -0.1
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+vision_of_strength = {
+    cost = 100
+	modifier = {
+		global_manpower_modifier = 0.15
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+vision_of_wealth = {
+    cost = 100
+	modifier = {
+		global_tax_modifier = 0.1
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+vision_of_revenge = {
+    cost = 100
+	modifier = {
+		hostile_attrition = 1
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+vision_of_bravery = {
+    cost = 100
+	modifier = {
+		prestige = 1
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+vision_of_diplomacy = {
+    cost = 100
+	modifier = {
+		diplomatic_reputation = 1
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+vision_of_faith = {
+    cost = 100
+	modifier = {
+		missionaries = 1
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+vision_of_war = {
+    cost = 100
+	modifier = {
+		army_tradition = 1
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+vision_of_ambition = {
+    cost = 100
+	modifier = {
+		advisor_cost = -0.1
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+vision_of_legitimacy = {
+    cost = 100
+	modifier = {
+		legitimacy = 1
+		republican_tradition = 1
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+vision_of_cruelty = {
+    cost = 100
+	modifier = {
+		land_maintenance_modifier = -0.1
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
+

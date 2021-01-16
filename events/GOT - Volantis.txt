@@ -1,0 +1,264 @@
+namespace = GOT_VOLANTIS
+
+# On Death election for Volantis
+country_event = {
+	id = GOT_VOLANTIS.1
+	title = GOT_VOLANTIS.1.title
+	desc = GOT_VOLANTIS.1.desc
+	picture = IMPORTANT_STATUE_eventPicture
+	
+	is_triggered_only = yes
+
+	trigger = {
+		government = republic
+		has_reform = volantis_city_reform
+	}
+	
+	# Tiger
+	option = {
+		name = GOT_VOLANTIS.1.option.a
+
+		clr_country_flag = has_tiger_ruler
+		clr_country_flag = has_elephant_ruler
+		
+		define_ruler = {
+			adm = 3
+			dip = 1
+			mil = 3
+			hide_skills = yes
+		}
+
+		set_country_flag = has_tiger_ruler
+		add_faction_influence = {   
+            faction = tigers
+            influence = 25 
+        } 
+        add_estate_loyalty = {
+            estate = estate_nobles
+            loyalty = 10
+        }
+            
+        hidden_effect = { country_event = { id = GOT_EDUCATION.2 days = 1 } }
+        
+		ai_chance = {
+			factor = 100
+		}
+	}
+	
+	# Elephant
+	option = {
+		name = GOT_VOLANTIS.1.option.b
+		
+		clr_country_flag = has_tiger_ruler
+		clr_country_flag = has_elephant_ruler
+		
+		define_ruler = {
+			adm = 2
+			dip = 3
+			mil = 2
+			hide_skills = yes
+		}
+
+		set_country_flag = has_elephant_ruler
+		add_faction_influence = {   
+            faction = elephants
+            influence = 25 
+        } 
+        add_estate_loyalty = {
+            estate = estate_merchants
+            loyalty = 10
+        }
+            
+        hidden_effect = { country_event = { id = GOT_EDUCATION.2 days = 1 } }
+        
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+# On Term Election for Volantis
+country_event = {
+	id = GOT_VOLANTIS.2
+	title = GOT_VOLANTIS.2.title
+	desc = GOT_VOLANTIS.2.desc
+	picture = IMPORTANT_STATUE_eventPicture
+	
+	is_triggered_only = yes
+
+	trigger = {
+		government = republic
+		has_reform = volantis_city_reform
+	}
+	
+	# Tiger
+	option = {
+		name = GOT_VOLANTIS.2.option.a
+
+		clr_country_flag = has_tiger_ruler
+		clr_country_flag = has_elephant_ruler
+		
+		define_ruler = {
+			adm = 3
+			dip = 1
+			mil = 3
+			hide_skills = yes
+		}
+		
+		set_country_flag = has_tiger_ruler
+		add_faction_influence = {   
+            faction = tigers
+            influence = 25 
+        } 
+        add_estate_loyalty = {
+            estate = estate_nobles
+            loyalty = 10
+        }
+        
+        hidden_effect = { country_event = { id = GOT_EDUCATION.2 days = 1 } }
+        
+		ai_chance = {
+			factor = 100
+		}
+	}
+	
+	# Elephant
+	option = {
+		name = GOT_VOLANTIS.2.option.b
+		
+		clr_country_flag = has_tiger_ruler
+		clr_country_flag = has_elephant_ruler
+		
+		define_ruler = {
+			adm = 2
+			dip = 3
+			mil = 2
+			hide_skills = yes
+		}
+		
+		set_country_flag = has_elephant_ruler
+		add_faction_influence = {   
+            faction = elephants
+            influence = 25 
+        } 
+        add_estate_loyalty = {
+            estate = estate_merchants
+            loyalty = 10
+        }
+        
+        hidden_effect = { country_event = { id = GOT_EDUCATION.2 days = 1 } }
+        
+		ai_chance = {
+			factor = 100
+		}
+	}
+	
+	# Re-elect
+	option = {
+		name = GOT_VOLANTIS.2.option.c
+		
+		trigger = {
+			OR = {
+				has_country_flag = has_tiger_ruler
+				has_country_flag = has_elephant_ruler
+			}
+		}
+		
+		random_list = {
+			40 = {
+			
+			}
+			20 = {
+				change_adm = 1
+			}
+			20 = {
+				change_dip = 1
+			}
+			20 = {
+				change_mil = 1
+			}
+		}
+		
+		add_republican_tradition = -2
+        
+        if = {
+            limit = { 
+                has_country_flag = has_tiger_ruler
+            }
+            add_faction_influence = {   
+                faction = tigers
+                influence = 25 
+            } 
+            add_estate_loyalty = {
+                estate = estate_nobles
+                loyalty = 10
+            }
+        }
+        else_if = {
+            limit = { 
+                has_country_flag = has_elephant_ruler
+            }
+            add_faction_influence = {   
+                faction = elephants
+                influence = 25 
+            } 
+            add_estate_loyalty = {
+                estate = estate_merchants
+                loyalty = 10
+            }
+        }
+		
+		custom_tooltip = RE_ELECTION_TOOLTIP
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+
+# A Volantene Honor
+country_event = {
+	id = GOT_VOLANTIS.10
+	title = GOT_VOLANTIS.10.title
+	desc = GOT_VOLANTIS.10.desc
+	picture = IMPORTANT_STATUE_eventPicture
+	
+	is_triggered_only = yes
+
+	trigger = {
+		has_reform = volantis_city_reform
+		primary_culture = volantene
+	}
+	
+	# Spend the honor on a exquisite mace
+	option = {
+		name = GOT_VOLANTIS.10.option.a
+
+		add_mil_power = 50
+	}
+	
+	# Invest the honor in some sweet beets
+	option = {
+		name = GOT_VOLANTIS.10.option.b
+
+		add_dip_power = 50
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+
+# Old Blood boils...
+
+# Slavery Boom
+
+# Feuding Merchants
+
+# Feuding Nobles
+
+# Fire at the Barracks
+
+# Defaulting Moneylenders
+
+# A Game of Cyvasse

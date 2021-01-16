@@ -1,0 +1,16 @@
+is_city = yes
+
+owner = ARZ
+controller = ARZ
+add_core = ARZ
+
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
+culture = shadowfolk
+religion = cult_of_shadows
+
+trade_goods = naval_supplies
+hre = no
+

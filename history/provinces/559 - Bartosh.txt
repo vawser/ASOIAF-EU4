@@ -1,0 +1,23 @@
+# 559 - Bartosh.txt
+is_city = yes
+
+owner = BAR
+controller = BAR
+add_core = BAR
+
+base_tax = 4
+base_production = 4
+base_manpower = 4
+
+culture = omber
+religion = hooded_wayfarer
+
+trade_goods = naval_supplies
+hre = no
+
+106.1.1 = {
+    owner = J04
+    controller = J04
+    add_core = J04
+}
+

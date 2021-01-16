@@ -1,0 +1,16 @@
+# 697 - Fields of Sarnath.txt
+is_city = yes
+owner = CHA
+controller = CHA
+add_core = CHA
+
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
+culture = dothraki_culture
+religion = great_stallion
+
+trade_goods = grain
+hre = no
+

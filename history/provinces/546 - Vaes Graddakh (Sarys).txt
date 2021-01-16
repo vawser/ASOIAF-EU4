@@ -1,0 +1,16 @@
+# 546 - Vaes Graddakh (Sarys).txt
+is_city = yes
+owner = S40
+controller = S40
+add_core = S40
+
+base_tax = 2
+base_production = 2
+base_manpower = 2
+
+culture = saathi
+religion = hooded_wayfarer
+
+trade_goods = grain
+hre = no
+

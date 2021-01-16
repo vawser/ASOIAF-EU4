@@ -1,0 +1,144 @@
+
+government_rank = 1
+government = monarchy
+add_government_reform = yiti_city_reform
+
+
+technology_group = yiti
+primary_culture = low_yitish
+religion = lion_of_the_night
+
+capital = 820
+
+# Shattered World
+100.1.1 = {
+    monarch = {
+        name = "Su"
+        dynasty = "Rambaresh"
+        adm = 0
+        dip = 1
+        mil = 0
+        birth_date = 57.1.1
+    }
+}
+
+# War for the Stepstones
+106.1.1 = {
+    monarch = {
+        name = "Xian"
+        dynasty = "Rambaresh"
+        adm = 0
+        dip = 3
+        mil = 4
+        birth_date = 75.1.1
+    }
+}
+
+# The Dance of Dragons
+129.1.1 = {
+    monarch = {
+        name = "Xiangdao"
+        dynasty = "Rambaresh"
+        adm = 3
+        dip = 4
+        mil = 5
+        birth_date = 107.1.1
+    }
+}
+
+# Conquest of Dorne
+157.1.1 = {
+    monarch = {
+        name = "Sihui"
+        dynasty = "Rambaresh"
+        adm = 2
+        dip = 5
+        mil = 4
+        birth_date = 116.1.1
+    }
+}
+
+# Blackfyre Rebellion
+196.1.1 = {
+    monarch = {
+        name = "Jiafu"
+        dynasty = "Rambaresh"
+        adm = 2
+        dip = 4
+        mil = 3
+        birth_date = 143.1.1
+    }
+}
+
+# After Spring
+211.1.1 = {
+    monarch = {
+        name = "Deyu"
+        dynasty = "Rambaresh"
+        adm = 2
+        dip = 3
+        mil = 5
+        birth_date = 189.1.1
+    }
+}
+
+# War of the Ninepenny Kings
+260.1.1 = {
+    monarch = {
+        name = "Sui"
+        dynasty = "Rambaresh"
+        adm = 5
+        dip = 0
+        mil = 3
+        birth_date = 219.1.1
+    }
+}
+
+# Robert's Rebellion
+282.1.1 = {
+    monarch = {
+        name = "Guozhong"
+        dynasty = "Rambaresh"
+        adm = 3
+        dip = 5
+        mil = 2
+        birth_date = 231.1.1
+    }
+}
+
+# The Greyjoy Rebellion
+289.1.1 = {
+    monarch = {
+        name = "Shi"
+        dynasty = "Rambaresh"
+        adm = 0
+        dip = 2
+        mil = 2
+        birth_date = 230.1.1
+    }
+}
+
+# War of the Five Kings
+298.1.1 = {
+    monarch = {
+        name = "Huaishen"
+        dynasty = "Rambaresh"
+        adm = 5
+        dip = 2
+        mil = 3
+        birth_date = 257.1.1
+    }
+}
+
+# The Night King
+304.1.1 = {
+    monarch = {
+        name = "Ye"
+        dynasty = "Rambaresh"
+        adm = 1
+        dip = 0
+        mil = 0
+        birth_date = 262.1.1
+    }
+}
+

@@ -1,0 +1,16 @@
+is_city = yes
+
+owner = SCB
+controller = SCB
+add_core = SCB
+
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
+culture = rhoyne
+religion = lady_of_the_waves
+
+trade_goods = grain
+hre = no
+

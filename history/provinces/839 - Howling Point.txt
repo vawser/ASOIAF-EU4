@@ -1,0 +1,17 @@
+# 839 - Howling Point.txt
+is_city = no
+
+native_size = 5
+native_ferocity = 5
+native_hostileness = 5
+
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
+culture = trader_town
+religion = gods_of_hyrkoon
+
+trade_goods = grain
+hre = no
+

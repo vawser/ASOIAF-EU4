@@ -1,0 +1,145 @@
+
+government_rank = 1
+
+government = monarchy
+add_government_reform = noble_house_reform
+
+
+technology_group = westerosi
+primary_culture = men_of_the_reach
+religion = faith_of_the_seven
+
+capital = 238
+
+# Shattered World
+100.1.1 = {
+    monarch = {
+        name = "Jaggot"
+        dynasty = "Osgrey"
+        adm = 0
+        dip = 2
+        mil = 2
+        birth_date = 80.1.1
+    }
+}
+
+# War for the Stepstones
+106.1.1 = {
+    monarch = {
+        name = "Robin"
+        dynasty = "Osgrey"
+        adm = 0
+        dip = 5
+        mil = 4
+        birth_date = 50.1.1
+    }
+}
+
+# The Dance of Dragons
+129.1.1 = {
+    monarch = {
+        name = "Lothar"
+        dynasty = "Osgrey"
+        adm = 3
+        dip = 4
+        mil = 1
+        birth_date = 106.1.1
+    }
+}
+
+# Conquest of Dorne
+157.1.1 = {
+    monarch = {
+        name = "Symon"
+        dynasty = "Osgrey"
+        adm = 3
+        dip = 4
+        mil = 4
+        birth_date = 122.1.1
+    }
+}
+
+# Blackfyre Rebellion
+196.1.1 = {
+    monarch = {
+        name = "Yohn"
+        dynasty = "Osgrey"
+        adm = 2
+        dip = 4
+        mil = 1
+        birth_date = 175.1.1
+    }
+}
+
+# After Spring
+211.1.1 = {
+    monarch = {
+        name = "Bennet"
+        dynasty = "Osgrey"
+        adm = 3
+        dip = 1
+        mil = 3
+        birth_date = 178.1.1
+    }
+}
+
+# War of the Ninepenny Kings
+260.1.1 = {
+    monarch = {
+        name = "Quentin"
+        dynasty = "Osgrey"
+        adm = 3
+        dip = 4
+        mil = 4
+        birth_date = 220.1.1
+    }
+}
+
+# Robert's Rebellion
+282.1.1 = {
+    monarch = {
+        name = "Donyse"
+        dynasty = "Osgrey"
+        adm = 4
+        dip = 2
+        mil = 0
+        birth_date = 238.1.1
+    }
+}
+
+# The Greyjoy Rebellion
+289.1.1 = {
+    monarch = {
+        name = "Lark"
+        dynasty = "Osgrey"
+        adm = 5
+        dip = 4
+        mil = 5
+        birth_date = 265.1.1
+    }
+}
+
+# War of the Five Kings
+298.1.1 = {
+    monarch = {
+        name = "Runcel"
+        dynasty = "Osgrey"
+        adm = 3
+        dip = 2
+        mil = 5
+        birth_date = 243.1.1
+    }
+}
+
+# The Night King
+304.1.1 = {
+    monarch = {
+        name = "Jarmen"
+        dynasty = "Osgrey"
+        adm = 2
+        dip = 3
+        mil = 2
+        birth_date = 252.1.1
+    }
+}
+

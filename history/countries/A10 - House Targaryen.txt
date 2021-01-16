@@ -1,0 +1,51 @@
+government_rank = 1
+government = monarchy
+add_government_reform = royal_house_reform
+
+technology_group = westerosi
+primary_culture = men_of_the_crownlands
+religion = faith_of_the_seven
+
+capital = 226
+fixed_capital = 226
+
+# War for the Stepstones
+100.1.1 = {
+	monarch = {
+		name = "Viserys"
+		dynasty = "Targaryen"
+		adm = 4
+		dip = 4
+		mil = 2
+		birth_date = 74.1.1
+	}
+	
+    queen = {
+        country_of_origin = F07
+        name = "Alicent"
+        dynasty = "Hightower" 
+        birth_date = 84.1.1
+        death_date = 150.1.1
+        adm = 3
+        dip = 0
+        mil = 3
+        female = yes
+    }
+    
+	heir = {
+		name = "Rhaenyra"
+		monarch_name = "Rhaenyra"
+		dynasty = "Targaryen"
+		birth_date = 97.1.1
+		death_date = 150.1.1
+		claim = 100
+		adm = 0
+		dip = 1
+		mil = 3
+        female = yes
+	}
+}
+
+101.1.1 = {
+    add_government_reform = noble_house_reform
+}

@@ -1,0 +1,21 @@
+is_city = yes
+
+owner = U57
+controller = U57
+add_core = U57
+
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
+culture = volantene
+religion = rhllor
+
+trade_goods = cloth
+hre = no
+
+106.1.1 = {
+    owner = U87
+    controller = U87
+    add_core = U87
+}

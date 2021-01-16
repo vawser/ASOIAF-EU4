@@ -1,0 +1,144 @@
+
+government_rank = 1
+government = monarchy
+add_government_reform = qarth_city_reform
+
+
+technology_group = quartheen
+primary_culture = qartheen
+religion = cult_of_shadows
+
+capital = 654
+
+# Shattered World
+100.1.1 = {
+    monarch = {
+        name = "Darwesh"
+        dynasty = "Urrathon"
+        adm = 4
+        dip = 0
+        mil = 2
+        birth_date = 62.1.1
+    }
+}
+
+# War for the Stepstones
+106.1.1 = {
+    monarch = {
+        name = "Agha"
+        dynasty = "Urrathon"
+        adm = 2
+        dip = 2
+        mil = 3
+        birth_date = 52.1.1
+    }
+}
+
+# The Dance of Dragons
+129.1.1 = {
+    monarch = {
+        name = "Mamireh"
+        dynasty = "Urrathon"
+        adm = 5
+        dip = 1
+        mil = 0
+        birth_date = 72.1.1
+    }
+}
+
+# Conquest of Dorne
+157.1.1 = {
+    monarch = {
+        name = "Kottiq"
+        dynasty = "Urrathon"
+        adm = 4
+        dip = 5
+        mil = 2
+        birth_date = 101.1.1
+    }
+}
+
+# Blackfyre Rebellion
+196.1.1 = {
+    monarch = {
+        name = "Kotaro"
+        dynasty = "Urrathon"
+        adm = 4
+        dip = 0
+        mil = 1
+        birth_date = 154.1.1
+    }
+}
+
+# After Spring
+211.1.1 = {
+    monarch = {
+        name = "Mazra"
+        dynasty = "Urrathon"
+        adm = 5
+        dip = 0
+        mil = 1
+        birth_date = 157.1.1
+    }
+}
+
+# War of the Ninepenny Kings
+260.1.1 = {
+    monarch = {
+        name = "Padrul"
+        dynasty = "Urrathon"
+        adm = 4
+        dip = 4
+        mil = 2
+        birth_date = 209.1.1
+    }
+}
+
+# Robert's Rebellion
+282.1.1 = {
+    monarch = {
+        name = "Shenk"
+        dynasty = "Urrathon"
+        adm = 5
+        dip = 2
+        mil = 4
+        birth_date = 243.1.1
+    }
+}
+
+# The Greyjoy Rebellion
+289.1.1 = {
+    monarch = {
+        name = "Bamalen"
+        dynasty = "Urrathon"
+        adm = 1
+        dip = 0
+        mil = 0
+        birth_date = 254.1.1
+    }
+}
+
+# War of the Five Kings
+298.1.1 = {
+    monarch = {
+        name = "Kavzind"
+        dynasty = "Urrathon"
+        adm = 2
+        dip = 1
+        mil = 5
+        birth_date = 262.1.1
+    }
+}
+
+# The Night King
+304.1.1 = {
+    monarch = {
+        name = "Jamshid"
+        dynasty = "Urrathon"
+        adm = 0
+        dip = 1
+        mil = 4
+        birth_date = 259.1.1
+    }
+}
+

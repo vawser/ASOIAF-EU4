@@ -1,0 +1,26 @@
+﻿gov_the_faith = {
+	rank = {
+		1 = THE_FAITH
+		2 = THE_FAITH
+		3 = THE_FAITH
+	}
+	
+	ruler_male = {
+		1 = HIGH_SEPTON
+		2 = HIGH_SEPTON
+		3 = HIGH_SEPTON
+	}
+	
+	ruler_female = {
+		1 = HIGH_SEPTA
+		2 = HIGH_SEPTA
+		3 = HIGH_SEPTA
+	}
+	
+	trigger = {
+        OR = {
+            has_reform = the_faith_reform
+            has_reform = the_faith_legacy
+        }
+	}
+}

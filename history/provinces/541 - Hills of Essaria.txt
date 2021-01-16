@@ -1,0 +1,16 @@
+# 541 - Hills of Essaria.txt
+is_city = yes
+owner = ESI
+controller = ESI
+add_core = ESI
+
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
+culture = dothraki_culture
+religion = great_stallion
+
+trade_goods = wool
+hre = no
+

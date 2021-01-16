@@ -1,0 +1,24 @@
+# 606 - Meereen.txt
+is_city = yes
+
+owner = R19
+controller = R19
+add_core = R19
+
+base_tax = 14
+base_production = 14
+base_manpower = 10
+
+culture = meereen
+religion = ghiscari_pantheon
+
+trade_goods = slaves
+hre = no
+
+add_building = castle
+add_building = slavers_guild
+
+center_of_trade = 2
+
+add_province_triggered_modifier = religious_center
+add_province_triggered_modifier = temple_of_the_graces

@@ -1,0 +1,144 @@
+
+government_rank = 1
+government = monarchy
+add_government_reform = ghis_city_reform
+set_estate_privilege = estate_nobles_unsullied
+
+technology_group = ghiscari
+primary_culture = ghis
+religion = ghiscari_pantheon
+
+capital = 631
+
+# Shattered World
+100.1.1 = {
+    monarch = {
+        name = "Wafasur"
+        dynasty = "Bezzlar"
+        adm = 4
+        dip = 4
+        mil = 1
+        birth_date = 71.1.1
+    }
+}
+
+# War for the Stepstones
+106.1.1 = {
+    monarch = {
+        name = "Rok'dun"
+        dynasty = "Bezzlar"
+        adm = 4
+        dip = 3
+        mil = 0
+        birth_date = 85.1.1
+    }
+}
+
+# The Dance of Dragons
+129.1.1 = {
+    monarch = {
+        name = "Iscan"
+        dynasty = "Bezzlar"
+        adm = 0
+        dip = 3
+        mil = 1
+        birth_date = 109.1.1
+    }
+}
+
+# Conquest of Dorne
+157.1.1 = {
+    monarch = {
+        name = "Raifa"
+        dynasty = "Bezzlar"
+        adm = 0
+        dip = 4
+        mil = 1
+        birth_date = 131.1.1
+    }
+}
+
+# Blackfyre Rebellion
+196.1.1 = {
+    monarch = {
+        name = "Gogan"
+        dynasty = "Bezzlar"
+        adm = 2
+        dip = 0
+        mil = 5
+        birth_date = 144.1.1
+    }
+}
+
+# After Spring
+211.1.1 = {
+    monarch = {
+        name = "Farasad"
+        dynasty = "Bezzlar"
+        adm = 5
+        dip = 4
+        mil = 2
+        birth_date = 180.1.1
+    }
+}
+
+# War of the Ninepenny Kings
+260.1.1 = {
+    monarch = {
+        name = "Nistacey"
+        dynasty = "Bezzlar"
+        adm = 5
+        dip = 5
+        mil = 1
+        birth_date = 205.1.1
+    }
+}
+
+# Robert's Rebellion
+282.1.1 = {
+    monarch = {
+        name = "Sai"
+        dynasty = "Bezzlar"
+        adm = 4
+        dip = 2
+        mil = 1
+        birth_date = 259.1.1
+    }
+}
+
+# The Greyjoy Rebellion
+289.1.1 = {
+    monarch = {
+        name = "Rahannal"
+        dynasty = "Bezzlar"
+        adm = 5
+        dip = 3
+        mil = 1
+        birth_date = 258.1.1
+    }
+}
+
+# War of the Five Kings
+298.1.1 = {
+    monarch = {
+        name = "Darwaz"
+        dynasty = "Bezzlar"
+        adm = 2
+        dip = 0
+        mil = 4
+        birth_date = 264.1.1
+    }
+}
+
+# The Night King
+304.1.1 = {
+    monarch = {
+        name = "Luqman"
+        dynasty = "Bezzlar"
+        adm = 1
+        dip = 5
+        mil = 4
+        birth_date = 256.1.1
+    }
+}
+

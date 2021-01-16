@@ -1,0 +1,17 @@
+bookmark =
+{
+	name = "ROBERTS_REBELLION_NAME"
+	desc = "ROBERTS_REBELLION_DESC"
+	date = 282.1.1
+	
+	country = A02
+    country = CRW
+	country = NOR
+	country = RIV
+	country = WES
+	country = VLE
+	country = IRI
+	country = STM
+	country = DOR
+	country = REA
+}

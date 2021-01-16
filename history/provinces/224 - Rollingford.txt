@@ -1,0 +1,23 @@
+# 224 - Rollingford.txt
+is_city = yes
+
+owner = A27
+controller = A27
+add_core = A27
+
+base_tax = 8
+base_production = 8
+base_manpower = 4
+
+culture = men_of_the_crownlands
+religion = faith_of_the_seven
+
+trade_goods = wool
+hre = no
+
+106.1.1 = {
+    owner = CRW
+    controller = CRW
+    add_core = CRW
+}
+

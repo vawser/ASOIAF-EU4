@@ -1,0 +1,49 @@
+
+government_rank = 1
+government = monarchy
+add_government_reform = noble_house_reform
+
+
+technology_group = westerosi
+primary_culture = men_of_the_reach
+religion = faith_of_the_seven
+
+capital = 267
+fixed_capital = 267
+
+# War for the Stepstones
+100.1.1 = {
+	monarch = {
+		name = "Matthos"
+		dynasty = "Tyrell"
+		adm = 6
+		dip = 2
+		mil = 4
+		birth_date = 65.1.1
+	}
+	
+    queen = {
+        country_of_origin = F20
+        name = "Elyn"
+        dynasty = "Tyrell" 
+        birth_date = 65.1.1
+        death_date = 150.1.1
+        adm = 5
+        dip = 6
+        mil = 3
+        female = yes
+    }
+    
+	heir = {
+		name = "Victor"
+		monarch_name = "Victor"
+		dynasty = "Tyrell"
+		birth_date = 70.1.1
+		death_date = 150.1.1
+		claim = 100
+		adm = 4
+		dip = 3
+		mil = 4
+	}
+}
+

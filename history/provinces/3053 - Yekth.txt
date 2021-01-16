@@ -1,0 +1,15 @@
+is_city = yes
+
+owner = VAK
+controller = VAK
+add_core = VAK
+
+base_tax = 2
+base_production = 2
+base_manpower = 3
+
+culture = shadowfolk
+religion = cult_of_shadows
+
+trade_goods = wool
+hre = no

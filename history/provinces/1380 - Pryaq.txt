@@ -1,0 +1,16 @@
+is_city = yes
+
+owner = GRS
+controller = GRS
+add_core = GRS
+
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
+culture = cannibal
+religion = mavka
+
+trade_goods = iron
+hre = no
+

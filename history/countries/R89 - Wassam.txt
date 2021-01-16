@@ -1,0 +1,144 @@
+
+government_rank = 1
+government = monarchy
+add_government_reform = yiti_city_reform
+
+
+technology_group = yiti
+primary_culture = low_yitish
+religion = lion_of_the_night
+
+capital = 781
+
+# Shattered World
+100.1.1 = {
+    monarch = {
+        name = "Shilian"
+        dynasty = "Wassam"
+        adm = 0
+        dip = 0
+        mil = 4
+        birth_date = 80.1.1
+    }
+}
+
+# War for the Stepstones
+106.1.1 = {
+    monarch = {
+        name = "Shi"
+        dynasty = "Wassam"
+        adm = 2
+        dip = 4
+        mil = 4
+        birth_date = 52.1.1
+    }
+}
+
+# The Dance of Dragons
+129.1.1 = {
+    monarch = {
+        name = "Lübing"
+        dynasty = "Wassam"
+        adm = 4
+        dip = 0
+        mil = 4
+        birth_date = 108.1.1
+    }
+}
+
+# Conquest of Dorne
+157.1.1 = {
+    monarch = {
+        name = "Xinfu"
+        dynasty = "Wassam"
+        adm = 5
+        dip = 5
+        mil = 1
+        birth_date = 108.1.1
+    }
+}
+
+# Blackfyre Rebellion
+196.1.1 = {
+    monarch = {
+        name = "Zhirou"
+        dynasty = "Wassam"
+        adm = 1
+        dip = 2
+        mil = 3
+        birth_date = 171.1.1
+    }
+}
+
+# After Spring
+211.1.1 = {
+    monarch = {
+        name = "Shang"
+        dynasty = "Wassam"
+        adm = 2
+        dip = 1
+        mil = 3
+        birth_date = 184.1.1
+    }
+}
+
+# War of the Ninepenny Kings
+260.1.1 = {
+    monarch = {
+        name = "Di"
+        dynasty = "Wassam"
+        adm = 2
+        dip = 3
+        mil = 0
+        birth_date = 239.1.1
+    }
+}
+
+# Robert's Rebellion
+282.1.1 = {
+    monarch = {
+        name = "Deyi"
+        dynasty = "Wassam"
+        adm = 4
+        dip = 5
+        mil = 5
+        birth_date = 237.1.1
+    }
+}
+
+# The Greyjoy Rebellion
+289.1.1 = {
+    monarch = {
+        name = "Weizhi"
+        dynasty = "Wassam"
+        adm = 2
+        dip = 3
+        mil = 2
+        birth_date = 235.1.1
+    }
+}
+
+# War of the Five Kings
+298.1.1 = {
+    monarch = {
+        name = "Fangqing"
+        dynasty = "Wassam"
+        adm = 2
+        dip = 4
+        mil = 3
+        birth_date = 241.1.1
+    }
+}
+
+# The Night King
+304.1.1 = {
+    monarch = {
+        name = "Qinke"
+        dynasty = "Wassam"
+        adm = 1
+        dip = 4
+        mil = 0
+        birth_date = 251.1.1
+    }
+}
+

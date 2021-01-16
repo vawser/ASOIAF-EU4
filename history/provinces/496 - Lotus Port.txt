@@ -1,0 +1,21 @@
+# 496 - Lotus Port.txt
+is_city = yes
+
+owner = X17
+controller = X17
+add_core = X17
+
+base_tax = 4
+base_production = 4
+base_manpower = 4
+
+culture = xhaxos
+religion = summer_gods
+
+trade_goods = fish
+hre = no
+
+center_of_trade = 2
+
+add_province_triggered_modifier = religious_center
+add_province_triggered_modifier = temple_of_the_summer_gods

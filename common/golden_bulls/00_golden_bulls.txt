@@ -1,0 +1,87 @@
+divine_justification = {
+	modifier = {
+		ae_impact = -0.15
+	}
+    trigger = {
+        is_papal_controller = yes
+    }
+    ai_will_do = {
+        factor = 0
+    }
+}
+
+restoration_of_the_septs = {
+    modifier = {
+        curia_powers_cost = -0.5
+    }
+    trigger = {
+        is_papal_controller = yes
+    }
+    ai_will_do = {
+        factor = 0
+    }
+}
+
+the_faith_militant = {
+    modifier = {
+        global_manpower_modifier = 0.1
+        land_morale = 0.1
+    }
+    trigger = {
+        is_papal_controller = yes
+        is_at_war = yes
+    }
+    ai_will_do = {
+        factor = 0
+        modifier = {
+            factor = 6
+            is_at_war = yes
+        }
+    }
+}
+
+charity_for_the_poor = {
+    modifier = {
+		global_unrest = -2
+        development_cost = -0.1
+    }
+    trigger = {
+        is_papal_controller = yes
+    }
+    ai_will_do = {
+        factor = 2
+    }
+}
+
+ecclesiastical_maesters = {
+    modifier = {
+        embracement_cost = -0.1
+        global_institution_spread = 0.33
+    }
+    mechanics = {
+        cardinals_spread_institution
+    }
+    trigger = {
+        is_papal_controller = yes
+    }
+    ai_will_do = {
+        factor = 0
+        modifier = {
+            factor = 5
+            is_lacking_institutions = yes
+        }
+    }
+}
+
+supremacy_of_the_seven = {
+    modifier = {
+        yearly_absolutism = 1
+        drill_decay_modifier = -0.25
+    }
+    trigger = {
+        is_papal_controller = yes
+    }
+    ai_will_do = {
+        factor = 1
+    }
+}

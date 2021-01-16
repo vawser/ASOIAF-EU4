@@ -1,0 +1,291 @@
+﻿gov_wildling_clan = {
+	rank = {
+		1 = CLAN
+		2 = CLAN
+		3 = CLAN
+	}
+	
+	ruler_male = {
+		1 = CHIEF
+        2 = CHIEF
+        3 = CHIEF
+	}
+	
+	ruler_female = {
+		1 = CHIEFTESS
+        2 = CHIEFTESS
+        3 = CHIEFTESS
+	}
+	
+	trigger = {
+        OR = {
+            has_reform = wildling_clan_reform
+            has_reform = wildling_clan_legacy
+        }
+	}
+}
+gov_wildling_confederation = {
+	rank = {
+		1 = CONFEDERATION
+		2 = CONFEDERATION
+		3 = CONFEDERATION
+	}
+	
+	ruler_male = {
+		1 = HIGH_CHIEFTAIN
+        2 = HIGH_CHIEFTAIN
+        3 = HIGH_CHIEFTAIN
+	}
+	
+	ruler_female = {
+		1 = HIGH_CHIEFTESS
+        2 = HIGH_CHIEFTESS
+        3 = HIGH_CHIEFTESS
+	}
+	
+	trigger = {
+        OR = {
+            has_reform = wildling_clan_reform
+            has_reform = wildling_clan_legacy
+        }
+        government_rank = 3
+	}
+}
+gov_lhazar_clan = {
+	rank = {
+		1 = CLAN
+		2 = CLAN
+		3 = CLAN
+	}
+	
+	ruler_male = {
+		1 = CHIEF
+        2 = CHIEF
+        3 = CHIEF
+	}
+	
+	ruler_female = {
+		1 = CHIEFTESS
+        2 = CHIEFTESS
+        3 = CHIEFTESS
+	}
+	
+	trigger = {
+        OR = {
+            has_reform = lhazar_clan_reform
+            has_reform = lhazar_clan_legacy
+        }
+	}
+}
+gov_ibben_clan = {
+	rank = {
+		1 = SHADOW_COUNCIL
+		2 = SHADOW_COUNCIL
+		3 = SHADOW_COUNCIL
+	}
+	
+	ruler_male = {
+		1 = LORD
+        2 = LORD
+        3 = LORD
+	}
+	
+	ruler_female = {
+		1 = LADY
+        2 = LADY
+        3 = LADY
+	}
+	
+	trigger = {
+        OR = {
+            has_reform = ibben_clan_reform
+            has_reform = ibben_clan_legacy
+        }
+	}
+}
+gov_omber_clan = {
+	rank = {
+		1 = CLAN
+		2 = CLAN
+		3 = CLAN
+	}
+	
+	ruler_male = {
+		1 = CHIEF
+        2 = CHIEF
+        3 = CHIEF
+	}
+	
+	ruler_female = {
+		1 = CHIEFTESS
+        2 = CHIEFTESS
+        3 = CHIEFTESS
+	}
+	
+	trigger = {
+        OR = {
+            has_reform = omber_clan_reform
+            has_reform = omber_clan_legacy
+        }
+	}
+}
+gov_faros_clan = {
+	rank = {
+		1 = CLAN
+		2 = CLAN
+		3 = CLAN
+	}
+	
+	ruler_male = {
+		1 = CHIEF
+        2 = CHIEF
+        3 = CHIEF
+	}
+	
+	ruler_female = {
+		1 = CHIEFTESS
+        2 = CHIEFTESS
+        3 = CHIEFTESS
+	}
+	
+	trigger = {
+        OR = {
+            has_reform = faros_clan_reform
+            has_reform = faros_clan_legacy
+        }
+	}
+}
+gov_naath_clan = {
+	rank = {
+		1 = CLAN
+		2 = CLAN
+		3 = CLAN
+	}
+	
+	ruler_male = {
+		1 = CHIEF
+        2 = CHIEF
+        3 = CHIEF
+	}
+	
+	ruler_female = {
+		1 = CHIEFTESS
+        2 = CHIEFTESS
+        3 = CHIEFTESS
+	}
+	
+	trigger = {
+        OR = {
+            has_reform = naath_clan_reform
+            has_reform = naath_clan_legacy
+        }
+	}
+}
+gov_summer_islander_clan = {
+	rank = {
+		1 = CLAN
+		2 = CLAN
+		3 = CLAN
+	}
+	
+	ruler_male = {
+		1 = CHIEF
+        2 = CHIEF
+        3 = CHIEF
+	}
+	
+	ruler_female = {
+		1 = CHIEFTESS
+        2 = CHIEFTESS
+        3 = CHIEFTESS
+	}
+	
+	trigger = {
+        OR = {
+            has_reform = summer_islander_clan_reform
+            has_reform = summer_islander_clan_legacy
+        }
+	}
+}
+
+gov_khalasar = {
+	rank = {
+		1 = KHAS
+        2 = KHAS
+        3 = KHAS
+    }
+	
+	ruler_male = {
+		1 = KHAL
+        2 = KHAL
+        3 = KHAL
+	}
+	
+	ruler_female = {
+		1 = KHALEESI
+        2 = KHALEESI
+        3 = KHALEESI
+	}
+	
+	trigger = {
+        OR = {
+            has_reform = khalasar_reform
+            has_reform = khalasar_legacy
+        }
+	}
+}
+
+gov_jhattar = {
+	rank = {
+		1 = JHATTAR
+        2 = JHATTAR
+        3 = JHATTAR
+    }
+	
+	ruler_male = {
+		1 = JHAT
+        2 = JHAT
+        3 = JHAT
+	}
+	
+	ruler_female = {
+		1 = JHAT
+        2 = JHAT
+        3 = JHAT
+	}
+	
+	trigger = {
+        OR = {
+            has_reform = jhattar_reform
+            has_reform = jhattar_legacy
+        }
+	}
+}
+
+gov_warband = {
+	rank = {
+		1 = WARBAND
+        2 = WARBAND
+        3 = WARBAND
+    }
+	
+	ruler_male = {
+		1 = CHIEF
+        2 = CHIEF
+        3 = CHIEF
+	}
+	
+	ruler_female = {
+		1 = CHIEFTESS
+        2 = CHIEFTESS
+        3 = CHIEFTESS
+	}
+	
+	trigger = {
+        OR = {
+            has_reform = warband_reform
+            has_reform = warband_legacy
+        }
+	}
+}
+

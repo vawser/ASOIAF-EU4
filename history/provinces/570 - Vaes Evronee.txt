@@ -1,0 +1,16 @@
+# 570 - Vaes Evronee.txt
+is_city = yes
+owner = DES
+controller = DES
+add_core = DES
+
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
+culture = dothraki_culture
+religion = great_stallion
+
+trade_goods = grain
+hre = no
+

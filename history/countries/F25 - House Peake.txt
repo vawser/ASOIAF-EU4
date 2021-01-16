@@ -1,0 +1,146 @@
+
+government_rank = 1
+
+government = monarchy
+add_government_reform = noble_house_reform
+
+
+technology_group = westerosi
+primary_culture = men_of_the_reach
+religion = faith_of_the_seven
+historical_friend = F01
+
+capital = 278
+
+# Shattered World
+100.1.1 = {
+    monarch = {
+        name = "Alan"
+        dynasty = "Peake"
+        adm = 0
+        dip = 0
+        mil = 0
+        birth_date = 69.1.1
+    }
+}
+
+# War for the Stepstones
+106.1.1 = {
+    monarch = {
+        name = "Petyr"
+        dynasty = "Peake"
+        adm = 4
+        dip = 4
+        mil = 1
+        birth_date = 67.1.1
+    }
+}
+
+# The Dance of Dragons
+129.1.1 = {
+    monarch = {
+        name = "Aemon"
+        dynasty = "Peake"
+        adm = 4
+        dip = 3
+        mil = 3
+        birth_date = 96.1.1
+    }
+}
+
+# Conquest of Dorne
+157.1.1 = {
+    monarch = {
+        name = "Boremund"
+        dynasty = "Peake"
+        adm = 4
+        dip = 2
+        mil = 2
+        birth_date = 108.1.1
+    }
+}
+
+# Blackfyre Rebellion
+196.1.1 = {
+    monarch = {
+        name = "Raymund"
+        dynasty = "Peake"
+        adm = 5
+        dip = 5
+        mil = 3
+        birth_date = 147.1.1
+    }
+}
+
+# After Spring
+211.1.1 = {
+    monarch = {
+        name = "Ned"
+        dynasty = "Peake"
+        adm = 0
+        dip = 1
+        mil = 2
+        birth_date = 167.1.1
+    }
+}
+
+# War of the Ninepenny Kings
+260.1.1 = {
+    monarch = {
+        name = "Stannis"
+        dynasty = "Peake"
+        adm = 4
+        dip = 4
+        mil = 4
+        birth_date = 208.1.1
+    }
+}
+
+# Robert's Rebellion
+282.1.1 = {
+    monarch = {
+        name = "Simon"
+        dynasty = "Peake"
+        adm = 4
+        dip = 0
+        mil = 2
+        birth_date = 261.1.1
+    }
+}
+
+# The Greyjoy Rebellion
+289.1.1 = {
+    monarch = {
+        name = "Mallor"
+        dynasty = "Peake"
+        adm = 4
+        dip = 5
+        mil = 2
+        birth_date = 260.1.1
+    }
+}
+
+# War of the Five Kings
+298.1.1 = {
+    monarch = {
+        name = "Romny"
+        dynasty = "Peake"
+        adm = 4
+        dip = 5
+        mil = 4
+        birth_date = 251.1.1
+    }
+}
+
+# The Night King
+304.1.1 = {
+    monarch = {
+        name = "Ryk"
+        dynasty = "Peake"
+        adm = 4
+        dip = 3
+        mil = 5
+        birth_date = 262.1.1
+    }
+}
+

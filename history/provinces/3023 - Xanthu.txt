@@ -1,0 +1,16 @@
+is_city = yes
+
+owner = RUK
+controller = RUK
+add_core = RUK
+
+base_tax = 1
+base_production = 1
+base_manpower = 2
+
+culture = bloodless
+religion = cult_of_pallor
+
+trade_goods = wool
+hre = no
+

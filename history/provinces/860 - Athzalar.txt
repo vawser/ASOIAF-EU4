@@ -1,0 +1,16 @@
+# 860 - Athzalar.txt
+is_city = yes
+owner = CHO
+controller = CHO
+add_core = CHO
+
+base_tax = 4
+base_production = 4
+base_manpower = 2
+
+culture = jogos_nhai
+religion = moonsingers
+
+trade_goods = wool
+hre = no
+

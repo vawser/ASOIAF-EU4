@@ -1,0 +1,16 @@
+# 857 - Feshith.txt
+is_city = yes
+owner = NHO
+controller = NHO
+add_core = NHO
+
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
+culture = jogos_nhai
+religion = moonsingers
+
+trade_goods = grain
+hre = no
+

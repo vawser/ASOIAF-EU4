@@ -1,0 +1,22 @@
+# 593 - Ibben Hran.txt
+is_city = yes
+
+owner = THK
+controller = THK
+add_core = THK
+
+base_tax = 3
+base_production = 3
+base_manpower = 3
+
+culture = ibbenese
+religion = ib
+
+trade_goods = naval_supplies
+hre = no
+
+106.1.1 = {
+    owner = R01
+    controller = R01
+    add_core = R01
+}

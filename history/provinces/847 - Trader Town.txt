@@ -1,0 +1,20 @@
+# 847 - Trader Town.txt
+is_city = yes
+
+owner = S04
+controller = S04
+add_core = S04
+
+base_tax = 12
+base_production = 12
+base_manpower = 10
+
+culture = trader_town
+religion = lion_of_the_night
+
+trade_goods = cloth
+hre = no
+
+add_building = castle
+
+center_of_trade = 3

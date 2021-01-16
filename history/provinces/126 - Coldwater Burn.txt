@@ -1,0 +1,24 @@
+# 126 - Coldwater Burn.txt
+is_city = yes
+
+owner = H18
+controller = H18
+add_core = H18
+
+base_tax = 3
+base_production = 3
+base_manpower = 1
+
+culture = men_of_the_vale
+religion = faith_of_the_seven
+
+trade_goods = grain
+hre = no
+
+center_of_trade = 1
+
+106.1.1 = {
+    owner = VLE
+    controller = VLE
+    add_core = VLE
+}

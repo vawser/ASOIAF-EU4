@@ -1,0 +1,144 @@
+
+government_rank = 2
+government = monarchy
+add_government_reform = hyrkoon_city_reform
+
+
+technology_group = hyrkooni
+primary_culture = samyriana
+religion = gods_of_hyrkoon
+
+capital = 678
+
+# Shattered World
+100.1.1 = {
+    monarch = {
+        name = "Jart"
+        dynasty = "Bishara"
+        adm = 4
+        dip = 2
+        mil = 3
+        birth_date = 63.1.1
+    }
+}
+
+# War for the Stepstones
+106.1.1 = {
+    monarch = {
+        name = "Shalim"
+        dynasty = "Bishara"
+        adm = 4
+        dip = 4
+        mil = 6
+        birth_date = 74.1.1
+    }
+}
+
+# The Dance of Dragons
+129.1.1 = {
+    monarch = {
+        name = "Brenuin"
+        dynasty = "Bishara"
+        adm = 4
+        dip = 1
+        mil = 5
+        birth_date = 78.1.1
+    }
+}
+
+# Conquest of Dorne
+157.1.1 = {
+    monarch = {
+        name = "Erno"
+        dynasty = "Bishara"
+        adm = 4
+        dip = 0
+        mil = 4
+        birth_date = 103.1.1
+    }
+}
+
+# Blackfyre Rebellion
+196.1.1 = {
+    monarch = {
+        name = "Kalbuur"
+        dynasty = "Bishara"
+        adm = 6
+        dip = 1
+        mil = 5
+        birth_date = 137.1.1
+    }
+}
+
+# After Spring
+211.1.1 = {
+    monarch = {
+        name = "Dozheem"
+        dynasty = "Bishara"
+        adm = 0
+        dip = 3
+        mil = 5
+        birth_date = 173.1.1
+    }
+}
+
+# War of the Ninepenny Kings
+260.1.1 = {
+    monarch = {
+        name = "Thadret"
+        dynasty = "Bishara"
+        adm = 2
+        dip = 3
+        mil = 5
+        birth_date = 204.1.1
+    }
+}
+
+# Robert's Rebellion
+282.1.1 = {
+    monarch = {
+        name = "Zartosht"
+        dynasty = "Bishara"
+        adm = 5
+        dip = 2
+        mil = 0
+        birth_date = 254.1.1
+    }
+}
+
+# The Greyjoy Rebellion
+289.1.1 = {
+    monarch = {
+        name = "Andrin"
+        dynasty = "Bishara"
+        adm = 6
+        dip = 0
+        mil = 5
+        birth_date = 259.1.1
+    }
+}
+
+# War of the Five Kings
+298.1.1 = {
+    monarch = {
+        name = "Fahruz"
+        dynasty = "Bishara"
+        adm = 3
+        dip = 2
+        mil = 2
+        birth_date = 267.1.1
+    }
+}
+
+# The Night King
+304.1.1 = {
+    monarch = {
+        name = "Qasr"
+        dynasty = "Bishara"
+        adm = 0
+        dip = 6
+        mil = 6
+        birth_date = 258.1.1
+    }
+}
+

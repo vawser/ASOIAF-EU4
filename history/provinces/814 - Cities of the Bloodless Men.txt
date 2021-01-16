@@ -1,0 +1,18 @@
+is_city = yes
+
+owner = PAL
+controller = PAL
+add_core = PAL
+
+base_tax = 8
+base_production = 8
+base_manpower = 7
+
+culture = bloodless
+religion = cult_of_pallor
+
+trade_goods = gold
+hre = no
+
+add_building = castle
+center_of_trade = 1

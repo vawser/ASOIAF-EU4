@@ -1,0 +1,144 @@
+
+government_rank = 1
+government = tribal
+add_government_reform = khalasar_reform
+
+
+technology_group = dothraki
+primary_culture = dothraki_culture
+religion = great_stallion
+
+capital = 707
+
+# Shattered World
+100.1.1 = {
+    monarch = {
+        name = "Azzhoter"
+        dynasty = "of Zekko"
+        adm = 5
+        dip = 4
+        mil = 1
+        birth_date = 65.1.1
+    }
+}
+
+# War for the Stepstones
+106.1.1 = {
+    monarch = {
+        name = "Vochakqrak"
+        dynasty = "of Zekko"
+        adm = 0
+        dip = 2
+        mil = 3
+        birth_date = 57.1.1
+    }
+}
+
+# The Dance of Dragons
+129.1.1 = {
+    monarch = {
+        name = "Taekha"
+        dynasty = "of Zekko"
+        adm = 5
+        dip = 2
+        mil = 5
+        birth_date = 84.1.1
+    }
+}
+
+# Conquest of Dorne
+157.1.1 = {
+    monarch = {
+        name = "Chakkra"
+        dynasty = "of Zekko"
+        adm = 2
+        dip = 3
+        mil = 1
+        birth_date = 108.1.1
+    }
+}
+
+# Blackfyre Rebellion
+196.1.1 = {
+    monarch = {
+        name = "Qajok"
+        dynasty = "of Zekko"
+        adm = 5
+        dip = 3
+        mil = 4
+        birth_date = 164.1.1
+    }
+}
+
+# After Spring
+211.1.1 = {
+    monarch = {
+        name = "Gizhoho"
+        dynasty = "of Zekko"
+        adm = 4
+        dip = 4
+        mil = 5
+        birth_date = 178.1.1
+    }
+}
+
+# War of the Ninepenny Kings
+260.1.1 = {
+    monarch = {
+        name = "Okho"
+        dynasty = "of Zekko"
+        adm = 4
+        dip = 3
+        mil = 0
+        birth_date = 241.1.1
+    }
+}
+
+# Robert's Rebellion
+282.1.1 = {
+    monarch = {
+        name = "Bhakkoko"
+        dynasty = "of Zekko"
+        adm = 2
+        dip = 0
+        mil = 0
+        birth_date = 257.1.1
+    }
+}
+
+# The Greyjoy Rebellion
+289.1.1 = {
+    monarch = {
+        name = "Zhowaksho"
+        dynasty = "of Zekko"
+        adm = 0
+        dip = 0
+        mil = 2
+        birth_date = 268.1.1
+    }
+}
+
+# War of the Five Kings
+298.1.1 = {
+    monarch = {
+        name = "Krarohae"
+        dynasty = "of Zekko"
+        adm = 3
+        dip = 5
+        mil = 5
+        birth_date = 267.1.1
+    }
+}
+
+# The Night King
+304.1.1 = {
+    monarch = {
+        name = "Afroafrobha"
+        dynasty = "of Zekko"
+        adm = 1
+        dip = 3
+        mil = 3
+        birth_date = 263.1.1
+    }
+}
+

@@ -1,0 +1,332 @@
+# Province Triggered modifiers are here.
+# These are added to provinces through the add_province_triggered_modifier effect
+religious_center = {
+	potential = { }
+    
+	trigger = {
+		if = {
+			limit = {
+				province_id = 226 # Great Sept of Baelor
+			}
+			religion = faith_of_the_seven
+		}
+		else_if = {
+			limit = {
+				province_id = 418 # Temple of the Lord of Light
+			}
+			religion = rhllor
+		}
+		else_if = {
+			limit = {
+				province_id = 709 # Vaes Dothrak
+			}
+			religion = great_stallion
+		}
+		else_if = {
+			limit = {
+				province_id = 476 # Temple of the Black Goat
+			}
+			religion = black_goat
+		}
+		else_if = {
+			limit = {
+				province_id = 433 # Temple of the Bearded Priests
+			}
+			religion = bearded_priests
+		}
+		else_if = {
+			limit = {
+				OR = {
+                    # Temple of the Graces
+                    province_id = 606
+                    province_id = 610
+                    province_id = 613
+                    province_id = 625
+                }
+			}
+			religion = ghiscari_pantheon
+		}
+		else_if = {
+			limit = {
+                OR = {
+                    # Butterfly Spirits
+                    province_id = 626
+                    province_id = 1300
+                    province_id = 1301
+                }
+			}
+			religion = lord_of_harmony
+		}
+		else_if = {
+			limit = {
+				province_id = 1150 # House of the Undying
+			}
+			religion = cult_of_shadows
+		}
+		else_if = {
+			limit = {
+				province_id = 765 # Grand Temple of the Night
+			}
+			religion = lion_of_the_night
+		}
+		else_if = {
+			limit = {
+				province_id = 586 # Seat of Ib
+			}
+			religion = ib
+		}
+        else_if = {
+			limit = {
+				province_id = 496 # Temple of the Summer Gods
+			}
+			religion = summer_gods
+		}
+        else_if = {
+			limit = {
+				province_id = 367 # Temple of Trios
+			}
+			religion = trios
+		}
+        else_if = {
+			limit = {
+				province_id = 719 # Temple of the Stone Cow
+			}
+			religion = stone_cow
+		}
+        else_if = {
+			limit = {
+				province_id = 795 # Library of the Occult
+			}
+			religion = cult_of_shadows
+		}
+	}
+
+	local_missionary_strength = -0.05
+}
+
+#--------------------------------
+# Great Sept of Baelor
+#--------------------------------
+great_sept_of_baelor = {
+	potential = { 
+        is_year = 160 # Approximately when Baelor would have ordered it built
+    }
+	trigger = {
+		owner = {
+			religion = faith_of_the_seven
+		}
+	}
+	
+	prestige = 0.5
+	missionaries = 1
+	tolerance_own = 1
+}
+
+#--------------------------------
+# Temple of the Lord of Light
+#--------------------------------
+temple_of_the_lord_of_light = {
+	potential = { }
+	trigger = {
+		owner = {
+			religion = rhllor
+		}
+	}
+	
+	prestige = 0.5
+	missionaries = 1
+	tolerance_own = 1
+}
+
+#--------------------------------
+# Vaes Dothrak
+#--------------------------------
+vaes_dothrak = {
+	potential = { }
+	trigger = {
+		owner = {
+			religion = great_stallion
+		}
+	}
+	
+	prestige = 0.5
+	missionaries = 1
+	tolerance_own = 1
+}
+
+#--------------------------------
+# Temple of the Black Goat
+#--------------------------------
+temple_of_the_black_goat = {
+	potential = { }
+	trigger = {
+		owner = {
+			religion = black_goat
+		}
+	}
+	
+	prestige = 0.5
+	missionaries = 1
+	tolerance_own = 1
+}
+
+#--------------------------------
+# Temple of the Bearded Priests
+#--------------------------------
+temple_of_the_bearded_priests = {
+	potential = { }
+	trigger = {
+		owner = {
+			religion = bearded_priests
+		}
+	}
+	
+	prestige = 0.5
+	missionaries = 1
+	tolerance_own = 1
+}
+
+#--------------------------------
+# Temple of the Graces
+#--------------------------------
+temple_of_the_graces = {
+	potential = { }
+	trigger = {
+		owner = {
+			religion = ghiscari_pantheon
+		}
+	}
+	
+	prestige = 0.5
+	missionaries = 1
+	tolerance_own = 1
+}
+
+#--------------------------------
+# Butterfly Spirits
+#--------------------------------
+butterfly_spirits = {
+	potential = { }
+	trigger = {
+		owner = {
+			religion = lord_of_harmony
+		}
+	}
+	
+	prestige = 0.5
+	missionaries = 1
+	tolerance_own = 1
+}
+
+#--------------------------------
+# House of the Undying
+#--------------------------------
+house_of_the_undying = {
+	potential = { }
+	trigger = {
+		owner = {
+			religion = cult_of_shadows
+		}
+	}
+	
+	prestige = 0.5
+	missionaries = 1
+	tolerance_own = 1
+}
+
+#--------------------------------
+# Grand Temple of the Night
+#--------------------------------
+grand_temple_of_the_night = {
+	potential = { }
+	trigger = {
+		owner = {
+			religion = lion_of_the_night
+		}
+	}
+	
+	prestige = 0.5
+	missionaries = 1
+	tolerance_own = 1
+}
+
+#--------------------------------
+# Seat of Ib
+#--------------------------------
+seat_of_ib = {
+	potential = { }
+	trigger = {
+		owner = {
+			religion = ib
+		}
+	}
+	
+	prestige = 0.5
+	missionaries = 1
+	tolerance_own = 1
+}
+
+#--------------------------------
+# Temple of the Summer Gods
+#--------------------------------
+temple_of_the_summer_gods = {
+	potential = { }
+	trigger = {
+		owner = {
+			religion = summer_gods
+		}
+	}
+	
+	prestige = 0.5
+	missionaries = 1
+	tolerance_own = 1
+}
+
+#--------------------------------
+# Temple of Trios
+#--------------------------------
+temple_of_trios = {
+	potential = { }
+	trigger = {
+		owner = {
+			religion = trios
+		}
+	}
+	
+	prestige = 0.5
+	missionaries = 1
+	tolerance_own = 1
+}
+
+#--------------------------------
+# Temple of the Stone Cow
+#--------------------------------
+temple_of_the_stone_cow = {
+	potential = { }
+	trigger = {
+		owner = {
+			religion = stone_cow
+		}
+	}
+	
+	prestige = 0.5
+	missionaries = 1
+	tolerance_own = 1
+}
+
+#--------------------------------
+# Library of the Occult
+#--------------------------------
+library_of_the_occult = {
+	potential = { }
+	trigger = {
+		owner = {
+			religion = cult_of_shadows
+		}
+	}
+	
+	technology_cost = -0.1
+	missionaries = 1
+	tolerance_own = 1
+}
+

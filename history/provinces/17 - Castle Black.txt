@@ -1,0 +1,25 @@
+# 17 - Castle Black.txt
+is_city = yes
+
+owner = CBK
+controller = CBK
+add_core = CBK
+
+base_tax = 4
+base_production = 4
+base_manpower = 5
+
+culture = men_of_the_north
+religion = old_gods
+
+trade_goods = grain
+hre = no
+
+add_building = castle
+
+106.1.1 = {
+    owner = A02
+    controller = A02
+    add_core = A02
+}
+

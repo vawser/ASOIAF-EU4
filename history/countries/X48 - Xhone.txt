@@ -1,0 +1,144 @@
+
+government_rank = 1
+government = tribal
+add_government_reform = summer_islander_clan_reform
+
+
+technology_group = summer_islanders
+primary_culture = gowonu
+religion = summer_gods
+
+capital = 534
+
+# Shattered World
+100.1.1 = {
+    monarch = {
+        name = "Getachew"
+        dynasty = "Xhone"
+        adm = 1
+        dip = 0
+        mil = 4
+        birth_date = 62.1.1
+    }
+}
+
+# War for the Stepstones
+106.1.1 = {
+    monarch = {
+        name = "Iskinder"
+        dynasty = "Xhone"
+        adm = 6
+        dip = 0
+        mil = 4
+        birth_date = 63.1.1
+    }
+}
+
+# The Dance of Dragons
+129.1.1 = {
+    monarch = {
+        name = "Aman"
+        dynasty = "Xhone"
+        adm = 0
+        dip = 3
+        mil = 6
+        birth_date = 75.1.1
+    }
+}
+
+# Conquest of Dorne
+157.1.1 = {
+    monarch = {
+        name = "Aman"
+        dynasty = "Xhone"
+        adm = 0
+        dip = 5
+        mil = 6
+        birth_date = 99.1.1
+    }
+}
+
+# Blackfyre Rebellion
+196.1.1 = {
+    monarch = {
+        name = "Ogbai"
+        dynasty = "Xhone"
+        adm = 6
+        dip = 2
+        mil = 5
+        birth_date = 140.1.1
+    }
+}
+
+# After Spring
+211.1.1 = {
+    monarch = {
+        name = "Gabra"
+        dynasty = "Xhone"
+        adm = 0
+        dip = 4
+        mil = 4
+        birth_date = 170.1.1
+    }
+}
+
+# War of the Ninepenny Kings
+260.1.1 = {
+    monarch = {
+        name = "Tefere"
+        dynasty = "Xhone"
+        adm = 5
+        dip = 5
+        mil = 1
+        birth_date = 232.1.1
+    }
+}
+
+# Robert's Rebellion
+282.1.1 = {
+    monarch = {
+        name = "Tesfaye"
+        dynasty = "Xhone"
+        adm = 1
+        dip = 0
+        mil = 1
+        birth_date = 231.1.1
+    }
+}
+
+# The Greyjoy Rebellion
+289.1.1 = {
+    monarch = {
+        name = "Assefa"
+        dynasty = "Xhone"
+        adm = 1
+        dip = 5
+        mil = 6
+        birth_date = 254.1.1
+    }
+}
+
+# War of the Five Kings
+298.1.1 = {
+    monarch = {
+        name = "Lema"
+        dynasty = "Xhone"
+        adm = 6
+        dip = 6
+        mil = 2
+        birth_date = 273.1.1
+    }
+}
+
+# The Night King
+304.1.1 = {
+    monarch = {
+        name = "Iskinder"
+        dynasty = "Xhone"
+        adm = 1
+        dip = 2
+        mil = 3
+        birth_date = 252.1.1
+    }
+}
+

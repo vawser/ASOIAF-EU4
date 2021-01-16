@@ -1,0 +1,144 @@
+
+government_rank = 2
+government = monarchy
+add_government_reform = ghis_city_reform
+set_estate_privilege = estate_nobles_unsullied
+
+technology_group = ghiscari
+primary_culture = ghis
+religion = ghiscari_pantheon
+
+capital = 625
+
+# Shattered World
+100.1.1 = {
+    monarch = {
+        name = "Bahadur"
+        dynasty = "Grazdan"
+        adm = 2
+        dip = 3
+        mil = 0
+        birth_date = 75.1.1
+    }
+}
+
+# War for the Stepstones
+106.1.1 = {
+    monarch = {
+        name = "Qavus"
+        dynasty = "Grazdan"
+        adm = 2
+        dip = 2
+        mil = 2
+        birth_date = 74.1.1
+    }
+}
+
+# The Dance of Dragons
+129.1.1 = {
+    monarch = {
+        name = "Jathlanie"
+        dynasty = "Grazdan"
+        adm = 4
+        dip = 4
+        mil = 0
+        birth_date = 83.1.1
+    }
+}
+
+# Conquest of Dorne
+157.1.1 = {
+    monarch = {
+        name = "Khemshur"
+        dynasty = "Grazdan"
+        adm = 3
+        dip = 5
+        mil = 5
+        birth_date = 100.1.1
+    }
+}
+
+# Blackfyre Rebellion
+196.1.1 = {
+    monarch = {
+        name = "Isran"
+        dynasty = "Grazdan"
+        adm = 4
+        dip = 0
+        mil = 0
+        birth_date = 168.1.1
+    }
+}
+
+# After Spring
+211.1.1 = {
+    monarch = {
+        name = "Zuladr"
+        dynasty = "Grazdan"
+        adm = 1
+        dip = 1
+        mil = 2
+        birth_date = 163.1.1
+    }
+}
+
+# War of the Ninepenny Kings
+260.1.1 = {
+    monarch = {
+        name = "Youss"
+        dynasty = "Grazdan"
+        adm = 0
+        dip = 1
+        mil = 2
+        birth_date = 201.1.1
+    }
+}
+
+# Robert's Rebellion
+282.1.1 = {
+    monarch = {
+        name = "Abal"
+        dynasty = "Grazdan"
+        adm = 2
+        dip = 2
+        mil = 2
+        birth_date = 248.1.1
+    }
+}
+
+# The Greyjoy Rebellion
+289.1.1 = {
+    monarch = {
+        name = "Kavdarubel"
+        dynasty = "Grazdan"
+        adm = 0
+        dip = 5
+        mil = 4
+        birth_date = 241.1.1
+    }
+}
+
+# War of the Five Kings
+298.1.1 = {
+    monarch = {
+        name = "Fertab"
+        dynasty = "Grazdan"
+        adm = 2
+        dip = 2
+        mil = 0
+        birth_date = 269.1.1
+    }
+}
+
+# The Night King
+304.1.1 = {
+    monarch = {
+        name = "Zamnell"
+        dynasty = "Grazdan"
+        adm = 1
+        dip = 5
+        mil = 4
+        birth_date = 282.1.1
+    }
+}
+

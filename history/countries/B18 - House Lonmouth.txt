@@ -1,0 +1,145 @@
+
+government_rank = 1
+
+government = monarchy
+add_government_reform = noble_house_reform
+
+
+technology_group = westerosi
+primary_culture = men_of_the_stormlands
+religion = faith_of_the_seven
+
+capital = 315
+
+# Shattered World
+100.1.1 = {
+    monarch = {
+        name = "Galbert"
+        dynasty = "Lonmouth"
+        adm = 0
+        dip = 3
+        mil = 1
+        birth_date = 59.1.1
+    }
+}
+
+# War for the Stepstones
+106.1.1 = {
+    monarch = {
+        name = "Rickon"
+        dynasty = "Lonmouth"
+        adm = 4
+        dip = 3
+        mil = 3
+        birth_date = 64.1.1
+    }
+}
+
+# The Dance of Dragons
+129.1.1 = {
+    monarch = {
+        name = "Luke"
+        dynasty = "Lonmouth"
+        adm = 2
+        dip = 4
+        mil = 4
+        birth_date = 101.1.1
+    }
+}
+
+# Conquest of Dorne
+157.1.1 = {
+    monarch = {
+        name = "Hoster"
+        dynasty = "Lonmouth"
+        adm = 0
+        dip = 0
+        mil = 5
+        birth_date = 99.1.1
+    }
+}
+
+# Blackfyre Rebellion
+196.1.1 = {
+    monarch = {
+        name = "Moredo"
+        dynasty = "Lonmouth"
+        adm = 3
+        dip = 5
+        mil = 5
+        birth_date = 141.1.1
+    }
+}
+
+# After Spring
+211.1.1 = {
+    monarch = {
+        name = "Hop-Robin"
+        dynasty = "Lonmouth"
+        adm = 2
+        dip = 4
+        mil = 5
+        birth_date = 187.1.1
+    }
+}
+
+# War of the Ninepenny Kings
+260.1.1 = {
+    monarch = {
+        name = "Orbelo"
+        dynasty = "Lonmouth"
+        adm = 3
+        dip = 1
+        mil = 3
+        birth_date = 207.1.1
+    }
+}
+
+# Robert's Rebellion
+282.1.1 = {
+    monarch = {
+        name = "Harodon"
+        dynasty = "Lonmouth"
+        adm = 3
+        dip = 3
+        mil = 5
+        birth_date = 238.1.1
+    }
+}
+
+# The Greyjoy Rebellion
+289.1.1 = {
+    monarch = {
+        name = "Quill"
+        dynasty = "Lonmouth"
+        adm = 5
+        dip = 5
+        mil = 1
+        birth_date = 257.1.1
+    }
+}
+
+# War of the Five Kings
+298.1.1 = {
+    monarch = {
+        name = "Rennifer"
+        dynasty = "Lonmouth"
+        adm = 4
+        dip = 3
+        mil = 4
+        birth_date = 262.1.1
+    }
+}
+
+# The Night King
+304.1.1 = {
+    monarch = {
+        name = "Joseth"
+        dynasty = "Lonmouth"
+        adm = 1
+        dip = 3
+        mil = 4
+        birth_date = 283.1.1
+    }
+}
+

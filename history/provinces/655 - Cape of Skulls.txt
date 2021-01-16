@@ -1,0 +1,16 @@
+# 655 - Cape of Skulls.txt
+is_city = yes
+owner = ARR
+controller = ARR
+add_core = ARR
+
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
+culture = qartheen
+religion = cult_of_shadows
+
+trade_goods = spices
+hre = no
+

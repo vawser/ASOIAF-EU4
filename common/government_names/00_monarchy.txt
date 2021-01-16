@@ -1,0 +1,389 @@
+﻿gov_noble_house = {
+	rank = {
+		1 = NOBLE_HOUSE
+        2 = NOBLE_HOUSE
+        3 = NOBLE_HOUSE
+	}
+	
+	ruler_male = {
+		1 = LORD
+        2 = LORD
+        3 = LORD
+	}
+	
+	ruler_female = {
+		1 = LADY
+        2 = LADY
+        3 = LADY
+	}
+	
+	trigger = {
+        OR = {
+            has_reform = noble_house_reform
+            has_reform = noble_house_legacy
+        }
+	}
+}
+
+gov_noble_house_dornish = {
+	rank = {
+		1 = NOBLE_HOUSE
+        2 = NOBLE_HOUSE
+        3 = NOBLE_HOUSE
+	}
+	
+	ruler_male = {
+		1 = PRINCE
+		2 = PRINCE
+		3 = PRINCE
+	}
+	
+	ruler_female = {
+		1 = PRINCESS
+		2 = PRINCESS
+		3 = PRINCESS
+	}
+	
+	trigger = {
+        OR = {
+            has_reform = noble_house_reform
+            has_reform = noble_house_legacy
+        }
+        OR = {
+			primary_culture = salt_dornish
+			primary_culture = sand_dornish
+			primary_culture = stone_dornish
+		}
+	}
+}
+
+gov_royal_house = {
+	rank = {
+		1 = ROYAL_HOUSE
+        2 = ROYAL_HOUSE
+        3 = ROYAL_HOUSE
+	}
+	
+	ruler_male = {
+		1 = KING
+        2 = KING
+        3 = KING
+	}
+	
+	ruler_female = {
+		1 = QUEEN
+        2 = QUEEN
+        3 = QUEEN
+	}
+	
+	trigger = {
+        OR = {
+            has_reform = royal_house_reform
+            has_reform = royal_house_legacy
+        }
+	}
+}
+
+gov_qarth_city = {
+	rank = {
+		1 = QARTH
+        2 = QARTH
+        3 = QARTH
+	}
+	
+	ruler_male = {
+		1 = PUREBORN
+        2 = PUREBORN
+        3 = PUREBORN
+	}
+	
+	ruler_female = {
+		1 = PUREBORN
+        2 = PUREBORN
+        3 = PUREBORN
+	}
+	
+	trigger = {
+        OR = {
+            has_reform = qarth_city_reform
+            has_reform = qarth_city_legacy
+        }
+	}
+}
+
+gov_yiti_city = {
+	rank = {
+		1 = YITI_CITY
+        2 = YITI_CITY
+        3 = YITI_CITY
+	}
+	
+	ruler_male = {
+		1 = PRINCE
+		2 = PRINCE
+		3 = PRINCE
+	}
+	
+	ruler_female = {
+		1 = PRINCESS
+		2 = PRINCESS
+		3 = PRINCESS
+	}
+	
+	trigger = {
+        OR = {
+            has_reform = yiti_city_reform
+            has_reform = yiti_city_legacy
+        }
+	}
+}
+
+gov_yiti_empire = {
+	rank = {
+		1 = YITI_EMPIRE
+        2 = YITI_EMPIRE
+        3 = YITI_EMPIRE
+	}
+	
+	ruler_male = {
+		1 = EMPEROR
+		2 = EMPEROR
+		3 = EMPEROR
+	}
+	
+	ruler_female = {
+		1 = EMPRESS
+		2 = EMPRESS
+		3 = EMPRESS
+	}
+	
+	trigger = {
+        OR = {
+            has_reform = yiti_empire_reform
+            has_reform = yiti_empire_legacy
+        }
+        OR = {
+            is_emperor_of_china = yes
+            AND = {
+                NOT = { has_dlc = "Mandate of Heaven" }
+                government_rank = 3
+            }
+        }
+	}
+}
+
+gov_valyria_city = {
+	rank = {
+		1 = VALYRIAN_CITY
+        2 = VALYRIAN_CITY
+        3 = VALYRIAN_CITY
+	}
+	
+	ruler_male = {
+		1 = LORD
+        2 = LORD
+        3 = LORD
+	}
+	
+	ruler_female = {
+		1 = LADY
+        2 = LADY
+        3 = LADY
+	}
+	
+	trigger = {
+        OR = {
+            has_reform = valyria_city_reform
+            has_reform = valyria_city_legacy
+        }
+	}
+}
+
+gov_meereen_city = {
+	rank = {
+		1 = MEEREEN_CITY
+        2 = MEEREEN_CITY
+        3 = MEEREEN_CITY
+	}
+	
+	ruler_male = {
+		1 = GREAT_MASTER
+		2 = GREAT_MASTER
+		3 = GREAT_MASTER
+	}
+	
+	ruler_female = {
+		1 = GREAT_MISTRESS
+		2 = GREAT_MISTRESS
+		3 = GREAT_MISTRESS
+	}
+	
+	trigger = {
+		OR = {
+            has_reform = meereen_city_reform
+            has_reform = meereen_city_legacy
+        }
+	}
+}
+
+gov_yunkai_city = {
+	rank = {
+		1 = YUNKAI_CITY
+        2 = YUNKAI_CITY
+        3 = YUNKAI_CITY
+	}
+	
+	ruler_male = {
+		1 = WISE_MASTER
+		2 = WISE_MASTER
+		3 = WISE_MASTER
+	}
+	
+	ruler_female = {
+		1 = WISE_MISTRESS
+		2 = WISE_MISTRESS
+		3 = WISE_MISTRESS
+	}
+	
+	trigger = {
+        OR = {
+            has_reform = yunkai_city_reform
+            has_reform = yunkai_city_legacy
+        }
+    }
+}
+
+gov_astapor_city = {
+    rank = {
+		1 = ASTAPOR_CITY
+        2 = ASTAPOR_CITY
+        3 = ASTAPOR_CITY
+	}
+    
+	ruler_male = {
+		1 = GOOD_MASTER
+		2 = GOOD_MASTER
+		3 = GOOD_MASTER
+	}
+	
+	ruler_female = {
+		1 = GOOD_MISTRESS
+		2 = GOOD_MISTRESS
+		3 = GOOD_MISTRESS
+	}
+	
+	trigger = {
+		OR = {
+            has_reform = astapor_city_reform
+            has_reform = astapor_city_legacy
+        }
+	}
+}
+
+gov_ghis_city = {
+	rank = {
+		1 = GHIS_CITY
+        2 = GHIS_CITY
+        3 = GHIS_CITY
+	}
+	
+	ruler_male = {
+		1 = LORD
+        2 = LORD
+        3 = LORD
+	}
+	
+	ruler_female = {
+		1 = LADY
+        2 = LADY
+        3 = LADY
+	}
+	
+	trigger = {
+        OR = {
+            has_reform = ghis_city_reform
+            has_reform = ghis_city_legacy
+        }
+	}
+}
+
+gov_hyrkoon_clan = {
+	rank = {
+		1 = HYRKOON_CITY
+		2 = HYRKOON_CITY
+		3 = HYRKOON_CITY
+	}
+	
+	ruler_male = {
+		1 = LORD
+        2 = LORD
+        3 = LORD
+	}
+	
+	ruler_female = {
+		1 = LADY
+        2 = LADY
+        3 = LADY
+	}
+	
+	trigger = {
+        OR = {
+            has_reform = hyrkoon_city_reform
+            has_reform = hyrkoon_city_legacy
+        }
+	}
+}
+
+gov_nefer_clan = {
+	rank = {
+		1 = NEFER_CITY
+		2 = NEFER_CITY
+		3 = NEFER_CITY
+	}
+	
+	ruler_male = {
+		1 = LORD
+        2 = LORD
+        3 = LORD
+	}
+	
+	ruler_female = {
+		1 = LADY
+        2 = LADY
+        3 = LADY
+	}
+	
+	trigger = {
+        OR = {
+            has_reform = nefer_city_reform
+            has_reform = nefer_city_legacy
+        }
+	}
+}
+
+gov_daenerys_host = {
+	rank = {
+		1 = DAENERYS_HOST
+        2 = DAENERYS_HOST
+        3 = DAENERYS_HOST
+	}
+	
+	ruler_male = {
+		1 = KING
+        2 = KING
+        3 = KING
+	}
+	
+	ruler_female = {
+		1 = QUEEN
+        2 = QUEEN
+        3 = QUEEN
+	}
+	
+	trigger = {
+        OR = {
+            has_reform = daenerys_host_reform
+            has_reform = daenerys_host_legacy
+        }
+	}
+}

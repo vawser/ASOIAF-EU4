@@ -1,0 +1,26 @@
+# 777 - Linqi.txt
+is_city = yes
+
+owner = R81
+controller = R81
+add_core = R81
+
+base_tax = 6
+base_production = 6
+base_manpower = 5
+
+culture = jungle_yitish
+religion = lion_of_the_night
+
+trade_goods = cloth
+hre = no
+
+add_building = castle
+
+center_of_trade = 1
+
+106.1.1 = {
+    owner = R68
+    controller = R68
+    add_core = R68
+}

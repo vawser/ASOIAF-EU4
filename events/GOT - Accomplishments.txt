@@ -1,0 +1,548 @@
+namespace = GOT_ACCOMPLISHMENTS
+
+#######################################################
+# Design:
+#	To encourage the player to commit actions in certain areas, benefiting the relating technology.
+#	i.e. Fighting wars increases MIL power gain
+#######################################################
+
+# On Actions
+# History is written by the victors! - MIL
+# War won
+country_event = {
+	id = GOT_ACCOMPLISHMENTS.1
+	title = "GOT_ACCOMPLISHMENTS.1.title"
+	desc = "GOT_ACCOMPLISHMENTS.1.desc"
+	picture = BATTLE_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = "GOT_ACCOMPLISHMENTS.1.option.a"
+
+		add_mil_power = 50
+	}
+}
+
+# Excellent Performance - MIL
+# Battle won
+country_event = {
+	id = GOT_ACCOMPLISHMENTS.2
+	title = "GOT_ACCOMPLISHMENTS.2.title"
+	desc = "GOT_ACCOMPLISHMENTS.2.desc"
+	picture = BATTLE_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		FROM = { NOT = { tag = REB } }
+	}
+	
+	option = {
+		name = "GOT_ACCOMPLISHMENTS.2.option.a"
+		
+		add_mil_power = 50
+	}
+}
+
+# Strategic Excellence - MIL
+# Siege won
+country_event = {
+	id = GOT_ACCOMPLISHMENTS.3
+	title = "GOT_ACCOMPLISHMENTS.3.title"
+	desc = "GOT_ACCOMPLISHMENTS.3.desc"
+	picture = SIEGE_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		FROM = { NOT = { tag = REB } }
+	}
+	
+	option = {
+		name = "GOT_ACCOMPLISHMENTS.3.option.a"
+        
+		add_mil_power = 50
+	}
+}
+
+# Explorer's Intution - DIP
+# Explore land
+country_event = {
+	id = GOT_ACCOMPLISHMENTS.4
+	title = "GOT_ACCOMPLISHMENTS.4.title"
+	desc = "GOT_ACCOMPLISHMENTS.4.desc"
+	picture = COASTLINE_MAP_eventPicture
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "GOT_ACCOMPLISHMENTS.4.option.a"
+		
+		add_dip_power = 50
+	}
+}
+
+# Coastal Surveying - DIP
+# Explore coast
+country_event = {
+	id = GOT_ACCOMPLISHMENTS.5
+	title = "GOT_ACCOMPLISHMENTS.5.title"
+	desc = "GOT_ACCOMPLISHMENTS.5.desc"
+	picture = COASTLINE_MAP_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = "GOT_ACCOMPLISHMENTS.5.option.a"
+
+		add_dip_power = 50
+	}
+}
+
+# Triggers
+
+# Grand Army - MIL
+# High army size
+country_event = {
+	id = GOT_ACCOMPLISHMENTS.6
+	title = "GOT_ACCOMPLISHMENTS.6.title"
+	desc = "GOT_ACCOMPLISHMENTS.6.desc"
+	picture = MILITARY_CAMP_eventPicture
+
+	is_triggered_only = yes
+	
+	trigger = {
+		army_size_percentage = 0.9
+	}
+	
+	option = {
+		name = "GOT_ACCOMPLISHMENTS.6.option.a"
+		
+		add_mil_power = 50
+	}
+}
+
+# Colonial Vigor - DIP
+# 2+ colonies, scaling
+country_event = {
+	id = GOT_ACCOMPLISHMENTS.7
+	title = "GOT_ACCOMPLISHMENTS.7.title"
+	desc = "GOT_ACCOMPLISHMENTS.7.desc"
+	picture = COLONIZATION_eventPicture
+
+	is_triggered_only = yes
+	
+	trigger = {
+		num_of_colonies = 2
+	}
+
+	option = {
+		name = "GOT_ACCOMPLISHMENTS.7.option.a"
+		
+		if = {
+			limit = { 
+				num_of_colonies = 2
+				NOT = { num_of_colonies = 3 } 
+			}
+			add_dip_power = 50
+		}
+		
+		if = {
+			limit = { 
+				num_of_colonies = 3
+				NOT = { num_of_colonies = 4 } 
+			}
+			add_dip_power = 75
+		}
+		
+		if = {
+			limit = { 
+				num_of_colonies = 4
+			}
+			add_dip_power = 100
+		}
+	}
+}
+
+# Treasures of Exploration - DIP
+# High tariffs, scaling
+country_event = {
+	id = GOT_ACCOMPLISHMENTS.8
+	title = "GOT_ACCOMPLISHMENTS.8.title"
+	desc = "GOT_ACCOMPLISHMENTS.8.desc"
+	picture = COLONIZATION_eventPicture
+
+	is_triggered_only = yes
+	
+	trigger = {
+		tariff_value = 0.5
+	}
+
+	option = {
+		name = "GOT_ACCOMPLISHMENTS.8.option.a"
+		
+		if = {
+			limit = { 
+				tariff_value = 0.5
+				NOT = { tariff_value = 0.65 } 
+			}
+			add_dip_power = 50
+		}
+		
+		if = {
+			limit = { 
+				tariff_value = 0.65
+				NOT = { tariff_value = 0.75 } 
+			}
+			add_dip_power = 75
+		}
+		
+		if = {
+			limit = { 
+				tariff_value = 0.75
+			}
+			add_dip_power = 100
+		}
+	}
+}
+
+# Peaceful Realm - ADM
+# Low average autonomy
+country_event = {
+	id = GOT_ACCOMPLISHMENTS.9
+	title = "GOT_ACCOMPLISHMENTS.9.title"
+	desc = "GOT_ACCOMPLISHMENTS.9.desc"
+	picture = CULTURE_eventPicture
+
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { average_home_autonomy = 10 }
+	}
+
+	option = {
+		name = "GOT_ACCOMPLISHMENTS.9.option.a"
+
+		add_adm_power = 50
+	}
+}
+
+# One Faith - ADM
+# 100% religious unity
+country_event = {
+	id = GOT_ACCOMPLISHMENTS.10
+	title = "GOT_ACCOMPLISHMENTS.10.title"
+	desc = "GOT_ACCOMPLISHMENTS.10.desc"
+	picture = RELIGIOUS_CONVERSION_eventPicture
+
+	is_triggered_only = yes
+	
+	trigger = {
+		religious_unity = 1.0
+	}
+	
+	option = {
+		name = "GOT_ACCOMPLISHMENTS.10.option.a"
+		
+		add_adm_power = 50
+	}
+}
+
+# Royal Network - ADM
+# 4+ royal marriages
+country_event = {
+	id = GOT_ACCOMPLISHMENTS.11
+	title = "GOT_ACCOMPLISHMENTS.11.title"
+	desc = "GOT_ACCOMPLISHMENTS.11.desc"
+	picture = GOOD_WITH_MONARCH_eventPicture
+
+	is_triggered_only = yes
+	
+	trigger = {
+		num_of_royal_marriages = 4
+	}
+    
+	option = {
+		name = "GOT_ACCOMPLISHMENTS.11.option.a"
+	
+		if = {
+			limit = {
+				num_of_royal_marriages = 4
+				NOT = { num_of_royal_marriages = 5 }
+			}
+			add_adm_power = 50
+		}
+		
+		if = {
+			limit = {
+				num_of_royal_marriages = 5
+				NOT = { num_of_royal_marriages = 6 }
+			}
+			add_adm_power = 75
+		}
+		
+		if = {
+			limit = {
+				num_of_royal_marriages = 6
+			}
+			add_adm_power = 100
+		}
+	}
+}
+
+# Marcher Lords - MIL
+# 2+ marches
+country_event = {
+	id = GOT_ACCOMPLISHMENTS.12
+	title = "GOT_ACCOMPLISHMENTS.12.title"
+	desc = "GOT_ACCOMPLISHMENTS.12.desc"
+	picture = GOOD_WITH_MONARCH_eventPicture
+
+	is_triggered_only = yes
+	
+	trigger = {
+		march = 2
+	}
+	
+	option = {
+		name = "GOT_ACCOMPLISHMENTS.12.option.a"
+		
+		if = {
+			limit = {
+				march = 2
+				NOT = { march = 3 }
+			}
+			add_mil_power = 50
+		}
+		
+		if = {
+			limit = {
+				march = 3
+				NOT = { march = 4 }
+			}
+			add_mil_power = 75
+		}
+		
+		if = {
+			limit = {
+				march = 4
+			}
+			add_mil_power = 100
+		}
+	}
+}
+
+# Lord of Many - DIP
+# 3+ vassals
+country_event = {
+	id = GOT_ACCOMPLISHMENTS.13
+	title = "GOT_ACCOMPLISHMENTS.13.title"
+	desc = "GOT_ACCOMPLISHMENTS.13.desc"
+	picture = FEAST_eventPicture
+
+	is_triggered_only = yes
+	
+	trigger = {
+		vassal = 3
+	}
+	
+	option = {
+		name = "GOT_ACCOMPLISHMENTS.13.option.a"
+		
+		if = {
+			limit = {
+				vassal = 3
+				NOT = { vassal = 4 }
+			}
+			add_dip_power = 50
+		}
+		
+		if = {
+			limit = {
+				vassal = 4
+				NOT = { vassal = 5 }
+			}
+			add_dip_power = 75
+		}
+		
+		if = {
+			limit = {
+				vassal = 5
+			}
+			add_dip_power = 100
+		}
+	}
+}
+
+# Bleed Them Dry - DIP
+# 3+ war reparations
+country_event = {
+	id = GOT_ACCOMPLISHMENTS.14
+	title = "GOT_ACCOMPLISHMENTS.14.title"
+	desc = "GOT_ACCOMPLISHMENTS.14.desc"
+	picture = FEAST_eventPicture
+
+	is_triggered_only = yes
+	
+	trigger = {
+		num_of_war_reparations = 3
+	}
+	
+	option = {
+		name = "GOT_ACCOMPLISHMENTS.14.option.a"
+		
+		if = {
+			limit = {
+				num_of_war_reparations = 3
+				NOT = { num_of_war_reparations = 4 }
+			}
+			add_dip_power = 50
+		}
+		
+		if = {
+			limit = {
+				num_of_war_reparations = 4
+				NOT = { num_of_war_reparations = 5 }
+			}
+			add_dip_power = 75
+		}
+		
+		if = {
+			limit = {
+				num_of_war_reparations = 5
+			}
+			add_dip_power = 100
+		}
+	}
+}
+
+# Prestigeous Realm - ADM
+# Prestige +50
+country_event = {
+	id = GOT_ACCOMPLISHMENTS.15
+	title = "GOT_ACCOMPLISHMENTS.15.title"
+	desc = "GOT_ACCOMPLISHMENTS.15.desc"
+	picture = IMPORTANT_STATUE_eventPicture
+
+	is_triggered_only = yes
+	
+	trigger = {
+		prestige = 50
+	}
+	
+	option = {
+		name = "GOT_ACCOMPLISHMENTS.15.option.a"
+		
+		if = {
+			limit = {
+				prestige = 50
+				NOT = { prestige = 75 }
+			}
+			add_adm_power = 50
+		}
+		
+		if = {
+			limit = {
+				prestige = 75
+				NOT = { prestige = 90 }
+			}
+			add_adm_power = 75
+		}
+		
+		if = {
+			limit = {
+				prestige = 90
+			}
+			add_adm_power = 100
+		}
+	}
+}
+
+# Grand Fleet - DIP
+# High navy size
+country_event = {
+	id = GOT_ACCOMPLISHMENTS.16
+	title = "GOT_ACCOMPLISHMENTS.16.title"
+	desc = "GOT_ACCOMPLISHMENTS.16.desc"
+	picture = NAVAL_MILITARY_eventPicture
+
+	is_triggered_only = yes
+	
+	trigger = {
+		navy_size_percentage = 0.9
+	}
+
+	option = {
+		name = "GOT_ACCOMPLISHMENTS.16.option.a"
+		
+		add_dip_power = 50
+	}
+}
+
+# Strategic Blockades
+# num_of_ports_blockading = 3
+country_event = {
+	id = GOT_ACCOMPLISHMENTS.17
+	title = "GOT_ACCOMPLISHMENTS.17.title"
+	desc = "GOT_ACCOMPLISHMENTS.17.desc"
+	picture = NAVAL_MILITARY_eventPicture
+
+	is_triggered_only = yes
+	
+	trigger = {
+		num_of_ports_blockading = 3
+	}
+	
+	option = {
+		name = "GOT_ACCOMPLISHMENTS.17.option.a"
+		
+		add_dip_power = 50
+	}
+}
+
+
+# A Noble Fool
+# Ruler stats < 9
+# +ADM or +DIP, or +MIL
+country_event = {
+	id = GOT_ACCOMPLISHMENTS.18
+	title = "GOT_ACCOMPLISHMENTS.18.title"
+	desc = "GOT_ACCOMPLISHMENTS.18.desc"
+	picture = COURT_eventPicture
+
+	is_triggered_only = yes
+	
+	trigger = {
+		AND = {
+			NOT = { ADM = 2 }
+			NOT = { DIP = 2 }
+			NOT = { MIL = 2 }
+		}
+	}
+
+	option = {
+		name = "GOT_ACCOMPLISHMENTS.18.option.a"
+		
+		add_adm_power = 100
+	}
+	
+	option = {
+		name = "GOT_ACCOMPLISHMENTS.18.option.b"
+		
+		add_dip_power = 100
+	}
+	
+	option = {
+		name = "GOT_ACCOMPLISHMENTS.18.option.c"
+		
+		add_mil_power = 100
+	}
+}
+
+
+
+
+
+
+

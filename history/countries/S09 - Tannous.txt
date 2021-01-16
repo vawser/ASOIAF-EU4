@@ -1,0 +1,144 @@
+
+government_rank = 1
+government = monarchy
+add_government_reform = hyrkoon_city_reform
+
+
+technology_group = hyrkooni
+primary_culture = samyriana
+religion = gods_of_hyrkoon
+
+capital = 677
+
+# Shattered World
+100.1.1 = {
+    monarch = {
+        name = "Payedar"
+        dynasty = "Tannous"
+        adm = 5
+        dip = 0
+        mil = 3
+        birth_date = 53.1.1
+    }
+}
+
+# War for the Stepstones
+106.1.1 = {
+    monarch = {
+        name = "Nazhin"
+        dynasty = "Tannous"
+        adm = 3
+        dip = 2
+        mil = 6
+        birth_date = 76.1.1
+    }
+}
+
+# The Dance of Dragons
+129.1.1 = {
+    monarch = {
+        name = "Daracy"
+        dynasty = "Tannous"
+        adm = 1
+        dip = 3
+        mil = 2
+        birth_date = 111.1.1
+    }
+}
+
+# Conquest of Dorne
+157.1.1 = {
+    monarch = {
+        name = "Mamhua"
+        dynasty = "Tannous"
+        adm = 5
+        dip = 5
+        mil = 0
+        birth_date = 115.1.1
+    }
+}
+
+# Blackfyre Rebellion
+196.1.1 = {
+    monarch = {
+        name = "Varshab"
+        dynasty = "Tannous"
+        adm = 2
+        dip = 4
+        mil = 6
+        birth_date = 160.1.1
+    }
+}
+
+# After Spring
+211.1.1 = {
+    monarch = {
+        name = "Shalim"
+        dynasty = "Tannous"
+        adm = 5
+        dip = 6
+        mil = 3
+        birth_date = 153.1.1
+    }
+}
+
+# War of the Ninepenny Kings
+260.1.1 = {
+    monarch = {
+        name = "Ohlim"
+        dynasty = "Tannous"
+        adm = 3
+        dip = 1
+        mil = 4
+        birth_date = 223.1.1
+    }
+}
+
+# Robert's Rebellion
+282.1.1 = {
+    monarch = {
+        name = "Sabur"
+        dynasty = "Tannous"
+        adm = 3
+        dip = 0
+        mil = 4
+        birth_date = 250.1.1
+    }
+}
+
+# The Greyjoy Rebellion
+289.1.1 = {
+    monarch = {
+        name = "Rodoro"
+        dynasty = "Tannous"
+        adm = 4
+        dip = 5
+        mil = 0
+        birth_date = 252.1.1
+    }
+}
+
+# War of the Five Kings
+298.1.1 = {
+    monarch = {
+        name = "Rayyan"
+        dynasty = "Tannous"
+        adm = 2
+        dip = 3
+        mil = 5
+        birth_date = 273.1.1
+    }
+}
+
+# The Night King
+304.1.1 = {
+    monarch = {
+        name = "Sahmar"
+        dynasty = "Tannous"
+        adm = 5
+        dip = 0
+        mil = 6
+        birth_date = 264.1.1
+    }
+}
+

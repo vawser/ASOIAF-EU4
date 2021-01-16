@@ -1,0 +1,16 @@
+# 537 - Hathasia.txt
+is_city = yes
+owner = BHA
+controller = BHA
+add_core = BHA
+
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
+culture = dothraki_culture
+religion = great_stallion
+
+trade_goods = grain
+hre = no
+

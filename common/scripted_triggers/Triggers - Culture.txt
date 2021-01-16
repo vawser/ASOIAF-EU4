@@ -1,0 +1,19 @@
+# Cultures
+is_westeros_culture = {
+    OR = {
+        primary_culture = men_of_the_crownlands
+        primary_culture = men_of_the_claw_isle
+        primary_culture = men_of_the_stormlands
+        primary_culture = men_of_the_westerlands
+        primary_culture = men_of_the_riverlands
+        primary_culture = men_of_the_reach
+        primary_culture = men_of_the_vale
+        primary_culture = men_of_the_north
+        primary_culture = ironborn
+        primary_culture = followers_of_daenerys
+        primary_culture = sand_dornish
+        primary_culture = salt_dornish
+        primary_culture = stone_dornish
+    }
+}
+

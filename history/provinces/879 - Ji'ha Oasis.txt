@@ -1,0 +1,17 @@
+is_city = yes
+
+owner = SKO
+controller = SKO
+add_core = SKO
+
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
+culture = kdathi
+religion = mavka
+
+trade_goods = tropical_wood
+hre = no
+
+

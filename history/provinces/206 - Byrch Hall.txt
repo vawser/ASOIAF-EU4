@@ -1,0 +1,23 @@
+# 206 - Byrch Hall.txt
+is_city = yes
+
+owner = AB7
+controller = AB7
+add_core = AB7
+
+base_tax = 3
+base_production = 3
+base_manpower = 2
+
+culture = men_of_the_crownlands
+religion = faith_of_the_seven
+
+trade_goods = wool
+hre = no
+
+106.1.1 = {
+    owner = CRW
+    controller = CRW
+    add_core = CRW
+}
+

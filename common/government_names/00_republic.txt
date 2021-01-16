@@ -1,0 +1,472 @@
+﻿gov_tyrosh_city = {
+	rank = {
+		1 = TYROSHI_CITY
+		2 = TYROSHI_CITY
+		3 = TYROSHI_CITY
+	}
+	
+	ruler_male = {
+		1 = ARCHON
+		2 = ARCHON
+		3 = ARCHON
+	}
+	
+	ruler_female = {
+		1 = ARCHONESS
+		2 = ARCHONESS
+		3 = ARCHONESS
+    }
+	
+	trigger = {
+        OR = {
+            has_reform = tyrosh_city_reform
+            has_reform = tyrosh_city_legacy
+        }
+	}
+}
+gov_myr_city = {
+	rank = {
+		1 = MYR_CITY
+		2 = MYR_CITY
+		3 = MYR_CITY
+    }
+	
+	ruler_male = {
+		1 = GRAND_MAGISTER
+		2 = GRAND_MAGISTER
+		3 = GRAND_MAGISTER
+	}
+	
+	ruler_female = {
+		1 = GRAND_MAGISTER
+		2 = GRAND_MAGISTER
+		3 = GRAND_MAGISTER
+	}
+	
+	trigger = {
+        OR = {
+            has_reform = myr_city_reform
+            has_reform = myr_city_legacy
+        }
+	}
+}
+gov_lys_city = {
+	rank = {
+		1 = LYSENE_CITY
+		2 = LYSENE_CITY
+		3 = LYSENE_CITY
+	}
+	
+	ruler_male = {
+		1 = GRAND_MAGISTER
+		2 = GRAND_MAGISTER
+		3 = GRAND_MAGISTER
+	}
+	
+	ruler_female = {
+		1 = GRAND_MAGISTER
+		2 = GRAND_MAGISTER
+		3 = GRAND_MAGISTER
+	}
+	
+	trigger = {
+        OR = {
+            has_reform = lys_city_reform
+            has_reform = lys_city_legacy
+        }
+	}
+}
+gov_volantis_city = {
+	rank = {
+		1 = VOLANTEANE_REPUBLIC
+		2 = VOLANTEANE_REPUBLIC
+		3 = VOLANTEANE_REPUBLIC
+    }
+	
+	ruler_male = {
+		1 = TRIARCH
+		2 = TRIARCH
+		3 = TRIARCH
+	}
+	
+	ruler_female = {
+		1 = TRIARCH
+		2 = TRIARCH
+		3 = TRIARCH
+	}
+	
+	trigger = {
+        OR = {
+            has_reform = volantis_city_reform
+            has_reform = volantis_city_legacy
+        }
+	}
+}
+gov_pentos_city = {
+	rank = {
+		1 = PENTOSHI_CITY
+		2 = PENTOSHI_CITY
+		3 = PENTOSHI_CITY
+	}
+	
+	ruler_male = {
+		1 = PRINCE
+		2 = PRINCE
+		3 = PRINCE
+	}
+	
+	ruler_female = {
+		1 = PRINCESS
+		2 = PRINCESS
+		3 = PRINCESS
+	}
+	
+	trigger = {
+        OR = {
+            has_reform = pentos_city_reform
+            has_reform = pentos_city_legacy
+        }
+	}
+}
+gov_braavos_city = {
+	rank = {
+		1 = BRAAVOSI_CITY
+		2 = BRAAVOSI_CITY
+		3 = BRAAVOSI_CITY
+	}
+	
+	ruler_male = {
+		1 = SEALORD
+		2 = SEALORD
+		3 = SEALORD
+	}
+	
+	ruler_female = {
+		1 = SEALADY
+		2 = SEALADY
+		3 = SEALADY
+	}
+	
+	trigger = {
+        OR = {
+            has_reform = braavos_city_reform
+            has_reform = braavos_city_legacy
+        }
+	}
+}
+gov_lorath_city = {
+	rank = {
+		1 = LORATHI_CITY
+		2 = LORATHI_CITY
+		3 = LORATHI_CITY
+	}
+	
+	ruler_male = {
+		1 = GRAND_MAGISTER
+		2 = GRAND_MAGISTER
+		3 = GRAND_MAGISTER
+	}
+	
+	ruler_female = {
+		1 = GRAND_MAGISTER
+		2 = GRAND_MAGISTER
+		3 = GRAND_MAGISTER
+	}
+	
+	trigger = {
+        OR = {
+            has_reform = lorath_city_reform
+            has_reform = lorath_city_legacy
+        }
+	}
+}
+gov_qohor_city = {
+	rank = {
+		1 = QOHORIK_CITY
+		2 = QOHORIK_CITY
+		3 = QOHORIK_CITY
+    }
+	
+	ruler_male = {
+		1 = GRAND_MAGISTER
+		2 = GRAND_MAGISTER
+		3 = GRAND_MAGISTER
+	}
+	
+	ruler_female = {
+		1 = GRAND_MAGISTER
+		2 = GRAND_MAGISTER
+		3 = GRAND_MAGISTER
+	}
+	
+	trigger = {
+        OR = {
+            has_reform = qohor_city_reform
+            has_reform = qohor_city_legacy
+        }
+	}
+}
+gov_norvos_city = {
+	rank = {
+		1 = NORVOS_CITY
+		2 = NORVOS_CITY
+		3 = NORVOS_CITY
+	}
+	
+	ruler_male = {
+		1 = HIGH_MAGISTER
+		2 = HIGH_MAGISTER
+		3 = HIGH_MAGISTER
+	}
+	
+	ruler_female = {
+		1 = HIGH_MAGISTER
+		2 = HIGH_MAGISTER
+		3 = HIGH_MAGISTER
+	}
+	
+	trigger = {
+        OR = {
+            has_reform = norvos_city_reform
+            has_reform = norvos_city_legacy
+        }
+	}
+}
+gov_saath_city = {
+	rank = {
+		1 = SAATH_CITY
+		2 = SAATH_CITY
+		3 = SAATH_CITY
+    }
+	
+	ruler_male = {
+		1 = GRAND_MAGISTER
+		2 = GRAND_MAGISTER
+		3 = GRAND_MAGISTER
+	}
+	
+	ruler_female = {
+		1 = GRAND_MAGISTER
+		2 = GRAND_MAGISTER
+		3 = GRAND_MAGISTER
+	}
+	
+	trigger = {
+        OR = {
+            has_reform = saath_city_reform
+            has_reform = saath_city_legacy
+        }
+	}
+}
+gov_trader_city = {
+	rank = {
+		1 = TRADER_CITY
+		2 = TRADER_CITY
+		3 = TRADER_CITY
+	}
+	
+	ruler_male = {
+		1 = TRADER
+		2 = TRADER
+		3 = TRADER
+	}
+	
+	ruler_female = {
+		1 = TRADER
+		2 = TRADER
+		3 = TRADER
+    }
+	
+	trigger = {
+        OR = {
+            has_reform = trader_city_reform
+            has_reform = trader_city_legacy
+        }
+	}
+}
+gov_andal_city = {
+	rank = {
+		1 = ANDAL_CITY
+		2 = ANDAL_CITY
+		3 = ANDAL_CITY
+	}
+	
+	ruler_male = {
+		1 = ELDER
+		2 = ELDER
+		3 = ELDER
+	}
+	
+	ruler_female = {
+		1 = ELDER
+		2 = ELDER
+		3 = ELDER
+    }
+	
+	trigger = {
+        OR = {
+            has_reform = andal_city_reform
+            has_reform = andal_city_legacy
+        }
+	}
+}
+gov_merchant_republic = {
+	rank = {
+		1 = MERCHANT_REPUBLIC
+		2 = MERCHANT_REPUBLIC
+		3 = MERCHANT_REPUBLIC
+	}
+	
+	ruler_male = {
+		1 = PRINCE
+		2 = PRINCE
+		3 = PRINCE
+	}
+	
+	ruler_female = {
+		1 = PRINCESS
+		2 = PRINCESS
+		3 = PRINCESS
+    }
+	
+	trigger = {
+        OR = {
+            has_reform = merchant_republic_reform
+            has_reform = merchant_republic_legacy
+        }
+	}
+}
+gov_trading_outpost = {
+	rank = {
+		1 = TRADING_OUTPOST
+		2 = TRADING_OUTPOST
+		3 = TRADING_OUTPOST
+	}
+	
+	ruler_male = {
+		1 = GOVERNOR
+		2 = GOVERNOR
+		3 = GOVERNOR
+	}
+	
+	ruler_female = {
+		1 = GOVERNOR
+		2 = GOVERNOR
+		3 = GOVERNOR
+    }
+	
+	trigger = {
+        OR = {
+            has_reform = trading_outpost_reform
+            has_reform = trading_outpost_legacy
+        }
+	}
+}
+gov_expeditionary_company = {
+	rank = {
+		1 = EXPEDITIONARY_COMPANY
+		2 = EXPEDITIONARY_COMPANY
+		3 = EXPEDITIONARY_COMPANY
+	}
+	
+	ruler_male = {
+		1 = GOVERNOR
+		2 = GOVERNOR
+		3 = GOVERNOR
+	}
+	
+	ruler_female = {
+		1 = GOVERNOR
+		2 = GOVERNOR
+		3 = GOVERNOR
+    }
+	
+	trigger = {
+        OR = {
+            has_reform = expeditionary_company_reform
+            has_reform = expeditionary_company_legacy
+        }
+	}
+}
+gov_rhoynish_city = {
+	rank = {
+		1 = RHOYNISH_CITY
+		2 = RHOYNISH_CITY
+		3 = RHOYNISH_CITY
+    }
+	
+	ruler_male = {
+		1 = PRINCE
+		2 = PRINCE
+		3 = PRINCE
+	}
+	
+	ruler_female = {
+		1 = PRINCESS
+		2 = PRINCESS
+		3 = PRINCESS
+	}
+	
+	trigger = {
+        OR = {
+            has_reform = rhoynar_city_reform
+            has_reform = rhoynar_city_legacy
+        }
+	}
+}
+
+gov_nights_watch = {
+	rank = {
+		1 = NIGHTS_WATCH
+		2 = NIGHTS_WATCH
+		3 = NIGHTS_WATCH
+	}
+	
+	ruler_male = {
+		1 = LORD_COMMANDER
+        2 = LORD_COMMANDER
+        3 = LORD_COMMANDER
+    }
+	
+	ruler_female = {
+		1 = LORD_COMMANDER
+        2 = LORD_COMMANDER
+        3 = LORD_COMMANDER
+	}
+	
+	trigger = {
+        NOT = { tag = A02 }
+        OR = {
+            has_reform = nights_watch_reform
+            has_reform = nights_watch_legacy
+        }
+	}
+}
+
+gov_outpost = {
+	rank = {
+		1 = OUTPOST
+		2 = OUTPOST
+		3 = OUTPOST
+	}
+	
+	ruler_male = {
+		1 = LORD_COMMANDER
+        2 = LORD_COMMANDER
+        3 = LORD_COMMANDER
+    }
+	
+	ruler_female = {
+		1 = LORD_COMMANDER
+        2 = LORD_COMMANDER
+        3 = LORD_COMMANDER
+	}
+	
+	trigger = {
+        NOT = { tag = A02 }
+        OR = {
+            has_reform = nights_watch_reform
+            has_reform = nights_watch_legacy
+        }
+	}
+}

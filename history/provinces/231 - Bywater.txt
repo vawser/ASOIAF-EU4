@@ -1,0 +1,23 @@
+# 231 - Bywater.txt
+is_city = yes
+
+owner = A13
+controller = A13
+add_core = A13
+
+base_tax = 4
+base_production = 4
+base_manpower = 1
+
+culture = men_of_the_crownlands
+religion = faith_of_the_seven
+
+trade_goods = cloth
+hre = no
+
+106.1.1 = {
+    owner = CRW
+    controller = CRW
+    add_core = CRW
+}
+

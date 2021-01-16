@@ -1,0 +1,23 @@
+# 835 - Nefer.txt
+is_city = yes
+
+owner = S14
+controller = S14
+add_core = S14
+
+base_tax = 12
+base_production = 12
+base_manpower = 12
+
+culture = nefer
+religion = cult_of_shadows
+
+trade_goods = fish
+hre = no
+
+add_building = castle
+
+center_of_trade = 1
+
+
+

@@ -1,0 +1,16 @@
+is_city = yes
+
+owner = SVY
+controller = SVY
+add_core = SVY
+
+base_tax = 3
+base_production = 3
+base_manpower = 3
+
+culture = mossovi
+religion = drekavac
+
+trade_goods = fur
+hre = no
+

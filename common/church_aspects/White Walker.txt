@@ -1,0 +1,105 @@
+enchantment_of_might = {
+    cost = 100
+	modifier = {
+		discipline = 0.05
+	}
+	ai_will_do = {
+		factor = 1
+        
+        modifier = {
+            factor = 0
+            
+            is_at_war = no
+        }
+	}
+}
+enchantment_of_power = {
+    cost = 100
+	modifier = {
+		shock_damage = 0.1
+	}
+	ai_will_do = {
+		factor = 1
+        
+        modifier = {
+            factor = 0
+            
+            is_at_war = no
+        }
+	}
+}
+enchantment_of_submission = {
+    cost = 100
+	modifier = {
+		global_regiment_cost = -0.15
+	}
+	ai_will_do = {
+		factor = 1
+        
+        modifier = {
+            factor = 0
+            
+            army_size_percentage = 0.75
+        }
+	}
+}
+enchantment_of_control = {
+    cost = 100
+	modifier = {
+		global_manpower_modifier = 0.15
+	}
+	ai_will_do = {
+		factor = 1
+        
+        modifier = {
+            factor = 0
+            
+            manpower = 50
+        }
+	}
+}
+enchantment_of_death = {
+    cost = 100
+	modifier = {
+		fire_damage = 0.1
+	}
+	ai_will_do = {
+		factor = 1
+        
+        modifier = {
+            factor = 0
+            
+            is_at_war = no
+        }
+	}
+}
+enchantment_of_ice = {
+    cost = 100
+	modifier = {
+		hostile_attrition = 2
+	}
+	ai_will_do = {
+		factor = 1
+        
+        modifier = {
+            factor = 0
+            
+            is_at_war = no
+        }
+	}
+}
+enchantment_of_endurance = {
+    cost = 100
+	modifier = {
+		war_exhaustion = -0.05
+	}
+	ai_will_do = {
+		factor = 1
+        
+        modifier = {
+            factor = 0
+            
+            NOT = { war_exhaustion = 2 }
+        }
+	}
+}

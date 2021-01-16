@@ -1,0 +1,23 @@
+# 765 - Yin.txt
+is_city = yes
+
+owner = R68
+controller = R68
+add_core = R68
+
+base_tax = 16
+base_production = 16
+base_manpower = 16
+
+culture = high_yitish
+religion = lion_of_the_night
+
+trade_goods = tea
+hre = no
+
+add_building = castle
+
+center_of_trade = 2
+
+add_province_triggered_modifier = religious_center
+add_province_triggered_modifier = grand_temple_of_the_night

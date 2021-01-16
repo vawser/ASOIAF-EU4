@@ -1,0 +1,113 @@
+enforce_rule_action = {
+	sprite = "GFX_icon_enforce_rule_action"
+	cost = 100
+    
+	potential = {
+		has_dlc = "Rights of Man"
+        government = pirate
+	}
+	trigger = {
+		always = yes
+	}
+	effect = {
+		add_absolutism = 5		
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+raid_local_villages_action = {
+	sprite = "GFX_icon_raid_local_villages_action"
+	cost = 100
+    
+	potential = {
+		has_dlc = "Rights of Man"
+        government = pirate
+	}
+	trigger = {
+        always = yes
+	}
+	effect = {
+		add_years_of_income = 1
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+display_wealth_action = {
+	sprite = "GFX_icon_display_wealth_action"
+	cost = 100
+    
+	potential = {
+		has_dlc = "Rights of Man"
+        government = pirate
+	}
+	trigger = {
+		always = yes
+	}
+	effect = {
+		add_prestige = 20
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+impress_travelers_action = {
+	sprite = "GFX_icon_impress_travelers_action"
+	cost = 100
+    
+	potential = {
+		has_dlc = "Rights of Man"
+        government = pirate
+	}
+	trigger = {
+        num_of_ports = 1
+	}
+	effect = {
+		add_yearly_sailors = 2
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+purchase_slaves_action = {
+	sprite = "GFX_icon_purchase_slaves_action"
+	cost = 100
+    
+	potential = {
+		has_dlc = "Rights of Man"
+        government = pirate
+	}
+	trigger = {
+        always = yes
+	}
+	effect = {
+		add_yearly_manpower = 2
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+explore_the_high_seas_action = {
+	sprite = "GFX_icon_explore_the_high_seas_action"
+	cost = 100
+    
+	potential = {
+		has_dlc = "Rights of Man"
+        government = pirate
+	}
+	trigger = {
+        num_of_ports = 1
+	}
+	effect = {
+		country_event = { id = GOT_LADY_OF_THE_WAVES.1 }
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}

@@ -1,0 +1,145 @@
+
+government_rank = 1
+
+government = monarchy
+add_government_reform = noble_house_reform
+
+
+technology_group = westerosi
+primary_culture = men_of_the_vale
+religion = faith_of_the_seven
+
+capital = 145
+
+# Shattered World
+100.1.1 = {
+    monarch = {
+        name = "Harsley"
+        dynasty = "Templeton"
+        adm = 2
+        dip = 1
+        mil = 2
+        birth_date = 50.1.1
+    }
+}
+
+# War for the Stepstones
+106.1.1 = {
+    monarch = {
+        name = "Ygon"
+        dynasty = "Templeton"
+        adm = 3
+        dip = 5
+        mil = 5
+        birth_date = 70.1.1
+    }
+}
+
+# The Dance of Dragons
+129.1.1 = {
+    monarch = {
+        name = "Osfryd"
+        dynasty = "Templeton"
+        adm = 0
+        dip = 4
+        mil = 4
+        birth_date = 94.1.1
+    }
+}
+
+# Conquest of Dorne
+157.1.1 = {
+    monarch = {
+        name = "Holger"
+        dynasty = "Templeton"
+        adm = 2
+        dip = 5
+        mil = 0
+        birth_date = 122.1.1
+    }
+}
+
+# Blackfyre Rebellion
+196.1.1 = {
+    monarch = {
+        name = "Ricasso"
+        dynasty = "Templeton"
+        adm = 1
+        dip = 2
+        mil = 5
+        birth_date = 138.1.1
+    }
+}
+
+# After Spring
+211.1.1 = {
+    monarch = {
+        name = "Willem"
+        dynasty = "Templeton"
+        adm = 0
+        dip = 1
+        mil = 1
+        birth_date = 159.1.1
+    }
+}
+
+# War of the Ninepenny Kings
+260.1.1 = {
+    monarch = {
+        name = "Renly"
+        dynasty = "Templeton"
+        adm = 2
+        dip = 3
+        mil = 2
+        birth_date = 232.1.1
+    }
+}
+
+# Robert's Rebellion
+282.1.1 = {
+    monarch = {
+        name = "Jason"
+        dynasty = "Templeton"
+        adm = 4
+        dip = 1
+        mil = 2
+        birth_date = 231.1.1
+    }
+}
+
+# The Greyjoy Rebellion
+289.1.1 = {
+    monarch = {
+        name = "Tristan"
+        dynasty = "Templeton"
+        adm = 4
+        dip = 2
+        mil = 3
+        birth_date = 241.1.1
+    }
+}
+
+# War of the Five Kings
+298.1.1 = {
+    monarch = {
+        name = "Gysella"
+        dynasty = "Templeton"
+        adm = 1
+        dip = 5
+        mil = 3
+        birth_date = 240.1.1
+    }
+}
+
+# The Night King
+304.1.1 = {
+    monarch = {
+        name = "Qyburn"
+        dynasty = "Templeton"
+        adm = 4
+        dip = 2
+        mil = 5
+        birth_date = 279.1.1
+    }
+}
+

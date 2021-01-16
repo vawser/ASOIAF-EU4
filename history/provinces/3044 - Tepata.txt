@@ -1,0 +1,16 @@
+is_city = yes
+
+owner = VOL
+controller = VOL
+add_core = VOL
+
+base_tax = 2
+base_production = 3
+base_manpower = 2
+
+culture = carcosan
+religion = cult_of_ascension
+
+trade_goods = tea
+hre = no
+

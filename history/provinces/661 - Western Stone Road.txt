@@ -1,0 +1,16 @@
+# 661 - Western Stone Road.txt
+is_city = yes
+owner = TIH
+controller = TIH
+add_core = TIH
+
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
+culture = dothraki_culture
+religion = great_stallion
+
+trade_goods = wool
+hre = no
+

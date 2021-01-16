@@ -1,0 +1,151 @@
+namespace = GOT_WHITE_WALKER
+
+country_event = {
+	id = GOT_WHITE_WALKER.100
+	title = GOT_WHITE_WALKER.100.title
+	desc = GOT_WHITE_WALKER.100.desc
+	picture = FEAST_eventPicture
+	
+    hidden = yes
+    
+	trigger = {
+		tag = WIT
+        NOT = { has_ruler = "The Night King" }
+	}
+
+    mean_time_to_happen = {
+		months = 1
+    }
+
+	option = {
+		name = GOT_WHITE_WALKER.100.option.a
+	
+        define_ruler = {
+            name = "The Night King"
+            dynasty = "of the Eternal Winter"
+            age = 20
+            adm = 6
+            dip = 6
+            mil = 6
+            male = yes
+            fixed = yes
+        }
+        add_ruler_personality = immortal_personality
+        
+        define_ruler_to_general = {
+            fire = 6
+            shock = 6
+            manuever = 6
+            siege = 6
+        }
+	}
+}
+
+# Winter Begins
+country_event = {
+	id = GOT_WHITE_WALKER.1
+	title = GOT_WHITE_WALKER.1.title
+	desc = GOT_WHITE_WALKER.1.desc
+	picture = GOOD_WITH_MONARCH_eventPicture
+	
+	major = yes
+    
+    trigger = {
+        NOT = { has_global_flag = white_walkers_empowered }
+        tag = WIT
+        OR = {
+            ai = no # Player can do whatever
+            
+            # If any nation gets near them before 280
+            any_country = {
+                is_neighbor_of = ROOT
+            }
+            
+            is_year = 280
+        }
+    }
+    
+    immediate = {
+        hidden_effect = { set_global_flag = white_walkers_empowered }
+    }
+    
+    mean_time_to_happen = {
+		months = 1
+    }
+    
+	option = {
+		name = GOT_WHITE_WALKER.1.option.a
+        
+        remove_country_modifier = summer_reigns
+        
+        capital_scope = {
+            set_base_tax = 10
+            set_base_production = 10
+            set_base_manpower = 10
+        }
+        
+        area_land_of_always_winter = {
+            cede_province = ROOT
+            add_core = ROOT
+            change_culture = white_walkers
+            change_religion = cyromancy
+            set_local_autonomy = 0
+        }
+        
+        westeros = {
+            add_permanent_claim = ROOT
+            discover_country = ROOT
+        }
+        westeros_sea_region = {
+            discover_country = ROOT
+        }
+	}
+}
+
+# Arise, Undead Soldiers
+province_event = {
+	id = GOT_WHITE_WALKER.2
+	title = GOT_WHITE_WALKER.2.title
+	desc = GOT_WHITE_WALKER.2.desc
+	picture = BATTLE_eventPicture
+	
+	is_triggered_only = yes
+    
+    trigger = {
+        is_empty = no # Only occur in owned provinces
+        FROM = { primary_culture = white_walkers }
+    }
+    
+	option = {
+		name = GOT_WHITE_WALKER.2.option.a
+        
+        FROM = { add_yearly_manpower = 1 }
+	}
+}
+
+# Cyromantic Conversion
+province_event = {
+	id = GOT_WHITE_WALKER.3
+	title = GOT_WHITE_WALKER.3.title
+	desc = GOT_WHITE_WALKER.3.desc
+	picture = BATTLE_eventPicture
+	
+	is_triggered_only = yes
+    
+    trigger = {
+        is_capital = no
+        FROM = { primary_culture = white_walkers }
+        NOT = { owned_by = FROM }
+        controlled_by = FROM
+    }
+    
+	option = {
+		name = GOT_WHITE_WALKER.3.option.a
+        
+        cede_province = FROM
+        add_core = FROM
+        change_culture = white_walkers
+        change_religion = cyromancy
+	}
+}
+

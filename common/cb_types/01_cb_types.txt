@@ -1,0 +1,160 @@
+#---------------------------------------------
+# Casus Belli
+#---------------------------------------------
+cb_undead_conquest = {
+    valid_for_subject = no
+    
+    prerequisites = {
+		has_reform = army_of_the_dead_reform
+        is_neighbor_of = FROM
+        
+        FROM = {
+            NOT = { has_reform = army_of_the_dead_reform }
+        }
+	}
+    
+    war_goal = superiority_undead_conquest
+}
+
+cb_royal_conquest = {
+    valid_for_subject = no
+    
+    prerequisites = {
+		has_reform = royal_house_reform
+        
+        FROM = {
+            has_reform = noble_house_reform
+            NOT = { has_opinion = { who = ROOT value = 0 } }
+        }
+	}
+    
+    war_goal = superiority_royal_conquest
+}
+
+cb_lordly_feud = {
+    valid_for_subject = yes
+    
+    prerequisites = {
+		has_reform = noble_house_reform
+        
+        FROM = {
+            has_reform = noble_house_reform
+            NOT = { has_opinion = { who = ROOT value = 0 } }
+        }
+	}
+    
+    war_goal = superiority_lordly_feud
+}
+
+cb_defend_the_wall = {
+    valid_for_subject = no
+    
+    prerequisites = {
+		has_reform = nights_watch_reform
+        
+        FROM = {
+            has_reform = wildling_clan_reform
+        }
+	}
+    
+    war_goal = superiority_defend_the_wall
+}
+
+cb_wildling_assault = {
+    valid_for_subject = no
+    
+    prerequisites = {
+		has_reform = wildling_clan_reform
+        
+        FROM = {
+            NOT = { has_reform = wildling_clan_reform }
+        }
+	}
+    
+    war_goal = superiority_wildling_assault
+}
+
+cb_wildling_feud = {
+    valid_for_subject = no
+    
+    prerequisites = {
+		has_reform = wildling_clan_reform
+        
+        FROM = {
+            has_reform = wildling_clan_reform
+        }
+	}
+    
+    war_goal = superiority_wildling_feud
+}
+
+cb_unification_of_yiti = {
+	valid_for_subject = no
+
+	prerequisites = {
+		is_free_or_tributary_trigger = yes
+		OR = {
+			AND = {
+				has_dlc = "Mandate of Heaven"
+				is_emperor_of_china = yes
+			}
+			AND = {
+				NOT = { has_dlc = "Mandate of Heaven" }
+				culture_group = culture_yi_ti
+			}
+		}
+		
+		FROM = {
+			NOT = { is_subject_of = ROOT }
+			OR = {
+				has_dlc = "Mandate of Heaven"
+				culture_group = culture_yi_ti
+			}
+			any_owned_province = {
+				region = region_yi_ti
+			}
+			is_emperor_of_china = no
+		}
+		is_neighbor_of = FROM
+	}
+
+	war_goal = superiority_yitish_unification
+}
+
+cb_pirates = {
+	is_triggered_only = yes
+	months = 120
+
+	war_goal = blockade_ports
+}
+
+cb_claim_the_iron_throne = {
+	valid_for_subject = yes
+    
+    prerequisites = {
+		OR = {
+            has_reform = noble_house_reform
+            has_reform = daenerys_host_reform
+        }
+        FROM = { 
+            has_reform = royal_house_reform
+            is_emperor_of_china = yes
+        }
+	}
+    
+    war_goal = take_capital_take_iron_throne
+}
+
+cb_force_royal_subject = {
+	valid_for_subject = no
+
+	prerequisites = {
+		is_emperor_of_china = yes
+		FROM = {
+            has_reform = noble_house_reform
+            NOT = { is_subject_of = ROOT }
+        }
+	}
+	
+	war_goal = take_capital_force_royal_subject
+}

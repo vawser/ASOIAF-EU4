@@ -1,0 +1,21 @@
+# 709 - Vaes Dothrak.txt
+is_city = yes
+owner = R05
+controller = R05
+add_core = R05
+
+base_tax = 5
+base_production = 5
+base_manpower = 5
+
+culture = dothraki_culture
+religion = great_stallion
+
+trade_goods = dyes
+hre = no
+
+center_of_trade = 1
+
+add_province_triggered_modifier = religious_center
+add_province_triggered_modifier = vaes_dothrak
+

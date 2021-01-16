@@ -1,0 +1,144 @@
+
+government_rank = 1
+government = tribal
+add_government_reform = lhazar_clan_reform
+
+
+technology_group = ghiscari
+primary_culture = lhazar
+religion = great_shepherd
+
+capital = 646
+
+# Shattered World
+100.1.1 = {
+    monarch = {
+        name = "Nuzud"
+        dynasty = "Shiqethi"
+        adm = 2
+        dip = 4
+        mil = 4
+        birth_date = 43.1.1
+    }
+}
+
+# War for the Stepstones
+106.1.1 = {
+    monarch = {
+        name = "Sivash"
+        dynasty = "Shiqethi"
+        adm = 1
+        dip = 2
+        mil = 1
+        birth_date = 84.1.1
+    }
+}
+
+# The Dance of Dragons
+129.1.1 = {
+    monarch = {
+        name = "Hafizah"
+        dynasty = "Shiqethi"
+        adm = 1
+        dip = 2
+        mil = 4
+        birth_date = 106.1.1
+    }
+}
+
+# Conquest of Dorne
+157.1.1 = {
+    monarch = {
+        name = "Vhos"
+        dynasty = "Shiqethi"
+        adm = 2
+        dip = 0
+        mil = 4
+        birth_date = 129.1.1
+    }
+}
+
+# Blackfyre Rebellion
+196.1.1 = {
+    monarch = {
+        name = "Turaman"
+        dynasty = "Shiqethi"
+        adm = 1
+        dip = 5
+        mil = 5
+        birth_date = 173.1.1
+    }
+}
+
+# After Spring
+211.1.1 = {
+    monarch = {
+        name = "Hallin"
+        dynasty = "Shiqethi"
+        adm = 1
+        dip = 5
+        mil = 5
+        birth_date = 159.1.1
+    }
+}
+
+# War of the Ninepenny Kings
+260.1.1 = {
+    monarch = {
+        name = "Kiarash"
+        dynasty = "Shiqethi"
+        adm = 2
+        dip = 0
+        mil = 1
+        birth_date = 211.1.1
+    }
+}
+
+# Robert's Rebellion
+282.1.1 = {
+    monarch = {
+        name = "Maziar"
+        dynasty = "Shiqethi"
+        adm = 3
+        dip = 5
+        mil = 3
+        birth_date = 259.1.1
+    }
+}
+
+# The Greyjoy Rebellion
+289.1.1 = {
+    monarch = {
+        name = "Varnedo"
+        dynasty = "Shiqethi"
+        adm = 1
+        dip = 4
+        mil = 4
+        birth_date = 253.1.1
+    }
+}
+
+# War of the Five Kings
+298.1.1 = {
+    monarch = {
+        name = "Ahmat"
+        dynasty = "Shiqethi"
+        adm = 5
+        dip = 1
+        mil = 5
+        birth_date = 267.1.1
+    }
+}
+
+# The Night King
+304.1.1 = {
+    monarch = {
+        name = "Taren"
+        dynasty = "Shiqethi"
+        adm = 1
+        dip = 3
+        mil = 2
+        birth_date = 248.1.1
+    }
+}
+

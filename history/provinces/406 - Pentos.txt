@@ -1,0 +1,20 @@
+# 406 - Pentos.txt
+is_city = yes
+
+owner = U12
+controller = U12
+add_core = U12
+
+base_tax = 10
+base_production = 10
+base_manpower = 10
+
+culture = pentoshi
+religion = rhllor
+
+trade_goods = slaves
+hre = no
+
+add_building = castle
+
+center_of_trade = 2

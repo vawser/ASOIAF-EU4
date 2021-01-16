@@ -1,0 +1,14 @@
+is_city = yes
+owner = IDR
+controller = IDR
+add_core = IDR
+
+base_tax = 5
+base_production = 4
+base_manpower = 3
+
+culture = saathi
+religion = hooded_wayfarer
+
+trade_goods = grain
+hre = no

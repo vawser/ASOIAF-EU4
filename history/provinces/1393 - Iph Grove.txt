@@ -1,0 +1,17 @@
+is_city = yes
+
+owner = AKE
+controller = AKE
+add_core = AKE
+
+base_tax = 4
+base_production = 4
+base_manpower = 4
+
+culture = bloodless
+religion = cult_of_pallor
+
+trade_goods = iron
+hre = no
+
+

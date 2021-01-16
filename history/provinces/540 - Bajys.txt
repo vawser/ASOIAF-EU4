@@ -1,0 +1,16 @@
+# 540 - Bajys.txt
+is_city = yes
+owner = ANJ
+controller = ANJ
+add_core = ANJ
+
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
+culture = dothraki_culture
+religion = great_stallion
+
+trade_goods = wool
+hre = no
+

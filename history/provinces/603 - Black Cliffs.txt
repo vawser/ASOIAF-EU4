@@ -1,0 +1,15 @@
+# 603 - Black Cliffs.txt
+is_city = yes
+owner = MWE
+controller = MWE
+add_core = MWE
+
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
+culture = tolosi
+religion = ghiscari_pantheon
+
+trade_goods = wool
+hre = no

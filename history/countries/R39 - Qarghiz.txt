@@ -1,0 +1,144 @@
+
+government_rank = 1
+government = monarchy
+add_government_reform = ghis_city_reform
+set_estate_privilege = estate_nobles_unsullied
+
+technology_group = ghiscari
+primary_culture = ghis
+religion = ghiscari_pantheon
+
+capital = 617
+
+# Shattered World
+100.1.1 = {
+    monarch = {
+        name = "Ayusni"
+        dynasty = "Qarghiz"
+        adm = 5
+        dip = 3
+        mil = 3
+        birth_date = 76.1.1
+    }
+}
+
+# War for the Stepstones
+106.1.1 = {
+    monarch = {
+        name = "Mareh"
+        dynasty = "Qarghiz"
+        adm = 0
+        dip = 0
+        mil = 2
+        birth_date = 75.1.1
+    }
+}
+
+# The Dance of Dragons
+129.1.1 = {
+    monarch = {
+        name = "Yaghoub"
+        dynasty = "Qarghiz"
+        adm = 2
+        dip = 1
+        mil = 4
+        birth_date = 96.1.1
+    }
+}
+
+# Conquest of Dorne
+157.1.1 = {
+    monarch = {
+        name = "Kotaro"
+        dynasty = "Qarghiz"
+        adm = 4
+        dip = 2
+        mil = 2
+        birth_date = 98.1.1
+    }
+}
+
+# Blackfyre Rebellion
+196.1.1 = {
+    monarch = {
+        name = "Ashadr"
+        dynasty = "Qarghiz"
+        adm = 2
+        dip = 1
+        mil = 3
+        birth_date = 169.1.1
+    }
+}
+
+# After Spring
+211.1.1 = {
+    monarch = {
+        name = "Skeevers"
+        dynasty = "Qarghiz"
+        adm = 4
+        dip = 1
+        mil = 4
+        birth_date = 164.1.1
+    }
+}
+
+# War of the Ninepenny Kings
+260.1.1 = {
+    monarch = {
+        name = "Mansour"
+        dynasty = "Qarghiz"
+        adm = 3
+        dip = 5
+        mil = 3
+        birth_date = 218.1.1
+    }
+}
+
+# Robert's Rebellion
+282.1.1 = {
+    monarch = {
+        name = "Nidal"
+        dynasty = "Qarghiz"
+        adm = 1
+        dip = 2
+        mil = 0
+        birth_date = 246.1.1
+    }
+}
+
+# The Greyjoy Rebellion
+289.1.1 = {
+    monarch = {
+        name = "Ramadad"
+        dynasty = "Qarghiz"
+        adm = 1
+        dip = 2
+        mil = 1
+        birth_date = 262.1.1
+    }
+}
+
+# War of the Five Kings
+298.1.1 = {
+    monarch = {
+        name = "Jamadin"
+        dynasty = "Qarghiz"
+        adm = 5
+        dip = 3
+        mil = 5
+        birth_date = 241.1.1
+    }
+}
+
+# The Night King
+304.1.1 = {
+    monarch = {
+        name = "Loqman"
+        dynasty = "Qarghiz"
+        adm = 0
+        dip = 5
+        mil = 1
+        birth_date = 269.1.1
+    }
+}
+

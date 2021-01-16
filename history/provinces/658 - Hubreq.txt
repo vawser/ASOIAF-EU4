@@ -1,0 +1,14 @@
+native_size = 6
+native_ferocity = 8
+native_hostileness = 5
+
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
+culture = lhazar
+religion = great_shepherd
+
+trade_goods = unknown
+hre = no
+

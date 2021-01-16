@@ -1,0 +1,1183 @@
+tradenode_beyond_the_wall={
+	location=14
+	outgoing={
+		name="tradenode_the_north"
+		path={
+			13 1592 1589 1585 20 25 28 50 3010 54 62 
+		}
+		control={
+			1396.000000 1700.000000 
+		}
+	}
+	members={
+		1 14 13 12 10 1142 11 8 15 9 5 3 2 6 7 1140 1139 1141 4 
+        2000 2001 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 2026 2027 2028 2029 2030 2031 2032 2033 2034 2035 2036 2037 2038 2039 2040 2041 2042 2043 2044 2045 2046 2047 2048 2049 2050 2051 2052 2053 2054 2055 2056 2057 2058 2059 
+	}
+}
+tradenode_dothraki_sea={
+	location=709
+	inland=yes
+	outgoing={
+		name="tradenode_omber"
+		path={
+			708 570 567 566 
+		}
+		control={
+			2848.000000 1375.000000 
+		}
+	}
+	outgoing={
+		name="tradenode_ifeqevron"
+		path={
+			710 578 575 576 
+		}
+		control={
+			3061.000000 1420.000000 
+		}
+	}
+	outgoing={
+		name="tradenode_sarnor"
+		path={
+			708 570 567 563 561 556 557 551 550 547 544 
+		}
+		control={
+			2726.000000 1279.000000 
+		}
+	}
+	outgoing={
+		name="tradenode_rhoyne"
+		path={
+			708 570 567 563 561 556 554 552 542 540 477 437 429 430 
+		}
+		control={
+			2692.000000 1205.000000 2239.000000 1120.000000 
+		}
+	}
+	outgoing={
+		name="tradenode_valyria"
+		path={
+			708 706 702 700 698 693 1425 600 599 
+		}
+		control={
+			2623.000000 1087.000000 
+		}
+	}
+	outgoing={
+		name="tradenode_slavers_bay"
+		path={
+			708 706 702 701 637 1230 606 
+		}
+		control={
+			2801.000000 1126.000000 
+		}
+	}
+	outgoing={
+		name="tradenode_qarth"
+		path={
+			715 714 713 660 675 671 1242 1243 665 662 1148 663 
+		}
+		control={
+			3002.000000 1075.000000 3145.000000 913.000000 
+		}
+	}
+	outgoing={
+		name="tradenode_hyrkoon"
+		path={
+			715 714 681 678 
+		}
+		control={
+			3200.000000 1311.000000 3350.000000 1295.000000 
+		}
+	}
+	members={
+		552 549 542 696 695 694 693 697 555 553 554 556 565 564 562 705 702 706 570 703 707 713 712 714 709 715 708 574 710 711 717 716 718 578 660 659 661 699 701 700 698 692 645 658 644 704 647 643 
+	}
+}
+tradenode_rhoyne={
+	location=430
+	inland=yes
+	outgoing={
+		name="tradenode_volantis"
+		path={
+			428 427 1159 421 419 417 
+		}
+		control={
+			2112.000000 1137.000000 
+		}
+	}
+	outgoing={
+		name="tradenode_myr"
+		path={
+			414 405 392 383 382 380 378 
+		}
+		control={
+			1939.000000 1189.000000 
+		}
+	}
+	outgoing={
+		name="tradenode_pentos"
+		path={
+			432 449 450 453 409 406 
+		}
+		control={
+			1920.000000 1238.000000 
+		}
+	}
+	outgoing={
+		name="tradenode_norvos"
+		path={
+			432 433 
+		}
+		control={
+			2020.000000 1286.000000 
+		}
+	}
+	outgoing={
+		name="tradenode_qohor"
+		path={
+			431 476 
+		}
+		control={
+			2115.000000 1243.000000 
+		}
+	}
+	members={
+		761 598 690 537 538 689 421 423 426 427 488 489 487 486 490 413 412 411 410 405 428 429 430 414 482 
+	}
+}
+tradenode_myr={
+	location=378
+	outgoing={
+		name="tradenode_volantis"
+		path={
+			379 395 400 403 422 420 416 762 417 
+		}
+		control={
+			1980.000000 1096.000000 2110.000000 970.000000 
+		}
+	}
+	outgoing={
+		name="tradenode_the_narrow_sea"
+		path={
+			965 966 968 
+		}
+		control={
+			1759.000000 1160.000000 
+		}
+	}
+	outgoing={
+		name="tradenode_lys"
+		path={
+			375 374 368 
+		}
+		control={
+			1864.000000 1065.000000 
+		}
+	}
+	outgoing={
+		name="tradenode_tyrosh"
+		path={
+			965 369 367 
+		}
+		control={
+			1792.000000 1119.000000 
+		}
+	}
+	outgoing={
+		name="tradenode_pentos"
+		path={
+			965 384 388 389 406 
+		}
+		control={
+			1886.000000 1180.000000 
+		}
+	}
+	members={
+		396 377 375 378 379 380 395 394 393 381 382 383 392 
+	}
+}
+tradenode_lys={
+	location=368
+	outgoing={
+		name="tradenode_tyrosh"
+		path={
+			374 373 369 367 
+		}
+		control={
+			1776.000000 1039.000000 
+		}
+	}
+	outgoing={
+		name="tradenode_the_stepstones"
+		path={
+			1003 923 1518 
+		}
+		control={
+			1740.000000 1022.000000 
+		}
+	}
+	outgoing={
+		name="tradenode_volantis"
+		path={
+			374 376 398 1004 416 762 417 
+		}
+		control={
+			1985.000000 959.000000 
+		}
+	}
+	members={
+		368 372 374 376 398 397 399 
+	}
+}
+tradenode_tyrosh={
+	location=367
+	outgoing={
+		name="tradenode_the_narrow_sea"
+		path={
+			369 965 966 968 
+		}
+		control={
+			1733.000000 1166.000000 
+		}
+	}
+	outgoing={
+		name="tradenode_the_stepstones"
+		path={
+			923 1518 
+		}
+		control={
+			1712.000000 1093.000000 
+		}
+	}
+	members={
+		367 366 369 370 373 371 
+	}
+}
+tradenode_ifeqevron={
+	location=576
+	outgoing={
+		name="tradenode_omber"
+		path={
+			984 983 566 
+		}
+		control={
+			2900.000000 1416.000000 
+		}
+	}
+	outgoing={
+		name="tradenode_ibben"
+		path={
+			985 585 
+		}
+		control={
+			3127.000000 1569.000000 
+		}
+	}
+	members={
+		573 572 571 568 569 567 576 577 575 
+	}
+}
+tradenode_omber={
+	location=566
+	outgoing={
+		name="tradenode_sarnor"
+		path={
+			563 561 556 557 551 550 547 544 
+		}
+		control={
+			2432.000000 1506.000000 
+		}
+	}
+	members={
+		551 557 560 559 558 566 563 561 
+	}
+}
+tradenode_sarnor={
+	location=544
+	outgoing={
+		name="tradenode_braavos"
+		path={
+			978 976 974 466 467 470 
+		}
+		control={
+			1895.000000 1558.000000 
+		}
+	}
+	outgoing={
+		name="tradenode_qohor"
+		path={
+			543 480 478 476 
+		}
+		control={
+			2232.000000 1346.000000 
+		}
+	}
+	members={
+		544 548 543 550 546 547 545 
+	}
+}
+tradenode_qohor={
+	location=476
+	inland=yes
+	outgoing={
+		name="tradenode_lorath"
+		path={
+			438 439 440 441 443 446 471 
+		}
+		control={
+			2131.000000 1372.000000 
+		}
+	}
+	outgoing={
+		name="tradenode_norvos"
+		path={
+			431 434 435 433 
+		}
+		control={
+			2082.000000 1295.000000 
+		}
+	}
+	members={
+		481 477 437 476 478 438 431 436 439 480 479 539 540 541 
+	}
+}
+tradenode_norvos={
+	location=433
+	inland=yes
+	outgoing={
+		name="tradenode_pentos"
+		path={
+			442 455 454 453 409 406 
+		}
+		control={
+			1877.000000 1316.000000 
+		}
+	}
+	outgoing={
+		name="tradenode_lorath"
+		path={
+			443 446 471 
+		}
+		control={
+			2002.000000 1381.000000 
+		}
+	}
+	members={
+		455 432 449 434 435 441 433 472 440 473 443 444 442 
+	}
+}
+tradenode_lorath={
+	location=471
+	outgoing={
+		name="tradenode_braavos"
+		path={
+			974 466 467 470 
+		}
+		control={
+			1864.000000 1520.000000 
+		}
+	}
+	members={
+		456 460 445 471 446 447 475 474 448 
+	}
+}
+tradenode_ibben={
+	location=585
+	outgoing={
+		name="tradenode_braavos"
+		path={
+			587 589 579 987 992 979 978 976 974 466 467 470 
+		}
+		control={
+			1916.000000 1622.000000 
+		}
+	}
+	outgoing={
+		name="tradenode_thousand_islands"
+		path={
+			584 990 991 1124 1118 834 
+		}
+		control={
+			3490.000000 1667.000000 
+		}
+	}
+	members={
+		590 593 592 591 594 595 588 589 587 586 585 584 583 582 579 580 581 
+	}
+}
+tradenode_braavos={
+	location=470
+	outgoing={
+		name="tradenode_the_narrow_sea"
+		path={
+			970 934 968 
+		}
+		control={
+			1730.000000 1354.000000 
+		}
+	}
+	outgoing={
+		name="tradenode_pentos"
+		path={
+			970 969 458 408 406 
+		}
+		control={
+			1802.000000 1416.000000 1785.000000 1318.000000 
+		}
+	}
+	members={
+		458 461 462 463 464 465 466 468 467 470 
+	}
+}
+tradenode_pentos={
+	location=406
+	outgoing={
+		name="tradenode_the_narrow_sea"
+		path={
+			407 968 
+		}
+		control={
+			1756.000000 1263.000000 
+		}
+	}
+	members={
+		386 385 384 388 387 451 452 391 390 450 454 453 457 459 389 406 409 408 407 
+	}
+}
+tradenode_valyria={
+	location=599
+	outgoing={
+		name="tradenode_volantis"
+		path={
+			596 760 1005 417 
+		}
+		control={
+			2270.000000 1043.000000 
+		}
+	}
+	outgoing={
+		name="tradenode_slavers_bay"
+		path={
+			1014 1015 606 
+		}
+		control={
+			2544.000000 1021.000000 
+		}
+	}
+	members={
+		599 1223 1224 1222 602 601 1226 1225 1227 603 600 604 605 691 596 760 759 755 597 756 757 758 
+	}
+}
+tradenode_sothoryos={
+	location=741
+	outgoing={
+		name="tradenode_summer_islands"
+		path={
+			1036 1048 1049 1051 1053 497 496 
+		}
+		control={
+			2485.000000 669.000000 2263.290039 592.770020 2026.000000 646.000000 1917.000000 728.000000 
+		}
+	}
+	outgoing={
+		name="tradenode_slavers_bay"
+		path={
+			1035 1045 1016 619 617 1422 629 609 608 606 
+		}
+		control={
+			2684.000000 716.000000 2768.000000 877.000000 2825.000000 949.000000 
+		}
+	}
+	outgoing={
+		name="tradenode_faros"
+		path={
+			739 1034 1033 1032 1251 1027 719 
+		}
+		control={
+			2941.000000 652.000000 
+		}
+	}
+	members={
+		748 742 743 744 747 749 750 751 752 753 754 1319 746 1320 1318 353 963 1187 740 741 1221 1006 1206 1308 1208 626 1300 1301 1469 1306 1207 1085 959 958 1088 1309 1199 1079 1084 1205 1132 1168 1086 1304 1089 1094 1090 1093 1092 1080 1081 738 1130 1464 739 1317 1316 1219 1305 1458 735 1315 736 1314 1465 1312 1466 1220 1313 1166 1203 1457 1209 1162 1311 1165 1215 1137 1091 1216 1468 1188 1163 1463 1462 1217 1189 1310 1461 1460 1307 1459 1303 1218 1213 1214 1453 1134 1164 1202 1135 1456 1455 1210 1211 1212 1197 1204 1138 1167 1133 1467 1161 1136 1131 1200 1169 1184 1175 1176 1201 1198 1454 
+	}
+}
+tradenode_faros={
+	location=719
+	outgoing={
+		name="tradenode_slavers_bay"
+		path={
+			1028 1018 642 641 640 639 1420 607 1231 606 
+		}
+		control={
+			2920.000000 924.000000 
+		}
+	}
+	outgoing={
+		name="tradenode_qarth"
+		path={
+			720 1019 663 
+		}
+		control={
+			3198.000000 829.000000 
+		}
+	}
+	outgoing={
+		name="tradenode_yi_ti"
+		path={
+			1250 722 1246 1153 1021 1095 764 765 
+		}
+		control={
+			3336.000000 718.000000 3514.000000 715.000000 
+		}
+	}
+	members={
+		1144 1152 720 721 1153 724 1143 1246 722 1250 719 1154 1249 723 1248 1247 727 1262 726 1259 1258 1257 725 1261 1260 787 1263 728 1264 732 733 734 729 730 1256 1254 1255 731 1252 1253 1251 
+	}
+}
+tradenode_slavers_bay={
+	location=606
+	outgoing={
+		name="tradenode_volantis"
+		path={
+			1015 1014 596 760 1005 417 
+		}
+		control={
+			2530.000000 974.000000 2420.000000 730.000000 2194.000000 765.000000 
+		}
+	}
+	outgoing={
+		name="tradenode_summer_islands"
+		path={
+			1015 1014 596 760 1007 1049 1051 1053 497 496 
+		}
+		control={
+			2579.000000 979.000000 2467.000000 699.000000 2065.050049 662.640015 1916.000000 770.000000 
+		}
+	}
+	outgoing={
+		name="tradenode_qarth"
+		path={
+			1234 607 1420 639 649 651 653 656 662 1148 663 
+		}
+		control={
+			2971.000000 922.000000 3141.000000 890.000000 
+		}
+	}
+	members={
+		635 632 631 633 618 620 619 617 636 625 1241 624 1240 608 606 1230 1228 637 1229 607 1231 639 630 634 640 638 646 648 649 615 610 1232 1233 611 1235 609 1234 629 616 1239 613 1236 612 628 1237 614 1238 627 622 621 623 
+	}
+}
+tradenode_summer_islands={
+	location=496
+	outgoing={
+		name="tradenode_the_stepstones"
+		path={
+			495 1052 887 348 1518 
+		}
+		control={
+			1733.069946 959.549988 
+		}
+	}
+	outgoing={
+		name="tradenode_volantis"
+		path={
+			497 1053 1051 1004 416 762 417 
+		}
+		control={
+			1884.000000 907.000000 
+		}
+	}
+	members={
+		491 494 495 493 498 497 496 492 501 500 499 502 503 508 506 509 507 505 504 514 516 515 513 512 511 510 517 521 518 519 522 520 529 524 525 526 523 527 528 530 531 532 533 535 536 534 
+	}
+}
+tradenode_the_stepstones={
+	location=1518
+	outgoing={
+		name="tradenode_the_stormlands"
+		path={
+			923 323 320 314 303 304 
+		}
+		control={
+			1671.000000 1150.000000 
+		}
+	}
+	outgoing={
+		name="tradenode_dorne"
+		path={
+			348 352 
+		}
+		control={
+			1666.000000 1018.000000 
+		}
+	}
+	outgoing={
+		name="tradenode_the_narrow_sea"
+		path={
+			923 927 1002 968 
+		}
+		control={
+			1707.000000 1186.000000 
+		}
+	}
+	members={
+		1518 358 360 365 362 361 364 359 363 
+	}
+}
+tradenode_dorne={
+	location=352
+	outgoing={
+		name="tradenode_the_stormlands"
+		path={
+			348 925 319 318 314 303 304 
+		}
+		control={
+			1641.000000 1078.000000 1670.000000 1140.000000 
+		}
+	}
+	outgoing={
+		name="tradenode_the_reach"
+		path={
+			347 344 334 333 1544 288 287 286 
+		}
+		control={
+			1597.000000 961.000000 1240.000000 944.000000 1177.000000 1004.000000 
+		}
+	}
+	outgoing={
+		name="tradenode_the_westerlands"
+		path={
+			347 925 311 1559 307 278 277 267 266 241 238 236 198 186 183 
+		}
+		control={
+			1643.000000 957.000000 1105.000000 901.000000 1119.000000 1187.000000 
+		}
+	}
+	members={
+		311 330 329 334 331 333 328 327 332 335 337 336 338 339 341 340 342 345 346 349 344 343 350 352 351 347 348 
+	}
+}
+tradenode_the_narrow_sea={
+	location=968
+	outgoing={
+		name="tradenode_the_north"
+		path={
+			934 150 142 148 137 130 124 942 62 
+		}
+		control={
+			1638.000000 1555.000000 
+		}
+	}
+	outgoing={
+		name="tradenode_the_vale"
+		path={
+			933 215 109 108 97 95 134 140 136 
+		}
+		control={
+			1666.000000 1370.000000 
+		}
+	}
+	outgoing={
+		name="tradenode_the_riverlands"
+		path={
+			933 215 109 108 107 106 104 105 101 
+		}
+		control={
+			1565.000000 1338.000000 
+		}
+	}
+	outgoing={
+		name="tradenode_the_crownlands"
+		path={
+			1002 232 231 230 226 224 
+		}
+		control={
+			1582.000000 1280.000000 
+		}
+	}
+	outgoing={
+		name="tradenode_the_stormlands"
+		path={
+			1002 300 298 299 304 
+		}
+		control={
+			1617.000000 1188.000000 
+		}
+	}
+	members={
+		968 
+	}
+}
+tradenode_the_stormlands={
+	location=304
+	outgoing={
+		name="tradenode_the_crownlands"
+		path={
+			301 294 228 226 224 
+		}
+		control={
+			1500.000000 1217.000000 
+		}
+	}
+	outgoing={
+		name="tradenode_the_reach"
+		path={
+			303 302 312 1559 328 1544 288 287 286 
+		}
+		control={
+			1378.000000 1129.000000 
+		}
+	}
+	members={
+		305 298 300 297 294 295 296 304 299 301 293 302 312 313 303 314 316 315 317 319 318 320 322 323 321 324 326 325 
+	}
+}
+tradenode_the_north={
+	location=62
+	outgoing={
+		name="tradenode_the_riverlands"
+		path={
+			942 123 78 80 81 85 88 87 101 
+		}
+		control={
+			1380.000000 1483.000000 1378.000000 1403.000000 
+		}
+	}
+	outgoing={
+		name="tradenode_the_vale"
+		path={
+			942 124 130 137 136 
+		}
+		control={
+			1533.000000 1525.000000 1639.000000 1484.000000 
+		}
+	}
+	outgoing={
+		name="tradenode_the_iron_islands"
+		path={
+			61 67 68 914 153 162 
+		}
+		control={
+			1225.119995 1502.310059 
+		}
+	}
+	members={
+		16 1574 1575 1580 1577 1576 1578 17 1581 1579 1582 1586 1583 1584 18 1589 1585 1587 1588 20 19 1590 1591 1592 31 30 32 22 21 24 356 23 29 26 25 28 53 51 52 50 47 48 38 39 49 37 35 34 36 33 41 42 45 43 40 46 44 57 58 61 66 70 71 67 69 68 74 73 72 54 59 3010 62 65 63 60 55 56 64 
+	}
+}
+tradenode_the_vale={
+	location=149
+	outgoing={
+		name="tradenode_the_riverlands"
+		path={
+			135 1532 83 82 85 88 87 101 
+		}
+		control={
+			1501.000000 1389.000000 
+		}
+	}
+	outgoing={
+		name="tradenode_the_crownlands"
+		path={
+			140 134 98 97 107 115 205 204 224 
+		}
+		control={
+			1583.000000 1345.000000 
+		}
+	}
+	members={
+		147 145 146 140 134 136 135 133 129 137 130 141 149 150 148 144 142 143 139 138 126 127 128 131 132 122 121 119 118 120 124 123 
+	}
+}
+tradenode_the_iron_islands={
+	location=162
+	outgoing={
+		name="tradenode_the_riverlands"
+		path={
+			913 85 88 87 101 
+		}
+		control={
+			1339.000000 1406.000000 
+		}
+	}
+	outgoing={
+		name="tradenode_the_westerlands"
+		path={
+			904 170 182 183 
+		}
+		control={
+			1129.000000 1262.000000 
+		}
+	}
+	members={
+		162 161 160 156 155 158 157 159 151 152 153 154 357 
+	}
+}
+tradenode_the_riverlands={
+	location=101
+	inland=yes
+	outgoing={
+		name="tradenode_the_crownlands"
+		path={
+			105 355 113 114 203 224 
+		}
+		control={
+			1419.069946 1294.010010 
+		}
+	}
+	outgoing={
+		name="tradenode_the_westerlands"
+		path={
+			102 177 174 176 178 184 183 
+		}
+		control={
+			1270.000000 1316.000000 
+		}
+	}
+	outgoing={
+		name="tradenode_the_reach"
+		path={
+			102 177 1538 191 189 200 237 239 238 240 265 271 273 274 283 286 
+		}
+		control={
+			1297.000000 1157.000000 
+		}
+	}
+	members={
+		77 78 79 75 76 83 80 82 84 94 92 93 89 96 95 98 97 99 86 85 81 101 90 88 87 91 100 103 102 111 110 177 355 113 106 104 105 116 114 201 108 107 115 194 193 354 112 181 
+	}
+}
+tradenode_the_westerlands={
+	location=183
+	outgoing={
+		name="tradenode_the_reach"
+		path={
+			185 197 235 240 265 271 273 274 283 286 
+		}
+		control={
+			1206.000000 1195.000000 1258.000000 1140.000000 
+		}
+	}
+	members={
+		163 164 1517 166 165 172 173 175 174 176 180 187 179 178 191 192 195 244 196 200 189 190 199 186 198 197 185 183 188 184 182 170 169 168 171 167 
+	}
+}
+tradenode_the_reach={
+	location=286
+	outgoing={
+		name="tradenode_the_crownlands"
+		path={
+			283 284 281 280 307 270 306 259 227 223 222 224 
+		}
+		control={
+			1396.000000 1193.000000 
+		}
+	}
+	members={
+		292 261 263 264 262 291 290 289 286 282 285 283 288 287 284 274 273 272 281 280 275 276 267 266 265 271 308 309 307 306 310 278 277 279 269 256 268 257 270 260 258 259 255 249 252 248 250 247 254 253 251 246 245 243 240 238 241 242 239 237 236 235 
+	}
+}
+tradenode_ulthos={
+	location=1511
+	outgoing={
+		name="tradenode_leng"
+		path={
+			1112 1108 790 1274 1271 1272 791 
+		}
+		control={
+			3827.000000 621.000000 
+		}
+	}
+	outgoing={
+		name="tradenode_shadowlands"
+		path={
+			1112 795 
+		}
+		control={
+			3927.360107 534.210022 
+		}
+	}
+	outgoing={
+		name="tradenode_gemstone_islands"
+		path={
+			1113 1498 1352 1600 1492 
+		}
+		control={
+			4225.000000 539.000000 
+		}
+	}
+	members={
+		1515 1512 1322 1321 1323 1324 1325 1326 1327 1330 1329 1328 1514 794 1360 1361 1511 1513 1331 1332 1333 1337 1334 1335 1341 1342 1340 1339 1336 1338 1509 1510 1343 1344 1508 1345 1347 1507 1349 1506 1346 1348 1505 1350 1502 1500 1351 1499 1352 1353 1498 799 800 1354 1501 1355 1503 1357 1358 1359 1356 
+	}
+}
+tradenode_gemstone_islands={
+	location=1492
+	outgoing={
+		name="tradenode_carcosa"
+		path={
+			1491 1490 1443 1368 3039 808 
+		}
+		control={
+			4427.750000 787.729980 
+		}
+	}
+	members={
+		1494 1495 1482 1493 1483 1485 1486 1487 1484 1497 1492 1491 1489 1490 1488 1496 
+	}
+}
+tradenode_carcosa={
+	location=808
+	inland=yes
+	outgoing={
+		name="tradenode_shadowlands"
+		path={
+			807 804 797 3066 1266 795 
+		}
+		control={
+			4299.000000 711.000000 4149.000000 680.000000 
+		}
+	}
+	outgoing={
+		name="tradenode_bloodless_lands"
+		path={
+			809 811 812 814 
+		}
+		control={
+			4346.000000 902.000000 
+		}
+	}
+	members={
+		3055 1364 3054 1481 1368 3051 3053 3052 3045 1365 3046 3044 3047 3048 1367 1366 3039 1369 1480 3041 3040 3015 3042 3018 3043 3036 3038 1370 1479 811 810 809 808 
+	}
+}
+tradenode_shadowlands={
+	location=795
+	outgoing={
+		name="tradenode_qarth"
+		path={
+			1112 1108 1099 1095 1021 1019 663 
+		}
+		control={
+			3651.000000 543.000000 3442.989990 631.940002 3372.000000 820.000000 
+		}
+	}
+	outgoing={
+		name="tradenode_leng"
+		path={
+			1266 1111 1271 1272 791 
+		}
+		control={
+			3855.000000 725.000000 
+		}
+	}
+	members={
+		1266 1265 795 796 798 806 805 797 3066 803 802 3067 3065 1362 3064 1363 
+	}
+}
+tradenode_leng={
+	location=791
+	outgoing={
+		name="tradenode_yi_ti"
+		path={
+			792 767 765 
+		}
+		control={
+			3658.000000 721.000000 
+		}
+	}
+	members={
+		788 1146 1145 789 793 790 1274 1275 1273 1271 1270 1272 791 792 1267 1268 1269 
+	}
+}
+tradenode_hyrkoon={
+	location=678
+	inland=yes
+	outgoing={
+		name="tradenode_qarth"
+		path={
+			1287 675 671 1242 1243 665 662 1148 663 
+		}
+		control={
+			3386.000000 990.000000 3243.000000 952.000000 
+		}
+	}
+	outgoing={
+		name="tradenode_trader_town"
+		path={
+			845 847 
+		}
+		control={
+			3469.000000 1107.000000 
+		}
+	}
+	outgoing={
+		name="tradenode_yi_ti"
+		path={
+			845 781 782 784 786 766 765 
+		}
+		control={
+			3498.000000 947.000000 
+		}
+	}
+	members={
+		669 1278 668 1279 673 1280 1277 670 671 1281 1284 674 1282 1283 1285 676 677 1286 1288 1287 678 1290 679 1289 680 1291 682 1295 683 1292 1293 1294 
+	}
+}
+tradenode_thousand_islands={
+	location=834
+	outgoing={
+		name="tradenode_mossovy"
+		path={
+			1119 833 
+		}
+		control={
+			3950.000000 1452.000000 
+		}
+	}
+	outgoing={
+		name="tradenode_jogos_plains"
+		path={
+			1118 838 850 852 
+		}
+		control={
+			3825.000000 1369.000000 
+		}
+	}
+	members={
+		1403 1404 1405 1400 1407 1409 1408 1410 1411 1413 1412 1416 1417 1415 1401 1406 1402 1414 834 1399 1397 1398 1396 
+	}
+}
+tradenode_jogos_plains={
+	location=852
+	outgoing={
+		name="tradenode_trader_town"
+		path={
+			876 846 847 
+		}
+		control={
+			3585.000000 1170.000000 
+		}
+	}
+	outgoing={
+		name="tradenode_yi_ti"
+		path={
+			858 849 865 866 779 784 786 766 765 
+		}
+		control={
+			3773.000000 1059.000000 
+		}
+	}
+	outgoing={
+		name="tradenode_mossovy"
+		path={
+			853 837 835 832 833 
+		}
+		control={
+			3856.000000 1289.000000 
+		}
+	}
+	members={
+		851 850 853 837 838 860 858 859 876 852 841 840 839 684 688 687 686 685 835 836 855 854 864 857 856 863 862 
+	}
+}
+tradenode_trader_town={
+	location=847
+	inland=yes
+	outgoing={
+		name="tradenode_yi_ti"
+		path={
+			1299 780 782 784 786 766 765 
+		}
+		control={
+			3586.000000 921.000000 
+		}
+	}
+	members={
+		844 1298 1302 842 846 847 861 1296 1297 1299 848 
+	}
+}
+tradenode_mossovy={
+	location=833
+	outgoing={
+		name="tradenode_bloodless_lands"
+		path={
+			831 823 3057 3056 1394 1393 3011 814 
+		}
+		control={
+			4338.000000 1375.000000 4352.000000 1129.000000 
+		}
+	}
+	outgoing={
+		name="tradenode_cannibal_sands"
+		path={
+			831 824 878 877 818 
+		}
+		control={
+			3995.000000 1196.000000 
+		}
+	}
+	members={
+		833 832 831 829 830 827 826 828 825 1395 1387 1470 1381 1380 1379 1476 1384 1385 1383 1386 1474 1382 1388 1473 1472 1389 1471 1390 1391 
+	}
+}
+tradenode_cannibal_sands={
+	location=818
+	inland=yes
+	outgoing={
+		name="tradenode_yi_ti"
+		path={
+			1392 819 820 822 868 869 774 777 786 766 765 
+		}
+		control={
+			3957.000000 1080.000000 
+		}
+	}
+	outgoing={
+		name="tradenode_bloodless_lands"
+		path={
+			816 1394 1393 3011 814 
+		}
+		control={
+			4245.000000 1121.000000 
+		}
+	}
+	members={
+		3031 1378 3032 3030 3029 3059 3060 3062 3061 816 815 1394 3056 817 3057 3063 3058 879 878 877 819 1392 818 824 
+	}
+}
+tradenode_yi_ti={
+	location=765
+	members={
+		767 768 765 763 764 766 776 786 784 785 769 773 775 770 771 772 872 873 874 871 868 869 875 774 777 778 870 779 782 783 781 780 867 865 866 822 821 820 
+	}
+	end=yes
+}
+tradenode_qarth={
+	location=663
+	members={
+		663 1150 1149 1148 1147 662 665 664 1243 1242 1244 666 1276 1245 667 1151 657 651 652 642 641 650 653 656 654 655 
+	}
+	end=yes
+}
+tradenode_volantis={
+	location=417
+	members={
+		416 415 404 420 422 424 425 400 403 401 402 762 417 419 418 483 484 485 
+	}
+	end=yes
+}
+tradenode_the_crownlands={
+	location=226
+	members={
+		203 222 202 226 225 224 228 223 227 231 230 229 233 232 234 221 220 211 212 209 204 210 205 206 207 208 109 214 213 215 217 216 218 219 
+	}
+	end=yes
+}
+tradenode_bloodless_lands={
+	location=814
+	inland=yes
+	members={
+		814 3012 3016 3011 3014 3013 1374 1393 3019 3028 3022 3023 3024 3026 3017 3027 3025 3035 3020 3034 3021 1371 3037 1375 3049 1377 1376 1478 3050 1372 3033 1477 1373 
+	}
+	end=yes
+}

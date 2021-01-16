@@ -1,0 +1,142 @@
+government_rank = 1
+government = tribal
+add_government_reform = tribe_reform
+
+technology_group = kdathi
+primary_culture = kdathi
+religion = mavka
+
+capital = 818
+
+# Shattered World
+100.1.1 = {
+    monarch = {
+        name = "Kyngogurth"
+        dynasty = "K'Dath"
+        adm = 4
+        dip = 2
+        mil = 4
+        birth_date = 73.1.1
+    }
+}
+
+# War for the Stepstones
+106.1.1 = {
+    monarch = {
+        name = "Solkyn"
+        dynasty = "K'Dath"
+        adm = 4
+        dip = 2
+        mil = 0
+        birth_date = 76.1.1
+    }
+}
+
+# The Dance of Dragons
+129.1.1 = {
+    monarch = {
+        name = "Akezel"
+        dynasty = "K'Dath"
+        adm = 1
+        dip = 4
+        mil = 0
+        birth_date = 93.1.1
+    }
+}
+
+# Conquest of Dorne
+157.1.1 = {
+    monarch = {
+        name = "Bogtro"
+        dynasty = "K'Dath"
+        adm = 0
+        dip = 3
+        mil = 2
+        birth_date = 101.1.1
+    }
+}
+
+# Blackfyre Rebellion
+196.1.1 = {
+    monarch = {
+        name = "Dias"
+        dynasty = "K'Dath"
+        adm = 4
+        dip = 5
+        mil = 2
+        birth_date = 175.1.1
+    }
+}
+
+# After Spring
+211.1.1 = {
+    monarch = {
+        name = "Moath"
+        dynasty = "K'Dath"
+        adm = 0
+        dip = 6
+        mil = 3
+        birth_date = 164.1.1
+    }
+}
+
+# War of the Ninepenny Kings
+260.1.1 = {
+    monarch = {
+        name = "Khefletak"
+        dynasty = "K'Dath"
+        adm = 2
+        dip = 6
+        mil = 3
+        birth_date = 217.1.1
+    }
+}
+
+# Robert's Rebellion
+282.1.1 = {
+    monarch = {
+        name = "Solkyn"
+        dynasty = "K'Dath"
+        adm = 3
+        dip = 2
+        mil = 2
+        birth_date = 260.1.1
+    }
+}
+
+# The Greyjoy Rebellion
+289.1.1 = {
+    monarch = {
+        name = "Nariam"
+        dynasty = "K'Dath"
+        adm = 5
+        dip = 2
+        mil = 6
+        birth_date = 240.1.1
+    }
+}
+
+# War of the Five Kings
+298.1.1 = {
+    monarch = {
+        name = "Demis"
+        dynasty = "K'Dath"
+        adm = 0
+        dip = 6
+        mil = 3
+        birth_date = 241.1.1
+    }
+}
+
+# The Night King
+304.1.1 = {
+    monarch = {
+        name = "Amkaos"
+        dynasty = "K'Dath"
+        adm = 1
+        dip = 4
+        mil = 3
+        birth_date = 245.1.1
+    }
+}
+

@@ -1,0 +1,18 @@
+# 639 - Lhazosh.txt
+is_city = yes
+
+owner = S17
+controller = S17
+add_core = S17
+
+base_tax = 6
+base_production = 6
+base_manpower = 4
+
+culture = lhazar
+religion = great_shepherd
+
+trade_goods = wool
+hre = no
+
+center_of_trade = 1

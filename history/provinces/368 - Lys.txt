@@ -1,0 +1,20 @@
+# 368 - Lys.txt
+is_city = yes
+
+owner = X06
+controller = X06
+add_core = X06
+
+base_tax = 10
+base_production = 10
+base_manpower = 9
+
+culture = lysene
+religion = rhllor
+
+trade_goods = dyes
+hre = no
+
+add_building = castle
+
+center_of_trade = 1

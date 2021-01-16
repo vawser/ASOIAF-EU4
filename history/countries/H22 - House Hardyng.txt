@@ -1,0 +1,145 @@
+
+government_rank = 1
+
+government = monarchy
+add_government_reform = noble_house_reform
+
+
+technology_group = westerosi
+primary_culture = mountain_men
+religion = faith_of_the_seven
+
+capital = 123
+
+# Shattered World
+100.1.1 = {
+    monarch = {
+        name = "Theomar"
+        dynasty = "Hardyng"
+        adm = 3
+        dip = 2
+        mil = 0
+        birth_date = 53.1.1
+    }
+}
+
+# War for the Stepstones
+106.1.1 = {
+    monarch = {
+        name = "Victarion"
+        dynasty = "Hardyng"
+        adm = 5
+        dip = 1
+        mil = 5
+        birth_date = 62.1.1
+    }
+}
+
+# The Dance of Dragons
+129.1.1 = {
+    monarch = {
+        name = "Puddingfoot"
+        dynasty = "Hardyng"
+        adm = 1
+        dip = 4
+        mil = 2
+        birth_date = 101.1.1
+    }
+}
+
+# Conquest of Dorne
+157.1.1 = {
+    monarch = {
+        name = "Josmyn"
+        dynasty = "Hardyng"
+        adm = 2
+        dip = 1
+        mil = 5
+        birth_date = 108.1.1
+    }
+}
+
+# Blackfyre Rebellion
+196.1.1 = {
+    monarch = {
+        name = "Flement"
+        dynasty = "Hardyng"
+        adm = 4
+        dip = 0
+        mil = 0
+        birth_date = 148.1.1
+    }
+}
+
+# After Spring
+211.1.1 = {
+    monarch = {
+        name = "Benjen"
+        dynasty = "Hardyng"
+        adm = 0
+        dip = 2
+        mil = 5
+        birth_date = 174.1.1
+    }
+}
+
+# War of the Ninepenny Kings
+260.1.1 = {
+    monarch = {
+        name = "Sigfryd"
+        dynasty = "Hardyng"
+        adm = 0
+        dip = 0
+        mil = 0
+        birth_date = 214.1.1
+    }
+}
+
+# Robert's Rebellion
+282.1.1 = {
+    monarch = {
+        name = "Craster"
+        dynasty = "Hardyng"
+        adm = 0
+        dip = 1
+        mil = 2
+        birth_date = 257.1.1
+    }
+}
+
+# The Greyjoy Rebellion
+289.1.1 = {
+    monarch = {
+        name = "Clifford"
+        dynasty = "Hardyng"
+        adm = 0
+        dip = 5
+        mil = 0
+        birth_date = 241.1.1
+    }
+}
+
+# War of the Five Kings
+298.1.1 = {
+    monarch = {
+        name = "Rawney"
+        dynasty = "Hardyng"
+        adm = 1
+        dip = 4
+        mil = 4
+        birth_date = 263.1.1
+    }
+}
+
+# The Night King
+304.1.1 = {
+    monarch = {
+        name = "Elbert"
+        dynasty = "Hardyng"
+        adm = 0
+        dip = 0
+        mil = 2
+        birth_date = 260.1.1
+    }
+}
+

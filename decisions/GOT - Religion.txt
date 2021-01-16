@@ -1,0 +1,162 @@
+country_decisions = {
+	promote_sept_attendance = {
+		potential = {
+			NOT = { has_country_modifier = promoted_sept_attendance }
+			religion = faith_of_the_seven
+		}
+		allow = {
+			NOT = { has_country_modifier = promoted_sept_attendance }
+			years_of_income = 5
+		}
+		effect = {
+			add_years_of_income = -5
+			
+			add_country_modifier = {
+				name = promoted_sept_attendance
+				duration = -1
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+            
+			modifier = {
+				factor = 0
+				religious_unity = 0.75
+			}
+		}
+	}
+	
+	promote_weirwood_attendance = {
+		potential = {
+			NOT = { has_country_modifier = promoted_weirwood_attendance }
+			religion = old_gods
+		}
+		allow = {
+			NOT = { has_country_modifier = promoted_weirwood_attendance }
+			years_of_income = 5
+		}
+		effect = {
+			add_years_of_income = -5
+			
+			add_country_modifier = {
+				name = promoted_weirwood_attendance
+				duration = -1
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+            
+			modifier = {
+				factor = 0
+				religious_unity = 0.75
+			}
+		}
+	}
+	
+	promote_drowning = {
+		potential = {
+			NOT = { has_country_modifier = promoted_drowning }
+			religion = drowned_god
+		}
+		allow = {
+			NOT = { has_country_modifier = promoted_drowning }
+			years_of_income = 5
+		}
+		effect = {
+			add_years_of_income = -5
+			
+			add_country_modifier = {
+				name = promoted_drowning
+				duration = -1
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+            
+			modifier = {
+				factor = 0
+				religious_unity = 0.75
+			}
+		}
+	}
+	
+	promote_the_great_stallion = {
+		potential = {
+			NOT = { has_country_modifier = promoted_the_great_stallion }
+			religion = great_stallion
+		}
+		allow = {
+			NOT = { has_country_modifier = promoted_the_great_stallion }
+			years_of_income = 5
+		}
+		effect = {
+			add_years_of_income = -5
+			
+			add_country_modifier = {
+				name = promoted_the_great_stallion
+				duration = -1
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+            
+			modifier = {
+				factor = 0
+				religious_unity = 0.75
+			}
+		}
+	}
+	
+	promote_temple_attendance = {
+		potential = {
+			NOT = { has_country_modifier = promoted_temple_attendance }
+			OR = {	
+				religion = summer_gods
+				religion = lord_of_harmony
+				religion = mother_rhoyne
+				religion = trios
+				religion = bearded_priests
+				religion = remnants_of_boash
+				religion = black_goat
+				religion = hooded_wayfarer
+				religion = ghiscari_pantheon
+				religion = ib
+				religion = great_shepherd
+				religion = moonsingers
+				religion = idol_worship
+				religion = lady_of_the_waves
+				religion = gods_of_hyrkoon
+				religion = rhllor
+				religion = lion_of_the_night
+				religion = stone_cow
+				religion = cult_of_shadows
+			}
+		}
+		allow = {
+			NOT = { has_country_modifier = promoted_temple_attendance }
+			years_of_income = 5
+		}
+		effect = {
+			add_years_of_income = -5
+			
+			add_country_modifier = {
+				name = promoted_temple_attendance
+				duration = -1
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+            
+			modifier = {
+				factor = 0
+				religious_unity = 0.75
+			}
+		}
+	}
+
+}

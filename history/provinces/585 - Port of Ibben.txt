@@ -1,0 +1,18 @@
+# 585 - Port of Ibben.txt
+is_city = yes
+
+owner = R01
+controller = R01
+add_core = R01
+
+base_tax = 4
+base_production = 4
+base_manpower = 1
+
+culture = ibbenese
+religion = ib
+
+trade_goods = fur
+hre = no
+
+center_of_trade = 1

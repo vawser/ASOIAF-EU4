@@ -1,0 +1,16 @@
+# 701 - Khydhan.txt
+is_city = yes
+owner = R07
+controller = R07
+add_core = R07
+
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
+culture = dothraki_culture
+religion = great_stallion
+
+trade_goods = grain
+hre = no
+

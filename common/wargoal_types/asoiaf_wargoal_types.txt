@@ -1,0 +1,267 @@
+# INSTRUCTIONS:
+# -------------
+# prestige_factor - Multiplied with any prestige increase normally associated with a peace option.
+# transfer_trade_cost_factor - Multiplied with the cost for transfering trade power.
+# peace_cost_factor - Multiplied with the cost of the peace options in the peace treaty
+# po_xxx - Peace options. If toggled on, badboy_factor and prestige_factor are multiplied with any associated base changes to these (see defines.txt.)
+# allowed_provinces - If 'po_demand_provinces' is on, badboy_factor applies to these provinces.
+# allow_annex - Always allow annexation (even if other rules disallow)
+# deny_annex - Always deny annexation (even if other rules allows it)
+#
+# ROOT = attacker
+# FROM = target
+#
+# Place peace offers in attacker and/or defender blocks
+# The peace options are:
+# po_annex
+# po_demand_provinces
+# po_revoke_cores
+# po_release_vassals
+# po_release_annexed
+# po_change_religion
+# po_form_personal_union
+# po_gold
+# po_become_vassal
+# po_become_protectorate
+# po_concede_defeat
+# po_annul_treaties
+# po_change_government
+# po_revoke_elector
+# po_trade_power
+# po_humiliate
+# po_enforce_rebel_demands
+#
+# NOTE: The order in which the peace options are listed is the order in which the AI will normally prioritize them in peace treaties
+#
+# WAR GOAL TYPES:
+#	- take_colony
+#	- take_core
+#	- take_border
+#	- take_province
+#	- take_capital
+#	- defend_capital
+#	- defend_country
+#	- naval_superiority
+#	- superiority
+#	- take_region
+#	- blockade_ports
+#
+# --------------------------------------------------------------
+#--------------------------------------
+# Superiority
+#--------------------------------------
+superiority_undead_conquest = {
+	type = superiority
+	
+	attacker = {
+		badboy_factor = 1
+		prestige_factor = 1
+		peace_cost_factor = 0.5
+	
+		peace_options = {
+			po_demand_provinces
+		}
+	}
+	defender = {
+		badboy_factor = 1
+		prestige_factor = 1
+		peace_cost_factor = 1	
+	
+		peace_options = {
+			po_demand_provinces
+		}
+	}
+    
+	war_name = UNDEAD_CONQUEST_NAME
+}
+
+superiority_iron_throne = {
+	type = superiority
+	
+    attacker = {
+		badboy_factor = 1
+		prestige_factor = 2
+		peace_cost_factor = 1
+	
+		peace_options = {
+			claim_the_iron_throne
+		}
+	}
+	defender = {
+		badboy_factor = 0.5
+		prestige_factor = 1
+		peace_cost_factor = 0.5
+        
+        peace_options = {
+			po_demand_provinces
+		}
+	}
+
+	war_name = TAKE_THE_IRON_THRONE
+}
+
+superiority_royal_conquest = {
+	type = superiority
+	
+	attacker = {
+		badboy_factor = 1
+		prestige_factor = 2
+		peace_cost_factor = 1
+	
+		peace_options = {
+			po_demand_provinces
+		}
+	}
+	defender = {
+		badboy_factor = 0.5
+		prestige_factor = 1
+		peace_cost_factor = 0.5
+        
+        peace_options = {
+			po_demand_provinces
+		}
+	}
+	
+	war_name = ROYAL_CONQUEST_NAME
+}
+
+superiority_lordly_feud = {
+	type = superiority
+	
+	attacker = {
+		badboy_factor = 1
+		prestige_factor = 2
+		peace_cost_factor = 1
+	
+		peace_options = {
+			po_demand_provinces
+		}
+	}
+	defender = {
+		badboy_factor = 0.5
+		prestige_factor = 1
+		peace_cost_factor = 0.5
+        
+        peace_options = {
+			po_demand_provinces
+		}
+	}
+	
+	war_name = LORDLY_FEUD_NAME
+}
+
+superiority_defend_the_wall = {
+	type = superiority
+	
+	attacker = {
+		badboy_factor = 1
+		prestige_factor = 2
+		peace_cost_factor = 1
+	
+		peace_options = {
+			po_demand_provinces
+		}
+	}
+	defender = {
+		badboy_factor = 0.5
+		prestige_factor = 1
+		peace_cost_factor = 0.5
+        
+        peace_options = {
+			po_demand_provinces
+		}
+	}
+	
+	war_name = DEFEND_THE_WALL_NAME
+}
+
+superiority_wildling_assault = {
+	type = superiority
+	
+	attacker = {
+		badboy_factor = 1
+		prestige_factor = 1
+		peace_cost_factor = 1
+	
+		peace_options = {
+			po_demand_provinces
+		}
+	}
+	defender = {
+		badboy_factor = 0.5
+		prestige_factor = 1
+		peace_cost_factor = 0.5
+        
+        peace_options = {
+			po_demand_provinces
+		}
+	}
+	
+	war_name = WILDLING_ASSAULT_NAME
+}
+
+superiority_wildling_feud = {
+	type = superiority
+	
+	attacker = {
+		badboy_factor = 1
+		prestige_factor = 2
+		peace_cost_factor = 1
+	
+		peace_options = {
+			po_demand_provinces
+		}
+	}
+	defender = {
+		badboy_factor = 0.5
+		prestige_factor = 1
+		peace_cost_factor = 0.5
+        
+        peace_options = {
+			po_demand_provinces
+		}
+	}
+	
+	war_name = WILDLING_FEUD_NAME
+}
+
+take_capital_force_royal_subject = {
+	type = take_capital
+	
+	badboy_factor = 0.5
+	prestige_factor = 2
+	peace_cost_factor = 0.5
+	
+	peace_options = {
+		enforce_royal_subject
+	}
+	
+	war_name = ROYAL_SUBJECT_MISSION_WAR_NAME
+}
+
+take_capital_take_iron_throne = {
+	type = take_capital
+	
+	attacker = {
+		badboy_factor = 0.5
+		prestige_factor = 1.0
+		peace_cost_factor = 0.5
+
+		peace_options = {
+			po_demand_provinces
+			po_take_mandate
+		}
+	}
+	
+	defender = {
+		badboy_factor = 0.5
+		prestige_factor = 1.0
+		peace_cost_factor = 0.5
+
+		peace_options = {
+			po_demand_provinces
+		}
+	}
+	
+	war_name = CLAIM_THE_IRON_THRONE_WAR_NAME
+}

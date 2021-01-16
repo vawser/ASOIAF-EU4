@@ -1,0 +1,16 @@
+is_city = yes
+
+owner = SWP
+controller = SWP
+add_core = SWP
+
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
+culture = corsairs
+religion = lady_of_the_waves
+
+trade_goods = fish
+hre = no
+

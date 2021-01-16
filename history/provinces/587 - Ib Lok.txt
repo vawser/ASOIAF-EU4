@@ -1,0 +1,22 @@
+# 587 - Ib Lok.txt
+is_city = yes
+
+owner = IBO
+controller = IBO
+add_core = IBO
+
+base_tax = 5
+base_production = 5
+base_manpower = 5
+
+culture = ibbenese
+religion = ib
+
+trade_goods = fur
+hre = no
+
+106.1.1 = {
+    owner = R01
+    controller = R01
+    add_core = R01
+}

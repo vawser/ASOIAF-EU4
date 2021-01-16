@@ -1,0 +1,20 @@
+# 471 - Lorath.txt
+is_city = yes
+
+owner = U38
+controller = U38
+add_core = U38
+
+base_tax = 10
+base_production = 10
+base_manpower = 8
+
+culture = lorathi
+religion = remnants_of_boash
+
+trade_goods = dyes
+hre = no
+
+add_building = castle
+
+center_of_trade = 1

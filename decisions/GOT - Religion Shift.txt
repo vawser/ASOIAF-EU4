@@ -1,0 +1,843 @@
+country_decisions = {
+    
+    # Faith of the Seven
+	adopt_faith_of_the_seven = {
+		major = yes
+		potential = {
+            NOT = { has_country_modifier = conversion_zeal }
+			NOT = { religion = faith_of_the_seven }
+            capital_scope = {
+                religion = faith_of_the_seven
+            }
+		}
+		allow = {
+			NOT = { religion = faith_of_the_seven }
+            capital_scope = {
+                religion = faith_of_the_seven
+            }
+            stability = 3
+			is_at_war = no
+			is_subject = no
+		}
+		effect = {
+			add_stability = -6
+			
+            change_religion = faith_of_the_seven
+
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}	
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+    
+    # The Drowned God
+    adopt_the_drowned_god = {
+		major = yes
+		potential = {
+            NOT = { has_country_modifier = conversion_zeal }
+			NOT = { religion = drowned_god }
+            capital_scope = {
+                religion = drowned_god
+            }
+		}
+		allow = {
+			NOT = { religion = drowned_god }
+            capital_scope = {
+                religion = drowned_god
+            }
+            stability = 3
+			is_at_war = no
+			is_subject = no
+		}
+		effect = {
+			add_stability = -6
+			
+            change_religion = drowned_god
+
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}	
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+    
+    # The Old Gods
+    adopt_the_old_gods = {
+		major = yes
+		potential = {
+            NOT = { has_country_modifier = conversion_zeal }
+			NOT = { religion = old_gods }
+            capital_scope = {
+                religion = old_gods
+            }
+		}
+		allow = {
+			NOT = { religion = old_gods }
+            capital_scope = {
+                religion = old_gods
+            }
+            stability = 3
+			is_at_war = no
+			is_subject = no
+		}
+		effect = {
+			add_stability = -6
+			
+            change_religion = faith_of_the_seven
+
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}	
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+    
+    # R'hllor
+    adopt_rhllor = {
+		major = yes
+		potential = {
+            NOT = { has_country_modifier = conversion_zeal }
+			NOT = { religion = rhllor }
+            capital_scope = {
+                religion = rhllor
+            }
+		}
+		allow = {
+			NOT = { religion = rhllor }
+            capital_scope = {
+                religion = rhllor
+            }
+            stability = 3
+			is_at_war = no
+			is_subject = no
+		}
+		effect = {
+			add_stability = -6
+			
+            change_religion = rhllor
+            
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}	
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+    
+    # Mother Rhoyne
+    adopt_mother_rhoyne = {
+		major = yes
+		potential = {
+            NOT = { has_country_modifier = conversion_zeal }
+			NOT = { religion = mother_rhoyne }
+            capital_scope = {
+                religion = mother_rhoyne
+            }
+		}
+		allow = {
+			NOT = { religion = mother_rhoyne }
+            capital_scope = {
+                religion = mother_rhoyne
+            }
+            stability = 3
+			is_at_war = no
+			is_subject = no
+		}
+		effect = {
+			add_stability = -6
+			
+            change_religion = mother_rhoyne
+
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}	
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+    
+    # Trios
+    adopt_trios = {
+		major = yes
+		potential = {
+            NOT = { has_country_modifier = conversion_zeal }
+			NOT = { religion = trios }
+            capital_scope = {
+                religion = trios
+            }
+		}
+		allow = {
+			NOT = { religion = trios }
+            capital_scope = {
+                religion = trios
+            }
+            stability = 3
+			is_at_war = no
+			is_subject = no
+		}
+		effect = {
+			add_stability = -6
+			
+            change_religion = trios
+
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}	
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+    
+    # The Bearded Priests
+    adopt_the_bearded_priests = {
+		major = yes
+		potential = {
+            NOT = { has_country_modifier = conversion_zeal }
+			NOT = { religion = bearded_priests }
+            capital_scope = {
+                religion = bearded_priests
+            }
+		}
+		allow = {
+			NOT = { religion = bearded_priests }
+            capital_scope = {
+                religion = bearded_priests
+            }
+            stability = 3
+			is_at_war = no
+			is_subject = no
+		}
+		effect = {
+			add_stability = -6
+			
+            change_religion = bearded_priests
+
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}	
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+    
+    # Remnants of Boash
+    adopt_remnants_of_boash = {
+		major = yes
+		potential = {
+            NOT = { has_country_modifier = conversion_zeal }
+			NOT = { religion = remnants_of_boash }
+            capital_scope = {
+                religion = remnants_of_boash
+            }
+		}
+		allow = {
+			NOT = { religion = remnants_of_boash }
+            capital_scope = {
+                religion = remnants_of_boash
+            }
+            stability = 3
+			is_at_war = no
+			is_subject = no
+		}
+		effect = {
+			add_stability = -6
+			
+            change_religion = remnants_of_boash
+
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}	
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+    
+    # Black Goat
+    adopt_the_black_goat = {
+		major = yes
+		potential = {
+            NOT = { has_country_modifier = conversion_zeal }
+			NOT = { religion = black_goat }
+            capital_scope = {
+                religion = black_goat
+            }
+		}
+		allow = {
+			NOT = { religion = black_goat }
+            capital_scope = {
+                religion = black_goat
+            }
+            stability = 3
+			is_at_war = no
+			is_subject = no
+		}
+		effect = {
+			add_stability = -6
+			
+            change_religion = black_goat
+            
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}	
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+    
+    # Hooded Wayfarer
+    adopt_hooded_wayfarer = {
+		major = yes
+		potential = {
+            NOT = { has_country_modifier = conversion_zeal }
+			NOT = { religion = hooded_wayfarer }
+            capital_scope = {
+                religion = hooded_wayfarer
+            }
+		}
+		allow = {
+			NOT = { religion = hooded_wayfarer }
+            capital_scope = {
+                religion = hooded_wayfarer
+            }
+            stability = 3
+			is_at_war = no
+			is_subject = no
+		}
+		effect = {
+			add_stability = -6
+			
+            change_religion = hooded_wayfarer
+            
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}	
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+    
+    # Ghiscari Pantheon
+    adopt_ghiscari_pantheon = {
+		major = yes
+		potential = {
+            NOT = { has_country_modifier = conversion_zeal }
+			NOT = { religion = ghiscari_pantheon }
+            capital_scope = {
+                religion = ghiscari_pantheon
+            }
+		}
+		allow = {
+			NOT = { religion = ghiscari_pantheon }
+            capital_scope = {
+                religion = ghiscari_pantheon
+            }
+            stability = 3
+			is_at_war = no
+			is_subject = no
+		}
+		effect = {
+			add_stability = -6
+			
+            change_religion = ghiscari_pantheon
+            
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}	
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+    
+    # The Great Shepherd
+    adopt_the_great_shepherd = {
+		major = yes
+		potential = {
+            NOT = { has_country_modifier = conversion_zeal }
+			NOT = { religion = great_shepherd }
+            capital_scope = {
+                religion = great_shepherd
+            }
+		}
+		allow = {
+			NOT = { religion = great_shepherd }
+            capital_scope = {
+                religion = great_shepherd
+            }
+            stability = 3
+			is_at_war = no
+			is_subject = no
+		}
+		effect = {
+			add_stability = -6
+			
+            change_religion = great_shepherd
+            
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}	
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+    
+    # Ib
+    adopt_ib = {
+		major = yes
+		potential = {
+            NOT = { has_country_modifier = conversion_zeal }
+			NOT = { religion = ib }
+            capital_scope = {
+                religion = ib
+            }
+		}
+		allow = {
+			NOT = { religion = ib }
+            capital_scope = {
+                religion = ib
+            }
+            stability = 3
+			is_at_war = no
+			is_subject = no
+		}
+		effect = {
+			add_stability = -6
+			
+            change_religion = ib
+            
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}	
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+    
+    # Lion of the Night
+    adopt_the_lion_of_the_night = {
+		major = yes
+		potential = {
+            NOT = { has_country_modifier = conversion_zeal }
+			NOT = { religion = lion_of_the_night }
+            capital_scope = {
+                religion = lion_of_the_night
+            }
+		}
+		allow = {
+			NOT = { religion = lion_of_the_night }
+            capital_scope = {
+                religion = lion_of_the_night
+            }
+            stability = 3
+			is_at_war = no
+			is_subject = no
+		}
+		effect = {
+			add_stability = -6
+			
+            change_religion = lion_of_the_night
+            
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}	
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+    
+    # Stone Cow of Faros
+    adopt_the_stone_cow = {
+		major = yes
+		potential = {
+            NOT = { has_country_modifier = conversion_zeal }
+			NOT = { religion = stone_cow }
+            capital_scope = {
+                religion = stone_cow
+            }
+		}
+		allow = {
+			NOT = { religion = stone_cow }
+            capital_scope = {
+                religion = stone_cow
+            }
+            stability = 3
+			is_at_war = no
+			is_subject = no
+		}
+		effect = {
+			add_stability = -6
+			
+            change_religion = stone_cow
+            
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}	
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+    
+    # Gods of Hyrkoon
+    adopt_gods_of_hyrkoon = {
+		major = yes
+		potential = {
+            NOT = { has_country_modifier = conversion_zeal }
+			NOT = { religion = gods_of_hyrkoon }
+            capital_scope = {
+                religion = gods_of_hyrkoon
+            }
+		}
+		allow = {
+			NOT = { religion = gods_of_hyrkoon }
+            capital_scope = {
+                religion = gods_of_hyrkoon
+            }
+            stability = 3
+			is_at_war = no
+			is_subject = no
+		}
+		effect = {
+			add_stability = -6
+			
+            change_religion = gods_of_hyrkoon
+            
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}	
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+    
+    # Moonsingers
+    adopt_the_moonsingers = {
+		major = yes
+		potential = {
+            NOT = { has_country_modifier = conversion_zeal }
+			NOT = { religion = moonsingers }
+            capital_scope = {
+                religion = moonsingers
+            }
+		}
+		allow = {
+			NOT = { religion = moonsingers }
+            capital_scope = {
+                religion = moonsingers
+            }
+            stability = 3
+			is_at_war = no
+			is_subject = no
+		}
+		effect = {
+			add_stability = -6
+			
+            change_religion = moonsingers
+            
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}	
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+    
+    # Occult
+    adopt_the_occult = {
+		major = yes
+		potential = {
+            NOT = { has_country_modifier = conversion_zeal }
+			NOT = { religion = cult_of_shadows }
+            capital_scope = {
+                religion = cult_of_shadows
+            }
+		}
+		allow = {
+			NOT = { religion = cult_of_shadows }
+            capital_scope = {
+                religion = cult_of_shadows
+            }
+            stability = 3
+			is_at_war = no
+			is_subject = no
+		}
+		effect = {
+			add_stability = -6
+			
+            change_religion = cult_of_shadows
+            
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}	
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+    
+    # The Summer Gods
+    adopt_the_summer_gods = {
+		major = yes
+		potential = {
+            NOT = { has_country_modifier = conversion_zeal }
+			NOT = { religion = summer_gods }
+            capital_scope = {
+                religion = summer_gods
+            }
+		}
+		allow = {
+			NOT = { religion = summer_gods }
+            capital_scope = {
+                religion = summer_gods
+            }
+            stability = 3
+			is_at_war = no
+			is_subject = no
+		}
+		effect = {
+			add_stability = -6
+			
+            change_religion = summer_gods
+            
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}	
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+    
+    # Lord of Harmony
+    adopt_the_lord_of_harmony = {
+		major = yes
+		potential = {
+            NOT = { has_country_modifier = conversion_zeal }
+			NOT = { religion = lord_of_harmony }
+            capital_scope = {
+                religion = lord_of_harmony
+            }
+		}
+		allow = {
+			NOT = { religion = lord_of_harmony }
+            capital_scope = {
+                religion = lord_of_harmony
+            }
+            stability = 3
+			is_at_war = no
+			is_subject = no
+		}
+		effect = {
+			add_stability = -6
+			
+            change_religion = lord_of_harmony
+            
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}	
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+    
+    # The Great Stallion
+    adopt_the_great_stallion = {
+		major = yes
+		potential = {
+            NOT = { has_country_modifier = conversion_zeal }
+			NOT = { religion = great_stallion }
+            capital_scope = {
+                religion = great_stallion
+            }
+		}
+		allow = {
+			NOT = { religion = great_stallion }
+            capital_scope = {
+                religion = great_stallion
+            }
+            stability = 3
+			is_at_war = no
+			is_subject = no
+		}
+		effect = {
+			add_stability = -6
+			
+            change_religion = great_stallion
+            
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}	
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+    
+    # Idol Worship
+    adopt_idol_worship = {
+		major = yes
+		potential = {
+            NOT = { has_country_modifier = conversion_zeal }
+			NOT = { religion = idol_worship }
+            capital_scope = {
+                religion = idol_worship
+            }
+		}
+		allow = {
+			NOT = { religion = idol_worship }
+            capital_scope = {
+                religion = idol_worship
+            }
+            stability = 3
+			is_at_war = no
+			is_subject = no
+		}
+		effect = {
+			add_stability = -6
+			
+            change_religion = idol_worship
+            
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}	
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+    
+    # Lady of the Waves
+    adopt_the_lady_of_the_waves = {
+		major = yes
+		potential = {
+            NOT = { has_country_modifier = conversion_zeal }
+			NOT = { religion = lady_of_the_waves }
+            capital_scope = {
+                religion = lady_of_the_waves
+            }
+		}
+		allow = {
+			NOT = { religion = lady_of_the_waves }
+            capital_scope = {
+                religion = lady_of_the_waves
+            }
+            stability = 3
+			is_at_war = no
+			is_subject = no
+		}
+		effect = {
+			add_stability = -6
+			
+            change_religion = lady_of_the_waves
+            
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}	
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+    
+    # Cyromancy
+    adopt_cyromancy = {
+		major = yes
+		potential = {
+            NOT = { has_country_modifier = conversion_zeal }
+			NOT = { religion = cyromancy }
+            capital_scope = {
+                religion = cyromancy
+            }
+		}
+		allow = {
+			NOT = { religion = cyromancy }
+            capital_scope = {
+                religion = cyromancy
+            }
+            stability = 3
+			is_at_war = no
+			is_subject = no
+		}
+		effect = {
+			add_stability = -6
+			
+            change_religion = cyromancy
+            
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}	
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}
+

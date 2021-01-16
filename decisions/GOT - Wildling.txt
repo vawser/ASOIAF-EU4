@@ -1,0 +1,31 @@
+country_decisions = {
+	commision_runestone = {
+		potential = {
+			technology_group = wildling
+			NOT = { has_ruler_modifier = commissioned_runestone }
+		}
+		allow = {
+			technology_group = wildling
+			years_of_income = 1
+			NOT = { has_ruler_modifier = commissioned_runestone }
+		}
+		effect = {
+			add_years_of_income = -1
+			
+			add_ruler_modifier = {
+				name = commissioned_runestone
+				duration = -1
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 0
+				
+				religious_unity = 0.9
+			}
+		}
+	}
+}

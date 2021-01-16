@@ -1,0 +1,23 @@
+# 81 - Oldstones.txt
+
+is_city = yes
+
+owner = M17
+controller = M17
+add_core = M17
+
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
+culture = faith_of_the_seven
+religion = drowned_god
+
+trade_goods = cloth
+hre = no
+
+106.1.1 = {
+    owner = RIV
+    controller = RIV
+    add_core = RIV
+}

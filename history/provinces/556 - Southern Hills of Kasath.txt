@@ -1,0 +1,16 @@
+# 556 - Southern Hills of Kasath.txt
+is_city = yes
+owner = KRA
+controller = KRA
+add_core = KRA
+
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
+culture = dothraki_culture
+religion = great_stallion
+
+trade_goods = grain
+hre = no
+

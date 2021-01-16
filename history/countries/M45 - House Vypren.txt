@@ -1,0 +1,145 @@
+
+government_rank = 1
+
+government = monarchy
+add_government_reform = noble_house_reform
+
+
+technology_group = westerosi
+primary_culture = men_of_the_riverlands
+religion = faith_of_the_seven
+
+capital = 82
+
+# Shattered World
+100.1.1 = {
+    monarch = {
+        name = "Hugh"
+        dynasty = "Vypren"
+        adm = 5
+        dip = 3
+        mil = 2
+        birth_date = 52.1.1
+    }
+}
+
+# War for the Stepstones
+106.1.1 = {
+    monarch = {
+        name = "Meha"
+        dynasty = "Vypren"
+        adm = 0
+        dip = 4
+        mil = 5
+        birth_date = 79.1.1
+    }
+}
+
+# The Dance of Dragons
+129.1.1 = {
+    monarch = {
+        name = "Sefton"
+        dynasty = "Vypren"
+        adm = 3
+        dip = 2
+        mil = 4
+        birth_date = 70.1.1
+    }
+}
+
+# Conquest of Dorne
+157.1.1 = {
+    monarch = {
+        name = "Ricasso"
+        dynasty = "Vypren"
+        adm = 0
+        dip = 4
+        mil = 5
+        birth_date = 110.1.1
+    }
+}
+
+# Blackfyre Rebellion
+196.1.1 = {
+    monarch = {
+        name = "Belaquo"
+        dynasty = "Vypren"
+        adm = 2
+        dip = 2
+        mil = 3
+        birth_date = 168.1.1
+    }
+}
+
+# After Spring
+211.1.1 = {
+    monarch = {
+        name = "Bael"
+        dynasty = "Vypren"
+        adm = 0
+        dip = 5
+        mil = 2
+        birth_date = 179.1.1
+    }
+}
+
+# War of the Ninepenny Kings
+260.1.1 = {
+    monarch = {
+        name = "Othell"
+        dynasty = "Vypren"
+        adm = 5
+        dip = 0
+        mil = 0
+        birth_date = 201.1.1
+    }
+}
+
+# Robert's Rebellion
+282.1.1 = {
+    monarch = {
+        name = "Borcas"
+        dynasty = "Vypren"
+        adm = 5
+        dip = 3
+        mil = 5
+        birth_date = 248.1.1
+    }
+}
+
+# The Greyjoy Rebellion
+289.1.1 = {
+    monarch = {
+        name = "Hobb"
+        dynasty = "Vypren"
+        adm = 2
+        dip = 4
+        mil = 5
+        birth_date = 260.1.1
+    }
+}
+
+# War of the Five Kings
+298.1.1 = {
+    monarch = {
+        name = "Belgrave"
+        dynasty = "Vypren"
+        adm = 4
+        dip = 3
+        mil = 0
+        birth_date = 253.1.1
+    }
+}
+
+# The Night King
+304.1.1 = {
+    monarch = {
+        name = "Rymolf"
+        dynasty = "Vypren"
+        adm = 1
+        dip = 4
+        mil = 1
+        birth_date = 284.1.1
+    }
+}
+

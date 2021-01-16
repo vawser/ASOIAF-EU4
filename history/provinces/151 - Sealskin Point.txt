@@ -1,0 +1,23 @@
+# 151 - Sealskin Point.txt
+is_city = yes
+
+owner = M02
+controller = M02
+add_core = M02
+
+base_tax = 2
+base_production = 4
+base_manpower = 3
+
+culture = ironborn
+religion = drowned_god
+
+trade_goods = fish
+hre = no
+
+106.1.1 = {
+    owner = IRI
+    controller = IRI
+    add_core = IRI
+}
+

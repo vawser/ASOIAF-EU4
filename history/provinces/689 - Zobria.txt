@@ -1,0 +1,16 @@
+# 689 - Zobria.txt
+is_city = yes
+owner = QOQ
+controller = QOQ
+add_core = QOQ
+
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
+culture = dothraki_culture
+religion = great_stallion
+
+trade_goods = wool
+hre = no
+

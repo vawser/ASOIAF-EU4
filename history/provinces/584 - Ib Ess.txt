@@ -1,0 +1,22 @@
+# 584 - Ib Ess.txt
+is_city = yes
+
+owner = ESS
+controller = ESS
+add_core = ESS
+
+base_tax = 4
+base_production = 4
+base_manpower = 4
+
+culture = ibbenese
+religion = ib
+
+trade_goods = ivory
+hre = no
+
+106.1.1 = {
+    owner = R01
+    controller = R01
+    add_core = R01
+}

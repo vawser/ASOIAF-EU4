@@ -1,0 +1,16 @@
+# 566 - Walrus Point.txt
+is_city = yes
+owner = ITQ
+controller = ITQ
+add_core = ITQ
+
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
+culture = dothraki_culture
+religion = great_stallion
+
+trade_goods = fish
+hre = no
+

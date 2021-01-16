@@ -1,0 +1,144 @@
+
+government_rank = 1
+government = monarchy
+add_government_reform = ghis_city_reform
+set_estate_privilege = estate_nobles_unsullied
+
+technology_group = ghiscari
+primary_culture = ghis
+religion = ghiscari_pantheon
+
+capital = 633
+
+# Shattered World
+100.1.1 = {
+    monarch = {
+        name = "Khemd"
+        dynasty = "Riznahz"
+        adm = 5
+        dip = 1
+        mil = 5
+        birth_date = 49.1.1
+    }
+}
+
+# War for the Stepstones
+106.1.1 = {
+    monarch = {
+        name = "Vhos"
+        dynasty = "Riznahz"
+        adm = 0
+        dip = 3
+        mil = 3
+        birth_date = 47.1.1
+    }
+}
+
+# The Dance of Dragons
+129.1.1 = {
+    monarch = {
+        name = "Mushgah"
+        dynasty = "Riznahz"
+        adm = 1
+        dip = 0
+        mil = 0
+        birth_date = 73.1.1
+    }
+}
+
+# Conquest of Dorne
+157.1.1 = {
+    monarch = {
+        name = "Khammo"
+        dynasty = "Riznahz"
+        adm = 1
+        dip = 3
+        mil = 3
+        birth_date = 105.1.1
+    }
+}
+
+# Blackfyre Rebellion
+196.1.1 = {
+    monarch = {
+        name = "Nahassar"
+        dynasty = "Riznahz"
+        adm = 2
+        dip = 1
+        mil = 1
+        birth_date = 144.1.1
+    }
+}
+
+# After Spring
+211.1.1 = {
+    monarch = {
+        name = "Gilzir"
+        dynasty = "Riznahz"
+        adm = 2
+        dip = 4
+        mil = 1
+        birth_date = 174.1.1
+    }
+}
+
+# War of the Ninepenny Kings
+260.1.1 = {
+    monarch = {
+        name = "Ernele"
+        dynasty = "Riznahz"
+        adm = 2
+        dip = 4
+        mil = 2
+        birth_date = 209.1.1
+    }
+}
+
+# Robert's Rebellion
+282.1.1 = {
+    monarch = {
+        name = "Adar"
+        dynasty = "Riznahz"
+        adm = 4
+        dip = 2
+        mil = 4
+        birth_date = 261.1.1
+    }
+}
+
+# The Greyjoy Rebellion
+289.1.1 = {
+    monarch = {
+        name = "Trasteve"
+        dynasty = "Riznahz"
+        adm = 1
+        dip = 4
+        mil = 2
+        birth_date = 243.1.1
+    }
+}
+
+# War of the Five Kings
+298.1.1 = {
+    monarch = {
+        name = "Trayvond"
+        dynasty = "Riznahz"
+        adm = 2
+        dip = 5
+        mil = 5
+        birth_date = 263.1.1
+    }
+}
+
+# The Night King
+304.1.1 = {
+    monarch = {
+        name = "Mehrzad"
+        dynasty = "Riznahz"
+        adm = 2
+        dip = 0
+        mil = 5
+        birth_date = 276.1.1
+    }
+}
+

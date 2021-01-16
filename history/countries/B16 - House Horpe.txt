@@ -1,0 +1,145 @@
+
+government_rank = 1
+
+government = monarchy
+add_government_reform = noble_house_reform
+
+
+technology_group = westerosi
+primary_culture = men_of_the_stormlands
+religion = faith_of_the_seven
+
+capital = 324
+
+# Shattered World
+100.1.1 = {
+    monarch = {
+        name = "Amell"
+        dynasty = "Horpe"
+        adm = 3
+        dip = 1
+        mil = 2
+        birth_date = 65.1.1
+    }
+}
+
+# War for the Stepstones
+106.1.1 = {
+    monarch = {
+        name = "Orbert"
+        dynasty = "Horpe"
+        adm = 4
+        dip = 4
+        mil = 4
+        birth_date = 49.1.1
+    }
+}
+
+# The Dance of Dragons
+129.1.1 = {
+    monarch = {
+        name = "Watty"
+        dynasty = "Horpe"
+        adm = 4
+        dip = 4
+        mil = 2
+        birth_date = 98.1.1
+    }
+}
+
+# Conquest of Dorne
+157.1.1 = {
+    monarch = {
+        name = "Nymos"
+        dynasty = "Horpe"
+        adm = 0
+        dip = 2
+        mil = 1
+        birth_date = 133.1.1
+    }
+}
+
+# Blackfyre Rebellion
+196.1.1 = {
+    monarch = {
+        name = "Tyrion"
+        dynasty = "Horpe"
+        adm = 2
+        dip = 4
+        mil = 0
+        birth_date = 167.1.1
+    }
+}
+
+# After Spring
+211.1.1 = {
+    monarch = {
+        name = "Ballabar"
+        dynasty = "Horpe"
+        adm = 0
+        dip = 2
+        mil = 4
+        birth_date = 179.1.1
+    }
+}
+
+# War of the Ninepenny Kings
+260.1.1 = {
+    monarch = {
+        name = "Clifford"
+        dynasty = "Horpe"
+        adm = 0
+        dip = 5
+        mil = 2
+        birth_date = 218.1.1
+    }
+}
+
+# Robert's Rebellion
+282.1.1 = {
+    monarch = {
+        name = "Tom"
+        dynasty = "Horpe"
+        adm = 1
+        dip = 5
+        mil = 4
+        birth_date = 228.1.1
+    }
+}
+
+# The Greyjoy Rebellion
+289.1.1 = {
+    monarch = {
+        name = "Grisil"
+        dynasty = "Horpe"
+        adm = 0
+        dip = 2
+        mil = 4
+        birth_date = 260.1.1
+    }
+}
+
+# War of the Five Kings
+298.1.1 = {
+    monarch = {
+        name = "Jurne"
+        dynasty = "Horpe"
+        adm = 4
+        dip = 3
+        mil = 1
+        birth_date = 245.1.1
+    }
+}
+
+# The Night King
+304.1.1 = {
+    monarch = {
+        name = "Hoster"
+        dynasty = "Horpe"
+        adm = 1
+        dip = 3
+        mil = 2
+        birth_date = 282.1.1
+    }
+}
+

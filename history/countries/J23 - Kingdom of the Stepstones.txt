@@ -1,0 +1,8 @@
+# Kingdom of the Stepstones
+government = pirate
+add_government_reform = pirate_kingdom_reform
+government_rank = 1
+
+technology_group = stepstones
+primary_culture = corsairs
+religion = lady_of_the_waves

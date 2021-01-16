@@ -1,0 +1,144 @@
+
+government_rank = 1
+government = tribal
+add_government_reform = naath_clan_reform
+
+
+technology_group = naathi
+primary_culture = naathi
+religion = lord_of_harmony
+
+capital = 626
+
+# Shattered World
+100.1.1 = {
+    monarch = {
+        name = "Augtu"
+        dynasty = "Kizwe"
+        adm = 5
+        dip = 1
+        mil = 0
+        birth_date = 73.1.1
+    }
+}
+
+# War for the Stepstones
+106.1.1 = {
+    monarch = {
+        name = "Hatoju"
+        dynasty = "Kizwe"
+        adm = 1
+        dip = 1
+        mil = 5
+        birth_date = 63.1.1
+    }
+}
+
+# The Dance of Dragons
+129.1.1 = {
+    monarch = {
+        name = "Burbausa"
+        dynasty = "Kizwe"
+        adm = 5
+        dip = 4
+        mil = 3
+        birth_date = 85.1.1
+    }
+}
+
+# Conquest of Dorne
+157.1.1 = {
+    monarch = {
+        name = "Rasu"
+        dynasty = "Kizwe"
+        adm = 1
+        dip = 3
+        mil = 6
+        birth_date = 102.1.1
+    }
+}
+
+# Blackfyre Rebellion
+196.1.1 = {
+    monarch = {
+        name = "Burgu"
+        dynasty = "Kizwe"
+        adm = 2
+        dip = 2
+        mil = 0
+        birth_date = 177.1.1
+    }
+}
+
+# After Spring
+211.1.1 = {
+    monarch = {
+        name = "Kaha"
+        dynasty = "Kizwe"
+        adm = 0
+        dip = 4
+        mil = 2
+        birth_date = 193.1.1
+    }
+}
+
+# War of the Ninepenny Kings
+260.1.1 = {
+    monarch = {
+        name = "Fufupo"
+        dynasty = "Kizwe"
+        adm = 2
+        dip = 3
+        mil = 2
+        birth_date = 205.1.1
+    }
+}
+
+# Robert's Rebellion
+282.1.1 = {
+    monarch = {
+        name = "Kudoto"
+        dynasty = "Kizwe"
+        adm = 1
+        dip = 5
+        mil = 1
+        birth_date = 233.1.1
+    }
+}
+
+# The Greyjoy Rebellion
+289.1.1 = {
+    monarch = {
+        name = "Rugosu"
+        dynasty = "Kizwe"
+        adm = 0
+        dip = 6
+        mil = 6
+        birth_date = 269.1.1
+    }
+}
+
+# War of the Five Kings
+298.1.1 = {
+    monarch = {
+        name = "Tafuto"
+        dynasty = "Kizwe"
+        adm = 3
+        dip = 2
+        mil = 3
+        birth_date = 277.1.1
+    }
+}
+
+# The Night King
+304.1.1 = {
+    monarch = {
+        name = "Saurta"
+        dynasty = "Kizwe"
+        adm = 4
+        dip = 2
+        mil = 3
+        birth_date = 253.1.1
+    }
+}
+

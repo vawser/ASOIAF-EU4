@@ -1,0 +1,16 @@
+# 714 - Krazaaj Niqe.txt
+is_city = yes
+owner = S46
+controller = S46
+add_core = S46
+
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
+culture = dothraki_culture
+religion = great_stallion
+
+trade_goods = grain
+hre = no
+

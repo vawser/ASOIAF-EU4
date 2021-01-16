@@ -1,0 +1,19 @@
+# 1150 - House of the Undying.txt
+is_city = yes
+
+owner = R41
+controller = R41
+add_core = R41
+
+base_tax = 10
+base_production = 10
+base_manpower = 10
+
+culture = qartheen
+religion = cult_of_shadows
+
+trade_goods = spices
+hre = no
+
+add_province_triggered_modifier = religious_center
+add_province_triggered_modifier = house_of_the_undying

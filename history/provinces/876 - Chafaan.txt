@@ -1,0 +1,16 @@
+# 876 - Chafaan.txt
+is_city = yes
+owner = MAK
+controller = MAK
+add_core = MAK
+
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
+culture = jogos_nhai
+religion = moonsingers
+
+trade_goods = wool
+hre = no
+

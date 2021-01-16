@@ -1,0 +1,17 @@
+is_city = yes
+
+owner = JAB
+controller = JAB
+add_core = JAB
+
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
+culture = bloodless
+religion = cult_of_pallor
+
+trade_goods = naval_supplies
+hre = no
+
+

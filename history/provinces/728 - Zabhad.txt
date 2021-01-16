@@ -1,0 +1,17 @@
+# 728 - Zabhad.txt
+is_city = yes
+
+owner = R63
+controller = R63
+add_core = R63
+
+base_tax = 7
+base_production = 7
+base_manpower = 4
+
+culture = zabhadi
+religion = stone_cow
+
+trade_goods = spices
+hre = no
+

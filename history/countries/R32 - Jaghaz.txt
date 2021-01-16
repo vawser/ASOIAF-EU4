@@ -1,0 +1,144 @@
+
+government_rank = 1
+government = monarchy
+add_government_reform = ghis_city_reform
+set_estate_privilege = estate_nobles_unsullied
+
+technology_group = ghiscari
+primary_culture = ghis
+religion = ghiscari_pantheon
+
+capital = 636
+
+# Shattered World
+100.1.1 = {
+    monarch = {
+        name = "Jayeed"
+        dynasty = "Jaghaz"
+        adm = 3
+        dip = 3
+        mil = 0
+        birth_date = 73.1.1
+    }
+}
+
+# War for the Stepstones
+106.1.1 = {
+    monarch = {
+        name = "Farrokh"
+        dynasty = "Jaghaz"
+        adm = 3
+        dip = 0
+        mil = 5
+        birth_date = 56.1.1
+    }
+}
+
+# The Dance of Dragons
+129.1.1 = {
+    monarch = {
+        name = "Ginal"
+        dynasty = "Jaghaz"
+        adm = 1
+        dip = 4
+        mil = 5
+        birth_date = 79.1.1
+    }
+}
+
+# Conquest of Dorne
+157.1.1 = {
+    monarch = {
+        name = "Nuzbawir"
+        dynasty = "Jaghaz"
+        adm = 4
+        dip = 0
+        mil = 4
+        birth_date = 107.1.1
+    }
+}
+
+# Blackfyre Rebellion
+196.1.1 = {
+    monarch = {
+        name = "Nazeem"
+        dynasty = "Jaghaz"
+        adm = 3
+        dip = 5
+        mil = 3
+        birth_date = 148.1.1
+    }
+}
+
+# After Spring
+211.1.1 = {
+    monarch = {
+        name = "Zimar"
+        dynasty = "Jaghaz"
+        adm = 5
+        dip = 3
+        mil = 5
+        birth_date = 180.1.1
+    }
+}
+
+# War of the Ninepenny Kings
+260.1.1 = {
+    monarch = {
+        name = "Hiwanan"
+        dynasty = "Jaghaz"
+        adm = 2
+        dip = 0
+        mil = 2
+        birth_date = 222.1.1
+    }
+}
+
+# Robert's Rebellion
+282.1.1 = {
+    monarch = {
+        name = "Husni"
+        dynasty = "Jaghaz"
+        adm = 2
+        dip = 0
+        mil = 1
+        birth_date = 246.1.1
+    }
+}
+
+# The Greyjoy Rebellion
+289.1.1 = {
+    monarch = {
+        name = "Roshan"
+        dynasty = "Jaghaz"
+        adm = 1
+        dip = 0
+        mil = 1
+        birth_date = 264.1.1
+    }
+}
+
+# War of the Five Kings
+298.1.1 = {
+    monarch = {
+        name = "Fawazz"
+        dynasty = "Jaghaz"
+        adm = 4
+        dip = 5
+        mil = 5
+        birth_date = 246.1.1
+    }
+}
+
+# The Night King
+304.1.1 = {
+    monarch = {
+        name = "Zanyar"
+        dynasty = "Jaghaz"
+        adm = 1
+        dip = 4
+        mil = 2
+        birth_date = 285.1.1
+    }
+}
+

@@ -1,0 +1,145 @@
+
+government_rank = 1
+
+government = monarchy
+add_government_reform = noble_house_reform
+
+
+technology_group = westerosi
+primary_culture = men_of_the_stormlands
+religion = faith_of_the_seven
+
+capital = 1
+
+# Shattered World
+100.1.1 = {
+    monarch = {
+        name = "Donyse"
+        dynasty = "Cole"
+        adm = 1
+        dip = 0
+        mil = 3
+        birth_date = 79.1.1
+    }
+}
+
+# War for the Stepstones
+106.1.1 = {
+    monarch = {
+        name = "Maegelle"
+        dynasty = "Cole"
+        adm = 4
+        dip = 2
+        mil = 2
+        birth_date = 60.1.1
+    }
+}
+
+# The Dance of Dragons
+129.1.1 = {
+    monarch = {
+        name = "Marghaz"
+        dynasty = "Cole"
+        adm = 3
+        dip = 5
+        mil = 1
+        birth_date = 110.1.1
+    }
+}
+
+# Conquest of Dorne
+157.1.1 = {
+    monarch = {
+        name = "Pyat"
+        dynasty = "Cole"
+        adm = 2
+        dip = 1
+        mil = 0
+        birth_date = 126.1.1
+    }
+}
+
+# Blackfyre Rebellion
+196.1.1 = {
+    monarch = {
+        name = "Medgar"
+        dynasty = "Cole"
+        adm = 3
+        dip = 2
+        mil = 5
+        birth_date = 149.1.1
+    }
+}
+
+# After Spring
+211.1.1 = {
+    monarch = {
+        name = "Rhogoro"
+        dynasty = "Cole"
+        adm = 0
+        dip = 5
+        mil = 3
+        birth_date = 183.1.1
+    }
+}
+
+# War of the Ninepenny Kings
+260.1.1 = {
+    monarch = {
+        name = "Ogo"
+        dynasty = "Cole"
+        adm = 2
+        dip = 3
+        mil = 4
+        birth_date = 229.1.1
+    }
+}
+
+# Robert's Rebellion
+282.1.1 = {
+    monarch = {
+        name = "Daena"
+        dynasty = "Cole"
+        adm = 1
+        dip = 3
+        mil = 4
+        birth_date = 224.1.1
+    }
+}
+
+# The Greyjoy Rebellion
+289.1.1 = {
+    monarch = {
+        name = "Dudley"
+        dynasty = "Cole"
+        adm = 4
+        dip = 0
+        mil = 4
+        birth_date = 255.1.1
+    }
+}
+
+# War of the Five Kings
+298.1.1 = {
+    monarch = {
+        name = "Dryn"
+        dynasty = "Cole"
+        adm = 5
+        dip = 5
+        mil = 1
+        birth_date = 249.1.1
+    }
+}
+
+# The Night King
+304.1.1 = {
+    monarch = {
+        name = "Hyle"
+        dynasty = "Cole"
+        adm = 5
+        dip = 4
+        mil = 1
+        birth_date = 259.1.1
+    }
+}
+

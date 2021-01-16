@@ -1,0 +1,17 @@
+# 561 - Vaes Athjikhari (Sallosh).txt
+is_city = yes
+owner = KRA
+controller = KRA
+add_core = KRA
+
+base_tax = 2
+base_production = 2
+base_manpower = 2
+
+culture = dothraki_culture
+religion = great_stallion
+
+trade_goods = grain
+hre = no
+
+center_of_trade = 1

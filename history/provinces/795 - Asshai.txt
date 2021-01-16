@@ -1,0 +1,21 @@
+# 795 - Asshai.txt
+is_city = yes
+
+owner = J02
+controller = J02
+add_core = J02
+
+base_tax = 12
+base_production = 12
+base_manpower = 12
+
+culture = asshai
+religion = cult_of_shadows
+
+trade_goods = gold
+hre = no
+
+center_of_trade = 2
+
+add_province_triggered_modifier = religious_center
+add_province_triggered_modifier = library_of_the_occult

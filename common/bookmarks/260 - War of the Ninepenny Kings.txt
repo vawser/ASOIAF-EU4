@@ -1,0 +1,18 @@
+bookmark =
+{
+	name = "WAR_OF_THE_NINEPENNY_KINGS_NAME"
+	desc = "WAR_OF_THE_NINEPENNY_KINGS_DESC"
+
+	date = 260.1.1
+	
+	country = A02
+    country = CRW
+	country = NOR
+	country = RIV
+	country = WES
+	country = VLE
+	country = IRI
+	country = STM
+	country = DOR
+	country = REA
+}

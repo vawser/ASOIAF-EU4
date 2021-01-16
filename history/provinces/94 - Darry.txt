@@ -1,0 +1,24 @@
+# 94 - Darry.txt
+is_city = yes
+
+owner = M26
+controller = M26
+add_core = M26
+
+base_tax = 3
+base_production = 3
+base_manpower = 3
+
+culture = men_of_the_riverlands
+religion = faith_of_the_seven
+
+trade_goods = grain
+hre = no
+
+center_of_trade = 1
+
+106.1.1 = {
+    owner = RIV
+    controller = RIV
+    add_core = RIV
+}

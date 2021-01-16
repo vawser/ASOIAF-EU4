@@ -1,0 +1,24 @@
+# 97 - Harroways Town.txt
+is_city = yes
+
+owner = M25
+controller = M25
+add_core = M25
+
+base_tax = 7
+base_production = 7
+base_manpower = 3
+
+culture = men_of_the_riverlands
+religion = faith_of_the_seven
+
+trade_goods = naval_supplies
+hre = no
+
+center_of_trade = 3
+
+106.1.1 = {
+    owner = RIV
+    controller = RIV
+    add_core = RIV
+}

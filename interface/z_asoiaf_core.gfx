@@ -1,0 +1,208 @@
+spriteTypes = {
+    #----------------------------------------------
+    # Factions
+    #----------------------------------------------
+    spriteType = {
+		name = "GFX_faction_bg_elephants"	
+		texturefile = "gfx//interface//faction_blue_frame.tga"
+		transparencecheck = yes
+	}	
+	spriteType = {
+		name = "GFX_faction_elephants"	
+		texturefile = "gfx//interface//factions//faction_elephants.dds"
+	}
+	spriteType = {
+		name = "GFX_faction_bg_tigers"	
+		texturefile = "gfx//interface//faction_blue_frame.tga"
+		transparencecheck = yes
+	}	
+	spriteType = {
+		name = "GFX_faction_tigers"	
+		texturefile = "gfx//interface//factions//faction_tigers.dds"
+	}
+	spriteType = {
+		name = "GFX_faction_bg_warlike_chieftains"	
+		texturefile = "gfx//interface//faction_red_frame.tga"
+		transparencecheck = yes
+	}	
+	spriteType = {
+		name = "GFX_faction_warlike_chieftains"	
+		texturefile = "gfx//interface//factions//faction_warlike_chieftains.dds"
+	}
+	spriteType = {
+		name = "GFX_faction_bg_mercantile_chieftains"	
+		texturefile = "gfx//interface//faction_purple_frame.tga"
+		transparencecheck = yes
+	}	
+	spriteType = {
+		name = "GFX_faction_mercantile_chieftains"	
+		texturefile = "gfx//interface//factions//faction_mercantile_chieftains.dds"
+	}
+	spriteType = {
+		name = "GFX_faction_bg_sedentary_chieftains"	
+		texturefile = "gfx//interface//faction_blue_frame.tga"
+		transparencecheck = yes
+	}	
+	spriteType = {
+		name = "GFX_faction_sedentary_chieftains"	
+		texturefile = "gfx//interface//factions//faction_sedentary_chieftains.dds"
+	}
+	
+    #----------------------------------------------
+	# Estates
+    #----------------------------------------------
+	spriteType = {
+		name = "GFX_estates_icons"
+		texturefile = "gfx//interface//estates_icons.dds"
+		noOfFrames = 20
+		loadType = "INGAME"
+	}
+	
+    # No longer used
+    spriteType = {
+		name = "GFX_estate_interactions"
+		texturefile = "gfx//interface//estates_icons.dds"
+		noOfFrames = 20
+		loadType = "INGAME"
+	}
+    
+    spriteType = {
+		name = "GFX_estate_actions_bg"
+		texturefile = "gfx//interface//estate_actions_bg.dds"
+		loadType = "INGAME"
+	}
+
+    #----------------------------------------------
+	# Technology
+    #----------------------------------------------
+	spriteType = {
+		name = "GFX_tech_group_strip"
+		texturefile = "gfx//interface//tech_group_strip.dds"
+		transparencecheck = yes	
+		noOfFrames = 27
+	}
+	
+    #----------------------------------------------
+	# Tradegoods
+    #----------------------------------------------
+	spriteType = {
+		name = "GFX_resource_icon"
+		texturefile = "gfx//interface//resources.tga"
+		noOfFrames = 29
+		loadType = "INGAME"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_resource_icon_transparent"
+		texturefile = "gfx//interface//resources.tga"
+		noOfFrames = 29
+		loadType = "INGAME"
+		norefcount = yes
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_resource_icon_small"
+		texturefile = "gfx//interface//resources_small.dds"
+		noOfFrames = 29
+		loadType = "INGAME"
+	}	
+
+    #----------------------------------------------
+    # Native Icons
+    #----------------------------------------------
+    spriteType = {
+		name = "GFX_natives"
+		texturefile = "gfx//interface//natives.dds"
+		noOfFrames = 3
+		loadType = "INGAME"
+		
+	}
+    
+    #----------------------------------------------
+    # Center of Trade
+    #----------------------------------------------
+    spriteType = {
+		name = "GFX_coastal_cot_1"
+		texturefile = "gfx//interface//cot_icons//coastal_cot_1.dds"
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_coastal_cot_2"
+		texturefile = "gfx//interface//cot_icons//coastal_cot_2.dds"
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_coastal_cot_3"
+		texturefile = "gfx//interface//cot_icons//coastal_cot_3.dds"
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_inland_cot_1"
+		texturefile = "gfx//interface//cot_icons//inland_cot_1.dds"
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_inland_cot_2"
+		texturefile = "gfx//interface//cot_icons//inland_cot_2.dds"
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_inland_cot_3"
+		texturefile = "gfx//interface//cot_icons//inland_cot_3.dds"
+		loadType = "INGAME"
+	}
+    
+    #----------------------------------------------
+    # Estates
+    #----------------------------------------------
+    spriteType = {
+		name = "GFX_summon_the_council"
+		texturefile = "gfx/interface/estates/summon_the_diet.dds"
+	}
+    
+    #----------------------------------------------
+    # Papacy
+    #----------------------------------------------
+    spriteType = {
+		name = "GFX_charity_for_the_poor"
+		texturefile = "gfx/interface/the_holy_see/golden_bull_charity_for_the_poor.dds"
+		loadType = "INGAME"
+	}
+    
+    spriteType = {
+		name = "GFX_divine_justification"
+		texturefile = "gfx/interface/the_holy_see/golden_bull_divine_justification.dds"
+		loadType = "INGAME"
+	}
+    
+    spriteType = {
+		name = "GFX_ecclesiastical_maesters"
+		texturefile = "gfx/interface/the_holy_see/golden_bull_ecclesiastical_maesters.dds"
+		loadType = "INGAME"
+	}
+    
+    spriteType = {
+		name = "GFX_restoration_of_the_septs"
+		texturefile = "gfx/interface/the_holy_see/golden_bull_restoration_of_the_septs.dds"
+		loadType = "INGAME"
+	}
+    
+    spriteType = {
+		name = "GFX_supremacy_of_the_seven"
+		texturefile = "gfx/interface/the_holy_see/golden_bull_supremacy_of_the_seven.dds"
+		loadType = "INGAME"
+	}
+    
+    spriteType = {
+		name = "GFX_the_faith_militant"
+		texturefile = "gfx/interface/the_holy_see/golden_bull_the_faith_militant.dds"
+		loadType = "INGAME"
+	}
+}

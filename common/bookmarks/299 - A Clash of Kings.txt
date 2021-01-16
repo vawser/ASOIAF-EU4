@@ -1,0 +1,18 @@
+bookmark =
+{
+	name = "A_CLASH_OF_KINGS_NAME"
+	desc = "A_CLASH_OF_KINGS_DESC"
+	date = 299.1.1
+	
+	country = Z01
+	country = A02
+    country = CRW
+	country = NOR
+	country = RIV
+	country = WES
+	country = VLE
+	country = IRI
+	country = STM
+	country = DOR
+	country = REA
+}

@@ -1,0 +1,16 @@
+# 699 - Rhaesh Qoy (Ghonazdhan).txt
+is_city = yes
+owner = JHA
+controller = JHA
+add_core = JHA
+
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
+culture = dothraki_culture
+religion = great_stallion
+
+trade_goods = grain
+hre = no
+

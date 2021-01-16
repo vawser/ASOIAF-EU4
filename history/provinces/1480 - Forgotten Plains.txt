@@ -1,0 +1,16 @@
+is_city = yes
+
+owner = MDK
+controller = MDK
+add_core = MDK
+
+base_tax = 3
+base_production = 3
+base_manpower = 3
+
+culture = carcosan
+religion = cult_of_ascension
+
+trade_goods = silk
+hre = no
+

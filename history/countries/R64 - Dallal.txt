@@ -1,0 +1,144 @@
+
+government_rank = 1
+government = tribal
+add_government_reform = faros_clan_reform
+
+
+technology_group = farosi
+primary_culture = zabhadi
+religion = stone_cow
+
+capital = 732
+
+# Shattered World
+100.1.1 = {
+    monarch = {
+        name = "Fahir"
+        dynasty = "Dallal"
+        adm = 0
+        dip = 0
+        mil = 0
+        birth_date = 41.1.1
+    }
+}
+
+# War for the Stepstones
+106.1.1 = {
+    monarch = {
+        name = "Barlek"
+        dynasty = "Dallal"
+        adm = 5
+        dip = 6
+        mil = 1
+        birth_date = 78.1.1
+    }
+}
+
+# The Dance of Dragons
+129.1.1 = {
+    monarch = {
+        name = "Baktrir"
+        dynasty = "Dallal"
+        adm = 4
+        dip = 1
+        mil = 4
+        birth_date = 84.1.1
+    }
+}
+
+# Conquest of Dorne
+157.1.1 = {
+    monarch = {
+        name = "Kamran"
+        dynasty = "Dallal"
+        adm = 1
+        dip = 6
+        mil = 4
+        birth_date = 130.1.1
+    }
+}
+
+# Blackfyre Rebellion
+196.1.1 = {
+    monarch = {
+        name = "Yoon"
+        dynasty = "Dallal"
+        adm = 5
+        dip = 0
+        mil = 6
+        birth_date = 147.1.1
+    }
+}
+
+# After Spring
+211.1.1 = {
+    monarch = {
+        name = "Ade"
+        dynasty = "Dallal"
+        adm = 0
+        dip = 4
+        mil = 3
+        birth_date = 171.1.1
+    }
+}
+
+# War of the Ninepenny Kings
+260.1.1 = {
+    monarch = {
+        name = "Toom"
+        dynasty = "Dallal"
+        adm = 6
+        dip = 3
+        mil = 5
+        birth_date = 242.1.1
+    }
+}
+
+# Robert's Rebellion
+282.1.1 = {
+    monarch = {
+        name = "Rahir"
+        dynasty = "Dallal"
+        adm = 4
+        dip = 3
+        mil = 2
+        birth_date = 235.1.1
+    }
+}
+
+# The Greyjoy Rebellion
+289.1.1 = {
+    monarch = {
+        name = "Rahir"
+        dynasty = "Dallal"
+        adm = 3
+        dip = 2
+        mil = 5
+        birth_date = 266.1.1
+    }
+}
+
+# War of the Five Kings
+298.1.1 = {
+    monarch = {
+        name = "Soleh"
+        dynasty = "Dallal"
+        adm = 1
+        dip = 6
+        mil = 4
+        birth_date = 249.1.1
+    }
+}
+
+# The Night King
+304.1.1 = {
+    monarch = {
+        name = "Bardak"
+        dynasty = "Dallal"
+        adm = 3
+        dip = 6
+        mil = 0
+        birth_date = 276.1.1
+    }
+}
+

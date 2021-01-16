@@ -1,0 +1,170 @@
+
+government_rank = 1
+government = monarchy
+add_government_reform = noble_house_reform
+
+
+technology_group = westerosi
+primary_culture = men_of_the_north
+religion = old_gods
+historical_rival = A01
+
+capital = 53
+
+# Shattered World
+100.1.1 = {
+    monarch = {
+        name = "Bernarr"
+        dynasty = "Bolton"
+        adm = 4
+        dip = 0
+        mil = 1
+        birth_date = 45.1.1
+    }
+}
+
+# War for the Stepstones
+106.1.1 = {
+    monarch = {
+        name = "Xaro"
+        dynasty = "Bolton"
+        adm = 0
+        dip = 1
+        mil = 0
+        birth_date = 86.1.1
+    }
+}
+
+# The Dance of Dragons
+129.1.1 = {
+    monarch = {
+        name = "Jory"
+        dynasty = "Bolton"
+        adm = 5
+        dip = 1
+        mil = 4
+        birth_date = 105.1.1
+    }
+}
+
+# Conquest of Dorne
+157.1.1 = {
+    monarch = {
+        name = "Azor"
+        dynasty = "Bolton"
+        adm = 4
+        dip = 3
+        mil = 4
+        birth_date = 118.1.1
+    }
+}
+
+# Blackfyre Rebellion
+196.1.1 = {
+    monarch = {
+        name = "Mohor"
+        dynasty = "Bolton"
+        adm = 4
+        dip = 3
+        mil = 4
+        birth_date = 158.1.1
+    }
+}
+
+# After Spring
+211.1.1 = {
+    monarch = {
+        name = "Hoke"
+        dynasty = "Bolton"
+        adm = 2
+        dip = 1
+        mil = 1
+        birth_date = 165.1.1
+    }
+}
+
+# War of the Ninepenny Kings
+260.1.1 = {
+    monarch = {
+        name = "Waymar"
+        dynasty = "Bolton"
+        adm = 5
+        dip = 5
+        mil = 1
+        birth_date = 225.1.1
+    }
+}
+
+# Robert's Rebellion
+282.1.1 = {
+    monarch = {
+        name = "Ilyrio"
+        dynasty = "Bolton"
+        adm = 1
+        dip = 3
+        mil = 0
+        birth_date = 229.1.1
+    }
+}
+
+# The Greyjoy Rebellion
+289.1.1 = {
+    monarch = {
+        name = "Thoros"
+        dynasty = "Bolton"
+        adm = 5
+        dip = 1
+        mil = 3
+        birth_date = 235.1.1
+    }
+}
+
+# War of the Five Kings
+298.1.1= {
+	monarch = {
+		name = "Roose"
+		dynasty = "Bolton"
+		birth_date = 245.1.1
+		death_date = 303.1.1
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+	
+	heir = {
+		name = "Ramsey"
+		monarch_name = "Ramsey"
+		dynasty = "Bolton"
+		birth_date = 273.1.1
+		death_date = 303.1.1
+		adm = 3
+		dip = 2
+		mil = 5
+		claim = 35
+	}
+	
+	queen = {
+		name = "Walda"
+		dynasty = "Frey"
+		birth_date = 245.1.1
+		death_date 303.1.1
+		adm = 3
+		dip = 3
+		mil = 0
+		female = yes
+	}
+	
+}
+
+# The Night King
+304.1.1 = {
+    monarch = {
+        name = "Ramsey"
+        dynasty = "Bolton"
+        adm = 3
+        dip = 2
+        mil = 5
+        birth_date = 273.1.1
+    }
+}
+

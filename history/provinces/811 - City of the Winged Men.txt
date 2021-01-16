@@ -1,0 +1,18 @@
+# 811 - City of the Winged Men.txt
+is_city = yes
+
+owner = J21
+controller = J21
+add_core = J21
+
+base_tax = 6
+base_production = 7
+base_manpower = 4
+
+culture = carcosan
+religion = cult_of_ascension
+
+trade_goods = silver
+hre = no
+
+

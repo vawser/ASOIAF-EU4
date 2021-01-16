@@ -1,0 +1,145 @@
+
+government_rank = 1
+
+government = monarchy
+add_government_reform = noble_house_reform
+
+
+technology_group = westerosi
+primary_culture = men_of_the_reach
+religion = faith_of_the_seven
+
+capital = 289
+
+# Shattered World
+100.1.1 = {
+    monarch = {
+        name = "Domeric"
+        dynasty = "Costayne"
+        adm = 0
+        dip = 3
+        mil = 2
+        birth_date = 69.1.1
+    }
+}
+
+# War for the Stepstones
+106.1.1 = {
+    monarch = {
+        name = "Sigfry"
+        dynasty = "Costayne"
+        adm = 0
+        dip = 5
+        mil = 4
+        birth_date = 87.1.1
+    }
+}
+
+# The Dance of Dragons
+129.1.1 = {
+    monarch = {
+        name = "Alan"
+        dynasty = "Costayne"
+        adm = 2
+        dip = 4
+        mil = 0
+        birth_date = 99.1.1
+    }
+}
+
+# Conquest of Dorne
+157.1.1 = {
+    monarch = {
+        name = "Erryk"
+        dynasty = "Costayne"
+        adm = 5
+        dip = 1
+        mil = 1
+        birth_date = 113.1.1
+    }
+}
+
+# Blackfyre Rebellion
+196.1.1 = {
+    monarch = {
+        name = "Quincy"
+        dynasty = "Costayne"
+        adm = 3
+        dip = 4
+        mil = 0
+        birth_date = 174.1.1
+    }
+}
+
+# After Spring
+211.1.1 = {
+    monarch = {
+        name = "Gysella"
+        dynasty = "Costayne"
+        adm = 0
+        dip = 5
+        mil = 0
+        birth_date = 185.1.1
+    }
+}
+
+# War of the Ninepenny Kings
+260.1.1 = {
+    monarch = {
+        name = "Wex"
+        dynasty = "Costayne"
+        adm = 3
+        dip = 4
+        mil = 2
+        birth_date = 207.1.1
+    }
+}
+
+# Robert's Rebellion
+282.1.1 = {
+    monarch = {
+        name = "Yorkel"
+        dynasty = "Costayne"
+        adm = 0
+        dip = 0
+        mil = 2
+        birth_date = 264.1.1
+    }
+}
+
+# The Greyjoy Rebellion
+289.1.1 = {
+    monarch = {
+        name = "Ulwyck"
+        dynasty = "Costayne"
+        adm = 4
+        dip = 1
+        mil = 1
+        birth_date = 246.1.1
+    }
+}
+
+# War of the Five Kings
+298.1.1 = {
+    monarch = {
+        name = "Anvil"
+        dynasty = "Costayne"
+        adm = 1
+        dip = 5
+        mil = 4
+        birth_date = 260.1.1
+    }
+}
+
+# The Night King
+304.1.1 = {
+    monarch = {
+        name = "Beck"
+        dynasty = "Costayne"
+        adm = 2
+        dip = 3
+        mil = 0
+        birth_date = 272.1.1
+    }
+}
+

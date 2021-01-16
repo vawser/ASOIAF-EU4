@@ -1,0 +1,36 @@
+government_rank = 1
+government = mythical
+add_government_reform = army_of_the_dead_reform
+mercantilism = 0
+
+technology_group = white_walker
+primary_culture = white_walkers
+religion = cyromancy
+
+capital = 1
+fixed_capital = 1
+
+100.1.1 = {
+	monarch = {
+		name = "The Night King"
+		dynasty = "of the Eternal Winter"
+		adm = 6
+		dip = 6
+		mil = 6
+		birth_date = 1.1.1
+	}
+    clear_scripted_personalities = yes
+    add_ruler_personality = immortal_personality
+    
+    add_country_modifier = {
+        name = summer_reigns
+        duration = -1
+    }
+}
+
+304.1.1 = {
+    add_country_modifier = {
+        name = undead_viserion
+        duration = -1
+    }
+}

@@ -1,0 +1,14 @@
+native_size = 9
+native_ferocity = 9
+native_hostileness = 9
+
+base_tax = 1
+base_production = 1
+base_manpower = 2
+
+culture = dothraki_culture
+religion = great_stallion
+
+trade_goods = unknown
+hre = no
+

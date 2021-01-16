@@ -1,0 +1,145 @@
+
+government_rank = 1
+
+government = monarchy
+add_government_reform = noble_house_reform
+
+
+technology_group = westerosi
+primary_culture = skagosi
+religion = old_gods
+
+capital = 31
+
+# Shattered World
+100.1.1 = {
+    monarch = {
+        name = "Dake"
+        dynasty = "Magnar"
+        adm = 2
+        dip = 0
+        mil = 0
+        birth_date = 79.1.1
+    }
+}
+
+# War for the Stepstones
+106.1.1 = {
+    monarch = {
+        name = "Koss"
+        dynasty = "Magnar"
+        adm = 0
+        dip = 3
+        mil = 4
+        birth_date = 56.1.1
+    }
+}
+
+# The Dance of Dragons
+129.1.1 = {
+    monarch = {
+        name = "Clarence"
+        dynasty = "Magnar"
+        adm = 2
+        dip = 2
+        mil = 5
+        birth_date = 87.1.1
+    }
+}
+
+# Conquest of Dorne
+157.1.1 = {
+    monarch = {
+        name = "Harghaz"
+        dynasty = "Magnar"
+        adm = 5
+        dip = 4
+        mil = 2
+        birth_date = 130.1.1
+    }
+}
+
+# Blackfyre Rebellion
+196.1.1 = {
+    monarch = {
+        name = "Dagon"
+        dynasty = "Magnar"
+        adm = 2
+        dip = 2
+        mil = 5
+        birth_date = 154.1.1
+    }
+}
+
+# After Spring
+211.1.1 = {
+    monarch = {
+        name = "Rheaegel"
+        dynasty = "Magnar"
+        adm = 2
+        dip = 0
+        mil = 5
+        birth_date = 178.1.1
+    }
+}
+
+# War of the Ninepenny Kings
+260.1.1 = {
+    monarch = {
+        name = "Ryam"
+        dynasty = "Magnar"
+        adm = 5
+        dip = 4
+        mil = 3
+        birth_date = 232.1.1
+    }
+}
+
+# Robert's Rebellion
+282.1.1 = {
+    monarch = {
+        name = "Jhogo"
+        dynasty = "Magnar"
+        adm = 0
+        dip = 4
+        mil = 3
+        birth_date = 226.1.1
+    }
+}
+
+# The Greyjoy Rebellion
+289.1.1 = {
+    monarch = {
+        name = "Rafe"
+        dynasty = "Magnar"
+        adm = 4
+        dip = 0
+        mil = 4
+        birth_date = 259.1.1
+    }
+}
+
+# War of the Five Kings
+298.1.1 = {
+    monarch = {
+        name = "Ulmer"
+        dynasty = "Magnar"
+        adm = 1
+        dip = 3
+        mil = 3
+        birth_date = 265.1.1
+    }
+}
+
+# The Night King
+304.1.1 = {
+    monarch = {
+        name = "Goghor"
+        dynasty = "Magnar"
+        adm = 3
+        dip = 0
+        mil = 5
+        birth_date = 271.1.1
+    }
+}
+

@@ -1,0 +1,162 @@
+#---------------------------------------
+# Establish Cult
+#---------------------------------------
+establish_cult = {
+	category = covert
+	
+	alert_index = 40
+	alert_tooltip = establish_cult_alert_tooltip
+	
+	require_acceptance = no
+	
+	is_visible = {
+        has_idea = got_espionage_ideas_2
+		FROM = {
+            NOT = { religion = ROOT }
+            any_owned_province = {
+                religion = PREV
+                is_capital = no
+            }
+		}
+	}
+    
+	is_allowed = {
+        has_idea = got_espionage_ideas_2
+        is_neighbor_of = FROM
+        has_spy_network_in = {
+            who = FROM
+            value = 50
+        }
+	}
+	on_accept = {
+        log = "Establish Cult used by [Root.GetName]"
+        add_spy_network_in = { who = FROM value = -50 }
+		FROM = {
+            random_owned_province = {
+                change_religion = ROOT
+            }
+        }
+        hidden_effect = {
+            add_country_modifier = {
+                name = ai_espionage_cooldown
+                duration = 3650
+            }
+        }
+	}
+	on_decline = {
+        add_spy_network_in = { who = FROM value = -50 }
+        FROM = {
+            random_owned_province = {
+                change_religion = ROOT
+            }
+        }
+        hidden_effect = {
+            add_country_modifier = {
+                name = ai_espionage_cooldown
+                duration = 3650
+            }
+        }
+	}
+	
+	ai_acceptance = {
+        add_entry = {
+			name = BASE
+			set_variable = { which = ai_value value = 1000 }
+		}
+	}
+	ai_will_do = {
+		NOT = { has_country_modifier = ai_espionage_cooldown }
+	}
+}
+
+#---------------------------------------
+# Assassinate Ruler
+#---------------------------------------
+assassinate_leader = {
+	category = covert
+	
+	alert_index = 40
+	alert_tooltip = assassinate_leader_tooltip
+	
+	require_acceptance = no
+	
+	is_visible = {
+        has_idea = got_espionage_ideas_3
+		is_neighbor_of = FROM
+	}
+    
+	is_allowed = {
+        has_idea = got_espionage_ideas_3
+        FROM = { has_regency = no }
+        is_neighbor_of = FROM
+        has_spy_network_in = {
+            who = FROM
+            value = 100
+        }
+        custom_trigger_tooltip = {
+            tooltip = ALREADY_SENT_ASSASSIN_TT
+            NOT = {
+                any_country = {
+                    has_country_flag = sent_assassin
+                }
+            }
+        }
+	}
+	on_accept = {
+        log = "Assassinate Leader used by [Root.GetName]"
+        add_spy_network_in = { who = FROM value = -100 }
+        
+        # Prevent overlay if different countries use the action at the same time.
+        # Will simply fail the assassinate, which is fine
+        every_country = {
+            clr_country_flag = sent_assassin
+            clr_country_flag = got_assassin
+        }
+        
+        # Allow the event to be triggered for the assassination
+        set_country_flag = sent_assassin
+        FROM = { set_country_flag = got_assassin }
+        hidden_effect = {
+            add_country_modifier = {
+                name = ai_espionage_cooldown
+                duration = 3650
+            }
+        }
+	}
+	on_decline =
+	{
+        add_spy_network_in = { who = FROM value = -100 }
+        
+        # Prevent overlay if different countries use the action at the same time.
+        # Will simply fail the assassinate, which is fine
+        every_country = {
+            clr_country_flag = sent_assassin
+            clr_country_flag = got_assassin
+        }
+        
+        # Allow the event to be triggered for the assassination
+        set_country_flag = sent_assassin
+        FROM = { set_country_flag = got_assassin }
+        hidden_effect = {
+            add_country_modifier = {
+                name = ai_espionage_cooldown
+                duration = 3650
+            }
+        }
+	}
+	
+	ai_acceptance = {
+        add_entry = {
+			name = BASE
+			set_variable = { which = ai_value value = 1000 }
+		}
+	}
+	ai_will_do = {
+		NOT = { has_country_modifier = ai_espionage_cooldown }
+        prestige = 0
+	}
+}
+
+
+
+

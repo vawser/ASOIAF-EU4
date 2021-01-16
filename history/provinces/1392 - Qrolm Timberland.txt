@@ -1,0 +1,17 @@
+is_city = yes
+
+owner = J18
+controller = J18
+add_core = J18
+
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
+culture = kdathi
+religion = mavka
+
+trade_goods = cloth
+hre = no
+
+

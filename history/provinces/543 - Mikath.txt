@@ -1,0 +1,17 @@
+# 543 - Mikath.txt
+is_city = yes
+
+owner = S41
+controller = S41
+add_core = S41
+
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
+culture = saathi
+religion = hooded_wayfarer
+
+trade_goods = grain
+hre = no
+

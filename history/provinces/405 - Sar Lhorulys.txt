@@ -1,0 +1,34 @@
+is_city = yes
+
+owner = RVH
+controller = RVH
+add_core = RVH
+
+base_tax = 3
+base_production = 3
+base_manpower = 3
+
+culture = rhoyne
+religion = lady_of_the_waves
+
+trade_goods = cloth
+hre = no
+
+289.1.1 = {
+    is_city = yes
+    owner = S25
+    controller = S25
+    add_core = S25
+    
+    culture = dothraki_culture
+    religion = great_stallion
+}
+
+299.1.1 = {
+    owner = RVH
+    controller = RVH
+    add_core = RVH
+    remove_core = S25
+    culture = rhoyne
+    religion = lady_of_the_waves
+}

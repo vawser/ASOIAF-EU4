@@ -1,0 +1,16 @@
+is_city = yes
+
+owner = XUL
+controller = XUL
+add_core = XUL
+
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
+culture = shadowfolk
+religion = cult_of_shadows
+
+trade_goods = grain
+hre = no
+
